@@ -1,72 +1,84 @@
 import React from 'react';
 import logo from '../../assets/logo.jpeg'
-import { height } from '@fortawesome/free-solid-svg-icons/fa0';
+// import { height } from '@fortawesome/free-solid-svg-icons/fa0';
 import { Link } from 'react-router-dom';
+import { FaFacebook } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { GrMail } from "react-icons/gr";
+import { LuInstagram } from "react-icons/lu";
+import { FaYoutube } from "react-icons/fa";
 import './Footer.css';
 
 const Footer = () => {
-  return (<>
-    <div className='whatsapp_icon'>
-      <div className=''><i class="fa-brands fa-whatsapp"></i>s</div>
-      <div>Talk To Us?</div>
-      </div>
+  return (
+  <>
+    
     <div className='footer-section'>
       <div className='container text-center'>
-
       
-
+     
       <div className='footer_logo'>
-        <img src={logo} alt='logo' className='' width={100} height={100}/>
+        <img src={logo} alt='logo' className='footer_logo_image' width={100} height={90}/>
       </div>
-      <div>
-  <h4>Punjabi gmbh</h4>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>
-   Lorem Ipsum has been the industry's standard dummy text ever since<br/> the 1500s, when
-    an unknown printer took a galley of type.
-   It has survived</p>
+    
+      <div className='footer_content'>
+  <h4 >Punjabi gmbh</h4>
+  <p className='footer_content'>Lorem ipsum is placeholder text commonly used in the graphic, 
+  print, and publishing industries for previewing <br/>layouts and visual mockups. 
+  Lorem ipsum is placeholder text commonly used in the graphic, print, and <br/>
+  publishing industries for previewing layouts and visual mockups.</p>
    </div>
 
-<div className="flex-row">
+<div className="footer_icon">
           <Link to="#" className="nav_icon_link">
-            <i className="fa-brands fa-facebook nav_icon"></i>
+          <FaFacebook/>
           </Link>
           <Link to="#" className="nav_icon_link">
-            <i className="fa-brands fa-instagram nav_icon"></i>
+          <LuInstagram />
           </Link>
           <Link to="#" className="nav_icon_link">
-            <i className="fa-brands fa-youtube nav_icon"></i>
+          <FaYoutube />
           </Link>        
 </div>
 <div>
-  <h4>Quick Links</h4>
+<h4 className='footer_content'>Quick Links</h4>
+</div>
+<div className='footer_links'>
   <ul className='list-unstyled d-flex justify-content-center '>
    <li className="footer_menu">
-          <a href="#">Home</a>
+          <Link to="#">Home</Link>
         </li>
+        <div/>
         <li className="footer_menu">
-          <a href="#">Categoryt</a>
+          <Link to="#">Category</Link>
         </li>
+        <div/>
         <li className="footer_menu">
-          <a href="#">About Us</a>
+          <Link to="#">About Us</Link>
         </li>
+        <div/>
     <li className="footer_menu">
-          <a href="#">Contact Us</a>
+          <Link to="#">Contact Us</Link>
         </li>   
   </ul>  
 </div>
-<div>
-  <h4>Contact Us</h4>
+<h4 className='footer_content'>Contact Us</h4>
+<div className='footer_links'>
+  
   <ul className='list-unstyled d-flex justify-content-center '>
    <li className="footer_menu">
-          <a href="#"><i className="fa-solid fa-location-dot nav_icon"></i>
-          199 George St, The Rocks NSW 2000, Australia</a>
+          <Link to="#"><FaLocationDot />
+          199 George St, The Rocks NSW 2000, Australia</Link>
         </li>
+        <div/>
         <li className="footer_menu">
-          <a href="#"><i className="fa-solid fa-phone nav_icon"></i>
-          +91 96635 20321</a>
+          <Link to="#"><FaFacebook />
+          +91 96635 20321</Link>
         </li>
+        <div/>
         <li className="footer_menu">
-          <a href="#">lorem@gmail.com</a>
+        <Link to='#'><GrMail />Lorem@gmail.com</Link>
+          
         </li>
   
   </ul>  

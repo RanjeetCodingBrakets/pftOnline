@@ -3,7 +3,135 @@
 }
 .whatsapp_icon{
     position: absolute;
-    right: 20px;
-    top: 10%;
+    right: 0;
+    top: 100%;
 
 }
+
+.footer_content{
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+/* .footer_image{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  width: 120px; 
+  height: 120px; 
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  margin-top: -135px;
+  margin-bottom: 20px;
+} */
+
+
+/* .footer_logo{
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dotted #C43821;
+  border-radius: 50%;
+  padding: 10px;
+  width: 100px; 
+  height: 100px; 
+  margin: 0 auto;
+ 
+} */
+
+
+.footer_logo img{
+    /* border-radius: 50%; */
+    /* width: 100px;
+    height: 100%; */
+    background-color: #FFFFFF;
+    /* object-fit: cover; */
+
+}
+
+
+.footer_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .nav_icon_link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; 
+    height: 40px; 
+    background-color: #37621A;
+    border-radius: 50%;
+    color: white; 
+    margin: 5px; 
+    text-decoration: none;
+  }
+  
+  .nav_icon_link:hover {
+    background-color: #78BB4A;
+  }
+
+
+.footer_links{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 20px;
+    }
+    
+    .footer_links a{
+        margin: 0 1rem;
+        text-decoration: none;
+        
+        color: white;
+    }
+    
+    .footer_links a:hover{
+        border-bottom: 1px solid ;
+    }
+    
+    .footer_links div{
+        width: 1px;
+        height: 20px;
+        background-color: #FFFFFF;
+    }
+
+
+    @media (max-width: 768px) {
+        .footer_content {
+          padding: 0 10px;
+        }
+      
+        .footer_links ul {
+          flex-direction: column;
+        }
+      
+        .footer_menu {
+          margin-bottom: 10px;
+        }
+
+        .footer_links div{
+            width: 0px;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .footer_icon {
+          flex-direction: column;
+        }
+      
+        .nav_icon_link {
+          width: 40px;
+          height: 40px;
+        }
+        .footer_links div{
+            width: 0px;
+        }
+      }
