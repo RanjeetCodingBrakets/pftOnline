@@ -1,72 +1,71 @@
 .sale {
-    margin-top: 80px;
-    width: 100%;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.sale_banner {
+ width: 70%;
+  background: #37621A;
+}
+
+.sale h3 {
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+ font-family: Josefin Sans;
+
+}
+
+.sale h6{
+  color: #fff;
+
+  font-weight: 400;
+  text-align: left;
+ font-family: Josefin Sans;
+}
+
+.gift1_image{
+  position:absolute;
+  width: 9%;
+  margin-left: 361px;
+  margin-top: -19px;
+
+}
+
+.gift2_image{
+  position: absolute;
+  width: 18%;
+  margin-left: 245px;
+  margin-top: -99px;
+}
+
+.view_button {
+  background-color: #fff;
+  color: #37621A;
+  border: 1px solid ;
+
+  border-radius: 20px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.view_button a{
+  color: #37621A;
+}
+
+@media (max-width: 768px) {
+  .sale_container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
   }
-  
-  .sale_banner {
-    background: #37621A;
-  }
-  
-  .sale h5 {
-    color: #fff;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: left;
-    margin-bottom: 10px;
-  }
-  
-  .sale h5 .highlight {
-    background: #75ab3e;
-    border-radius: 10px;
-    padding: 2px 6px;
-  }
-  
-  .sale_button {
-    background-color: #fff;
-    color: #ff6347;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  .sale_images {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+
   .spices_image, .fruitjuice {
-    width: 110px;
-    height: 100px;
-    margin: 0 10px;
+    width: 90px;
+    height: 80px;
+    margin: 10px 5px;
   }
-  
-  .view_button {
-    background-color: #fff;
-    color: #37621A;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  @media (max-width: 768px) {
-    .sale_container {
-      flex-direction: column;
-      height: auto;
-      padding: 20px;
-    }
-  
-    .spices_image, .fruitjuice {
-      width: 90px;
-      height: 80px;
-      margin: 10px 5px;
-    }
-  }
-  
+}

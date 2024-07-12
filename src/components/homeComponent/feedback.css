@@ -1,0 +1,55 @@
+
+
+.feedback-container {
+    text-align: center;
+    padding: 50px 0;
+    font-family: Josefin Sans;
+  }
+
+
+
+  
+  .feedback-container h2 {
+ 
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-container h4 {
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .feedback-content {
+    background-color: #E6FFD4;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .feedback-content p {
+
+    font-size: 16px;
+    color: #6B6B6B;
+    ;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-content h5 {
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .feedback-content small {
+
+    font-size: 14px;
+    color: #37621A;
+    ;
+  }
+  

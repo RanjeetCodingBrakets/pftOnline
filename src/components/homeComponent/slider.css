@@ -45,7 +45,7 @@
 font-family: Josefin Sans, sans-serif;
 font-size: 80px;
 font-weight: 700;
-
+color: #fff;
 text-align: left;
 
 }
@@ -54,7 +54,7 @@ text-align: left;
 font-family: Josefin Sans;
 font-size: 80px;
 font-weight: 700;
-
+color: #37621A !important;
 text-align: left;
 color: #fff;
 }
@@ -67,19 +67,18 @@ text-align: left;
 
 }
 
-.buttons {
+.contact-button {
+  border: 0px solid;
+    background: #fff;
+    border-radius: 25px;
+    padding: 8px 20px;
+    color: #37621A;
   
-  background-color: #fff;
+
   color: #37621A;
   max-width: 190px;
   margin-top: 20px;
   text-align: left;
-
-  
-left: 238px;
-gap: 0px;
-opacity: 0px;
-text-decoration: none; 
 }
 
 
@@ -95,7 +94,7 @@ text-decoration: none;
   height: 110px;
 }
 
-
+/* 
 .buttons {
   background-color: #fff;
   color: #37621A;
@@ -111,15 +110,14 @@ text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .bg_image{
   position: absolute;
   background-color: #fff;
   margin-left: 140px;
   margin-top: 60px;
-  width: 325px;
-  height: 390px;
+
   border-radius: 300px 300px 30px 30px;
   
 }

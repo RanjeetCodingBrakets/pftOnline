@@ -61,7 +61,7 @@
     margin-top: 20px;
   }
   
-  .nav_icon_link {
+  .footer_icon_link {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -74,9 +74,9 @@
     text-decoration: none;
   }
   
-  .nav_icon_link:hover {
+  /* .footer_icon_link:hover {
     background-color: #78BB4A;
-  }
+  } */
 
 
 .footer_links{

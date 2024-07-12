@@ -30,13 +30,13 @@ const Footer = () => {
    </div>
 
 <div className="footer_icon">
-          <Link to="#" className="nav_icon_link">
+          <Link to="#" className="footer_icon_link">
           <FaFacebook/>
           </Link>
-          <Link to="#" className="nav_icon_link">
+          <Link to="#" className="footer_icon_link">
           <LuInstagram />
           </Link>
-          <Link to="#" className="nav_icon_link">
+          <Link to="#" className="footer_icon_link">
           <FaYoutube />
           </Link>        
 </div>
