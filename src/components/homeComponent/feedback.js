@@ -1,5 +1,4 @@
 
-
 import React from 'react';
 import { Carousel, Container, Row, Col } from 'react-bootstrap';
 import './feedback.css';
@@ -8,6 +7,14 @@ import images from "../../constants/images";
 const feedbackData = [
   {
     id: 1,
+    name: 'Manisha Singh',
+    role: 'Customer Of Our Shop',
+    feedback: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
+    imgSrc: images.manisha, 
+  },
+
+  {
+    id: 2,
     name: 'Manisha Singh',
     role: 'Customer Of Our Shop',
     feedback: 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',

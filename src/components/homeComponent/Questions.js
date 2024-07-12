@@ -38,7 +38,7 @@ const Questions = () => {
   };
 
   return (
-    <div className='img_box position-relative'>
+    <div className='img_box position-relative '>
       <img src={images.leaf2} alt='' className='img_leaf2 position-absolute' />
       <img src={images.leaf1} alt='' className='img_leaf1 position-absolute' />
       <img src={images.oil} alt='' className='img_oil position-absolute' />

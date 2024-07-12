@@ -1,0 +1,35 @@
+/* src/Timer.css */
+.timer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+  
+  }
+  
+  .timer-box {
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 5px;
+    position: relative;
+  }
+  
+  .timer-box span {
+    display: block;
+    font-size: 15pxpx;
+    /* font-weight: bold; */
+  }
+  
+  .timer-label {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    top: 45px;
+    left: -2px;
+  }
+  

@@ -7,6 +7,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { GrMail } from "react-icons/gr";
 import { LuInstagram } from "react-icons/lu";
 import { FaYoutube } from "react-icons/fa";
+import { RiWhatsappFill } from "react-icons/ri";
 import './Footer.css';
 
 const Footer = () => {
@@ -14,14 +15,19 @@ const Footer = () => {
   <>
     
     <div className='footer-section'>
-      <div className='container text-center'>
-      
-     
-      <div className='footer_logo'>
-        <img src={logo} alt='logo' className='footer_logo_image' width={100} height={90}/>
+      <div className='container text-center '>
+      <div className='whatsapp_Banner'>
+        <div ><RiWhatsappFill className='whatsapp-icon'/></div>
+        <h6>Talk To Us?</h6>
       </div>
-    
-      <div className='footer_content'>
+      
+     <div className='footer_logo position-absolute'>
+      <div className='footer_logo1'>
+        <img src={logo} alt='logo' className='footer_logo_image'/>
+      </div>
+      </div>
+    <div className='footer-section1'>
+      <div className='footer_content '>
   <h4 >Punjabi gmbh</h4>
   <p className='footer_content'>Lorem ipsum is placeholder text commonly used in the graphic, 
   print, and publishing industries for previewing <br/>layouts and visual mockups. 
@@ -83,8 +89,11 @@ const Footer = () => {
   
   </ul>  
 </div>
-
-      
+<div className='footer-policy'>
+  <h6>Copyright ©2024 all rights reserved</h6>
+  <h6>Privacy Policy, Term & Conditions</h6>
+</div>
+      </div>
       </div>
       
     </div>

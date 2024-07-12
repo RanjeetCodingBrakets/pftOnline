@@ -4,7 +4,7 @@
 }
 
 .sale_banner {
- width: 70%;
+ width: 75% !important;
   background: #37621A;
 }
 
@@ -46,9 +46,9 @@
   background-color: #fff;
   color: #37621A;
   border: 1px solid ;
-
+display: inline-block;
   border-radius: 20px;
-  padding: 8px 10px;
+  padding: 8px 20px;
   cursor: pointer;
 }
 

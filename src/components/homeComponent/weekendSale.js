@@ -2,6 +2,7 @@ import React from "react";
 import images from "../../constants/images";
 import { Link } from "react-router-dom";
 import "./weekendSale.css";
+import Timer from "./Timer";
 
 const WeekendSale = () => {
   return (
@@ -18,7 +19,7 @@ const WeekendSale = () => {
           </div>
           <div className="col-4">
             <div>
-              timer
+            <Timer />
             </div>
           </div>
           <div className="col-3 p-3 text-center ">
