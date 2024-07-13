@@ -1,0 +1,55 @@
+.img_box {
+    background: #E6FFD4;
+    margin-bottom: 100px !important;
+
+  }
+  
+  .accordion-button {
+    background-color: #E6FFD4 !important;
+    color: #000; 
+    border: 1px solid #37621A; 
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #FFFFFF !important;
+    color: #000; 
+    border-color: none; 
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .accordion-item {
+    border: none;
+  }
+  
+  .accordion-body {
+    font-size: 18px;
+  }
+  
+  .img_leaf2 {
+    width: 350px;
+    height: 350px;
+    left: 0;
+    top: 20px;
+  }
+  
+  .img_leaf1 {
+    width: 200px;
+    height: 200px;
+    right: 0;
+    top: 0;
+  }
+  
+  .img_oil {
+    width: 200px;
+    height: 200px;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .question_box {
+    width: 100%;
+  }
+  

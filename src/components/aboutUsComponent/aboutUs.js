@@ -1,14 +1,15 @@
 import React from 'react';
-import { Container } from '@mui/material';
+// import { Container } from '@mui/material';
 
 const AboutUs = () => {
   return (
-    <Container>
-    <div>
-      <h1>About Us Page</h1>
-      <p>Welcome to the About Us page!</p>
-    </div>
-    </Container>
+    <div></div>
+    // <Container>
+    // <div>
+    //   <h1>About Us Page</h1>
+    //   <p>Welcome to the About Us page!</p>
+    // </div>
+    // </Container>
   );
 }
 

@@ -1,0 +1,111 @@
+.popularProduct_List1{
+    background-color: #E6FFD4;
+    padding: 50px 0 50px 0;
+   
+}
+
+.dalImage{
+    width: 116px;
+    height: 116px;
+    left: 0;
+    bottom: 51px;
+}
+
+.spices1{
+    width: 245px;
+    height: 210px;
+    right: -41px;
+    top: 92px;
+}
+
+.discount-product{
+    background: #78BB4A;
+      border-radius: 15px;
+      padding: 15px;
+      margin-top: -138px;
+
+}
+
+.discount_content{
+    font-family: Josefin Sans;
+    
+    
+}
+
+.discount_content div{
+    border: 0px solid;
+    background: #37621A;
+    color: #fff;
+    border-radius: 34px;
+    padding: 9px 23px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: fit-content;
+
+}
+
+.discount_content h3{
+    color: #fff ;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.discount-product img{
+    width: 162px;
+   
+}
+
+.discount_link{
+    border: 0px solid;
+    background: #fff;
+    border-radius: 25px;
+    padding: 11px 20px 11px 20px;
+    color: #37621A;
+
+
+}
+
+
+.product-item {
+
+    background-color: #fff;
+    border-radius: 15px;
+    width: 160 ;
+    height: 145;
+
+}
+
+.product-item:hover{
+    border:   1px solid #A36D3B;
+}
+.product-image{
+    max-width: 79px;
+    margin-top: -57px;
+}
+
+/* .product_box{
+    margin-top: 100px;
+} */
+ 
+.product-item h5{
+    margin-top: 20px;
+    color: #000;
+    font-size: 15px;
+    
+}
+
+.popularProduct-viewMore{
+    background-color: #fff;
+  border: 1px solid #37621A;
+ width: auto;
+  border-radius: 20px;
+  padding: 8px 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+
+.popularProduct-viewMore a{
+    color: #37621A;
+}

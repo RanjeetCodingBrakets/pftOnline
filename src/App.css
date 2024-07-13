@@ -11,3 +11,21 @@
   background-color: gray;
   width: 100%;
 }
+.mb-50{
+  margin-bottom: 50px !important;
+}
+.mb-40{
+  margin-bottom: 40px !important;
+}
+
+.mb-90{
+  margin-bottom: 90px !important;
+}
+
+Link, a{
+  text-decoration: none !important;
+}
+
+html, body{
+  overflow-x: hidden;
+       }
