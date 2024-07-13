@@ -1,9 +1,10 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Link } from "react-router-dom";
-import { FaFacebook, FaPhone, FaInstagram, FaYoutube } from "react-icons/fa";
+import {  FaYoutube } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaPhone } from "react-icons/fa6";
 import "./topHeader.css";
 
 function TopHeader() {
@@ -46,10 +47,10 @@ function TopHeader() {
             </ul>
           </div>
           <Link to="#" className="nav-link nav_icon_link">
-            <FaFacebook className="nav_icon" />
+          <FaFacebookF className="nav_icon" />
           </Link>
           <Link to="#" className="nav-link nav_icon_link">
-            <FaInstagram className="nav_icon" />
+          <RiInstagramFill  className="nav_icon" />
           </Link>
           <Link to="#" className="nav-link nav_icon_link">
             <FaYoutube className="nav_icon" />

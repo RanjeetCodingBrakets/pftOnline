@@ -10,27 +10,30 @@
   color: #fff;
 }
 
-.nav_Header {
+/* .nav_Header {
   height: 100px;
-}
+} */
 
+
+.header-logo{
+  margin-left: 100px;
+  width: 115px;
+
+}
 .nav_logo {
-  width: 80px;
-  height: 70px;
-  margin-right: 10px;
+  width: 100%;
+
+
 }
 
-.nav_item {
-  margin-bottom: 30px;
-  margin-left: 200px;
+
+
+.head-link {
+  color: #727272; 
 }
 
-.nav-link {
-  color: #727272; /* Default color for nav items */
-}
-
-.nav-link:hover {
-  color: #A36D3B; /* Hover color for nav items */
+.head-link:hover {
+  color: #A36D3B; 
 }
 
 .live-timer {

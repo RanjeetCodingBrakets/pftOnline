@@ -38,10 +38,10 @@ const Header = ({ initialHours = 10, initialMinutes = 0, initialSeconds = 0 }) =
 
 
   return (
-    <div className='container'>
-      <nav className="navbar navbar-expand-lg navbar-light nav_Header">
-        <a className="navbar-brand" href="#">
-          <img src={logo} alt="logo" width="30" height="30" className="nav_logo" />
+    <div className='container-fluid'>
+      <nav className="navbar navbar-expand-lg navbar-light nav_Header ">
+        <a className="navbar-brand header-logo" href="#">
+          <img src={logo} alt="logo"  className="nav_logo" />
         </a>
         <button
           className="navbar-toggler"
@@ -54,10 +54,10 @@ const Header = ({ initialHours = 10, initialMinutes = 0, initialSeconds = 0 }) =
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarScroll">
+        <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarScroll">
           <ul className="navbar-nav mr-auto nav_item">
             <li className="nav-item">
-              <Link className="nav-link" to="#action1">Home</Link>
+              <Link className="nav-link head-link" to="#action1">Home</Link>
             </li>
             <li className="nav-item dropdown">
               <Link
@@ -90,11 +90,11 @@ const Header = ({ initialHours = 10, initialMinutes = 0, initialSeconds = 0 }) =
             </button>
             <button className='live-timer'>
               Live Sale
-              <div className='ms-2'>
+              <span className='ms-2'>
                 {hours < 10 ? `0${hours}` : hours}:
                 {minutes < 10 ? `0${minutes}` : minutes}:
                 {seconds < 10 ? `0${seconds}` : seconds}
-              </div>
+              </span>
               <LoginSignup show={showModal} handleClose={handleClose} />
             </button>
           </div>

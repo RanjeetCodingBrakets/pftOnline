@@ -1,6 +1,6 @@
 .nav_topheader {
   background-color: #37621A;
-  padding: 5px 0; /* Reduced height */
+  padding: 5px 0; 
 }
 
 .header-links .nav-link {
@@ -17,9 +17,15 @@
   color: #fff;
 }
 
-.headDrop-button a{
+/* .headDrop-button a{
   color: #fff;
+} */
+
+.headDrop-button a:hover
+{
+  color: blue;
 }
+
 
 .nav_icon_link {
   display: inline-flex;
@@ -40,13 +46,13 @@
   font-size: 1.2rem;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
+
+/* @media (max-width: 768px) {
   .header-links .nav-link {
-    margin-bottom: 5px; /* Add spacing for smaller screens */
+    margin-bottom: 5px; 
   }
 
   .dropdown-toggle {
-    padding: 3px 10px; /* Reduce padding for smaller screens */
+    padding: 3px 10px; 
   }
-}
+} */
