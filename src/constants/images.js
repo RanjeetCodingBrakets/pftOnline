@@ -22,6 +22,7 @@ import moongDal from '../assets/moongDal.png';
 import spices2 from '../assets/spices2.png';
 import gift1 from '../assets/gift1.png';
 import gift2 from '../assets/gift2.png';
+import grains from '../assets/grains.png';
 
 const images = {
   logo,
@@ -48,6 +49,7 @@ const images = {
   spices2,
   gift1,
   gift2,
+  grains
   
 
 

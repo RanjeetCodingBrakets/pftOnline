@@ -3,6 +3,7 @@ import logo from '../../assets/logo.jpeg';
 import { Link } from 'react-router-dom';
 
 import './Header.css';
+import LoginSignup from '../LoginSignUp/LoginSignup';
 
 const Header = ({ initialHours = 10, initialMinutes = 0, initialSeconds = 0 }) => {
   const [hours, setHours] = useState(initialHours);
@@ -29,6 +30,11 @@ const Header = ({ initialHours = 10, initialMinutes = 0, initialSeconds = 0 }) =
 
     return () => clearInterval(timer);
   }, [seconds, minutes, hours]);
+
+  const [showModal, setShowModal] = useState(false);
+
+  const handleClose = () => setShowModal(false);
+  const handleShow = () => setShowModal(true);
   
 
   return (
@@ -78,7 +84,7 @@ const Header = ({ initialHours = 10, initialMinutes = 0, initialSeconds = 0 }) =
               <a className="nav-link" href="#">Contact Us</a>
             </li>
           </ul>
-          <button className="btn custom-btn ml-auto">
+          <button onClick={handleShow} className="btn custom-btn ml-auto">
             Login / Signup
           </button>
           <div className='live-timer'>
@@ -88,6 +94,7 @@ const Header = ({ initialHours = 10, initialMinutes = 0, initialSeconds = 0 }) =
             {minutes < 10 ? `0${minutes}` : minutes}:
             {seconds < 10 ? `0${seconds}` : seconds}
             </span>
+            <LoginSignup show={showModal} handleClose={handleClose} />
           </div>
         </div>
       </nav>
