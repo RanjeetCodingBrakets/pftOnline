@@ -35,7 +35,7 @@ const Header = ({ initialHours = 10, initialMinutes = 0, initialSeconds = 0 }) =
 
   const handleClose = () => setShowModal(false);
   const handleShow = () => setShowModal(true);
-  
+
 
   return (
     <div className='container'>
@@ -55,7 +55,7 @@ const Header = ({ initialHours = 10, initialMinutes = 0, initialSeconds = 0 }) =
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarScroll">
-          <ul className="navbar-nav mr-auto nav_item" style={{ maxHeight: '150px' }}>
+          <ul className="navbar-nav mr-auto nav_item">
             <li className="nav-item">
               <Link className="nav-link" to="#action1">Home</Link>
             </li>
@@ -84,17 +84,19 @@ const Header = ({ initialHours = 10, initialMinutes = 0, initialSeconds = 0 }) =
               <a className="nav-link" href="#">Contact Us</a>
             </li>
           </ul>
-          <button onClick={handleShow} className="btn custom-btn ml-auto">
-            Login / Signup
-          </button>
-          <div className='live-timer'>
-            <Link to=''>Live Sale </Link>
-            <span>
-            {hours < 10 ? `0${hours}` : hours}:
-            {minutes < 10 ? `0${minutes}` : minutes}:
-            {seconds < 10 ? `0${seconds}` : seconds}
-            </span>
-            <LoginSignup show={showModal} handleClose={handleClose} />
+          <div class="d-flex">
+            <button onClick={handleShow} className="btn custom-btn me-2">
+              Login / Signup
+            </button>
+            <button className='live-timer'>
+              Live Sale
+              <div className='ms-2'>
+                {hours < 10 ? `0${hours}` : hours}:
+                {minutes < 10 ? `0${minutes}` : minutes}:
+                {seconds < 10 ? `0${seconds}` : seconds}
+              </div>
+              <LoginSignup show={showModal} handleClose={handleClose} />
+            </button>
           </div>
         </div>
       </nav>

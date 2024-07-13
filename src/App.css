@@ -26,6 +26,17 @@ Link, a{
   text-decoration: none !important;
 }
 
-html, body{
-  overflow-x: hidden;
-       }
+
+.custom-btn {
+  margin-left: 280px;
+  background-color: #116A2C;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: none;
+  white-space: nowrap;
+}
+
+.custom-btn:hover {
+  background-color: #37621A;
+}

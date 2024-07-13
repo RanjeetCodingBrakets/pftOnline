@@ -25,19 +25,6 @@
   margin-left: 200px;
 }
 
-.nav_Header .custom-btn {
-  margin-left: 280px;
-  background-color: #116A2C;
-  color: white;
-  border-radius: 50px;
-  padding: 10px 20px;
-  border: none;
-}
-
-.nav_Header .custom-btn:hover {
-  background-color: #37621A;
-}
-
 .nav-link {
   color: #727272; /* Default color for nav items */
 }
@@ -48,11 +35,10 @@
 
 .live-timer {
   border: 1px solid #37621A;
-  margin-left: 15px;
-  margin-right: -80px;
   padding: 10px 12px;
   border-radius: 25px;
   color: #37621A;
+  white-space: nowrap;
 }
 
 .live-timer a {
