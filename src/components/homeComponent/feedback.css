@@ -23,7 +23,6 @@
 
 .feedback-card {
   background-color:#E6FFD4 !important;
-  ;
   border-radius: 10px;
   border: none !important;
   max-width: 80%;
@@ -41,8 +40,8 @@
 
 .feedback-content {
   font-size: 0.95rem;
-  font-family:  Sans;
-  line-height: 1.6;
+  font-family:  josefin Sans;
+  line-height: 20px;
   color: #6B6B6B;
 
 }

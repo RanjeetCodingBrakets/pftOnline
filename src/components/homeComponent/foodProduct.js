@@ -28,7 +28,7 @@ const FoodProduct = () => {
               <h6>Over 2000+ products available</h6>
             </div>
             </div>
-            <div className='col-6 text-right'>
+            <div className='col-6 d-flex justify-content-end'>
             <div className='foodProduct-view' >
               <Link to="#">View all</Link>
               </div>
@@ -38,8 +38,8 @@ const FoodProduct = () => {
        
         <div className='row'>
           {products.map(product => (
-            <div className='col-2 text-center'>
-            <div key={product.id}  className='foodProduct-item mb-3'>
+            <div className='col-2_5 text-center'>
+            <div key={product.id}  className='foodProduct-item mb-4'>
                 <Link to="">
                   <img src={product.imgSrc} alt={product.name} className='product-image1'/>
                   <h6>{product.name}</h6>

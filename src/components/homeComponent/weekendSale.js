@@ -8,8 +8,8 @@ const WeekendSale = () => {
   return (
     <div className="sale">
       <div className="container sale_banner rounded-4">
-        <div className="row p-4 ">
-          <div className="col-5 text-left text-md-left">
+        <div className="row p-4">
+          <div className="col-6 text-left text-md-left">
             <div className="position-relative">
               <h3>% Flat Sale % </h3>
               <h6>Greate promotions,save up to 35% only for short time!</h6>
@@ -17,7 +17,7 @@ const WeekendSale = () => {
               <img src={images.gift2} alt="Gifts" className="gift2_image" />
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-3">
             <div>
             <Timer />
             </div>

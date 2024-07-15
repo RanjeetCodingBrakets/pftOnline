@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Container, Row, Col } from 'react-bootstrap';
 import './nonFoodProduct.css';  
 import images from "../../constants/images";
 
@@ -29,7 +28,7 @@ const NonFoodProduct = () => {
             </div>
           </div>
           <div className='col-6'>
-            <div className='text-right'>
+            <div className='text-right d-flex justify-content-end'>
             <div className='nonFoodProduct-view'>
               <Link to="">View all</Link>
               </div>
@@ -38,8 +37,8 @@ const NonFoodProduct = () => {
         </div>
         <div  className='row'>
           {products.map(product => (
-            <div className='col-2 text-center'>
-            <div key={product.id}  className='nonFoodProduct-item2 mb-3 '>
+            <div className='col-2_5 text-center'>
+            <div key={product.id}  className='nonFoodProduct-item2 mb-4 '>
               <div variant="link" className="product-button">
                 <Link to="">
                   <img src={product.imgSrc} alt={product.name} className='product-image2'/>

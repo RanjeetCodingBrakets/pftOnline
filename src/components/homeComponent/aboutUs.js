@@ -7,18 +7,20 @@ import './aboutUs.css';
 
 const AboutUs = () => {
   return (
-    <div className='about '>
-    <div className='container '>
-   <div className='subscribe_banner'>
-    <div className='row ounded-4 p-4 mb-40 '>
-    <div className="col-6 position-relative">
+    <div className='about  '>
+    <div className='container  '>
+   <div className='subscribe_banner '>
+    <div className='row ounded-4 p-4 mb-40 position-relative '>
+    <div className="col-6">
     <div className='subscribe-section'>
     <h4>Sign Up to Get <br/> Updates & News <span>About Us</span></h4>
     </div>
-    <img className='aboutSpice-img' src={images.spices2}/>
-    <img className='aboutFruitjuice-img' src={images.fruitjuice}/>
+    <div className='position-absolute'>
+    <img className='aboutSpice-img' src={images.spices2} alt='masale'/>
+    <img className='aboutFruitjuice-img' src={images.fruitjuice} alt='fruitjuice'/>
+    </div>
           </div>
-          <div className="col-6 text-center">
+          <div className="col-6 d-flex justify-content-end">
           <div className='subscribe'>
            <span> <input type='email' placeholder='Enter Youe Email'></input>
             <Link to='#'>subscribe</Link>

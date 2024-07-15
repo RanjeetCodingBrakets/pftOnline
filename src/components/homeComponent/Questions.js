@@ -45,10 +45,10 @@ const Questions = () => {
       <div className='container'>
         <div className='row mt-4'>
           <div className='col-10 mx-auto'>
-            <h2 className='text-center'>Frequently Asked Questions</h2>
+            <h2 className='text-center question-head'>Frequently Asked Questions</h2>
             <div className='accordion question_box'>
               {QuestionData.map((item, index) => (
-                <div className='accordion-item  mb-3 rounded-3 ' key={item.id}>
+                <div className='accordion-item  mb-3' key={item.id}>
                   <h2 className='accordion-header'>
                     <button 
                       className={`accordion-button fs-5 fw-bold ${activeIndex === index ? '' : 'collapsed'}`}

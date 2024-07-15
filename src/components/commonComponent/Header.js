@@ -43,6 +43,7 @@ const Header = ({ initialHours = 10, initialMinutes = 0, initialSeconds = 0 }) =
         <a className="navbar-brand header-logo" href="#">
           <img src={logo} alt="logo"  className="nav_logo" />
         </a>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -50,45 +51,42 @@ const Header = ({ initialHours = 10, initialMinutes = 0, initialSeconds = 0 }) =
           data-target="#navbarScroll"
           aria-controls="navbarScroll"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
+
         <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarScroll">
           <ul className="navbar-nav mr-auto nav_item">
             <li className="nav-item">
               <Link className="nav-link head-link" to="#action1">Home</Link>
             </li>
-            <li className="nav-item dropdown">
-              <Link
-                className="nav-link dropdown-toggle"
-                to="#"
-                id="navbarScrollingDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Category
-              </Link>
-              <div className="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <a className="dropdown-item" href="#action3">Category</a>
-                <a className="dropdown-item" href="#action4">Another action</a>
-                <a className="dropdown-item" href="#action5">Something else here</a>
-              </div>
+
+            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle head-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+        
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+
+            <li className="nav-item ">
+              <a className="nav-link head-link" href="#action2">About Us</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#action2">About Us</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Contact Us</a>
+            <li className="nav-item ">
+              <a className="nav-link head-link" href="#">Contact Us</a>
             </li>
           </ul>
+          </div>
           <div class="d-flex">
             <button onClick={handleShow} className="btn custom-btn me-2">
               Login / Signup
             </button>
-            <button className='live-timer'>
+            <button className='head-live-timer'>
               Live Sale
               <span className='ms-2'>
                 {hours < 10 ? `0${hours}` : hours}:
@@ -98,7 +96,7 @@ const Header = ({ initialHours = 10, initialMinutes = 0, initialSeconds = 0 }) =
               <LoginSignup show={showModal} handleClose={handleClose} />
             </button>
           </div>
-        </div>
+       
       </nav>
     </div>
   );

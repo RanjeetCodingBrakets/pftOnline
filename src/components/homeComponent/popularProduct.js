@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import {   Button } from 'react-bootstrap';  
+// import {   Button } from 'react-bootstrap';  
 import images from "../../constants/images";
 import './popularProduct.css'; 
 import { IoIosArrowDown } from "react-icons/io";
@@ -25,14 +25,14 @@ const PopularProduct = () => {
           <div className='col-4'>
           <div className='discount-product'>
           <div className='row'>
-          <div className='col-6'>
+          <div className='col-7'>
           <div className='discount_content'>
             <div><span>50% Off</span></div>
               <h3>Fresh Organic Juice</h3>
               <Link to="" className='discount_link'>View Products</Link>
             </div>
           </div>
-          <div className='col-6 '> 
+          <div className='col-5 '> 
           <div className='discount-image'>
           <img src={images.fruit1} alt=''/>
           </div>
