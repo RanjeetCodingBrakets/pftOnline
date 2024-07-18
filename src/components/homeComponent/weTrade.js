@@ -50,9 +50,6 @@ export default WeTrade;
 
 
 
-
-
-
 // import React, { useState } from 'react';
 // import { Carousel} from 'react-bootstrap';
 // import images from "../../constants/images";
