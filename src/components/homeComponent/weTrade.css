@@ -1,10 +1,3 @@
-/* 
-.trade_brand {
-  margin-left: auto;
-  margin-right: auto;
-  height: 200px; 
-  padding: 10px; 
-} */
 
 .we-trade {
   text-align: center;
@@ -22,10 +15,8 @@
 
 .we-trade img {
   width: 100%;
-  /* height: auto; */
   margin: 0 auto;
   border: 1px solid #EDEDED;
-
 }
 
 
@@ -35,18 +26,28 @@
 
 
 
-/* .trade_brand {
-   
-  margin-left: 200px;
-  height: 200px;
-}
 
-.carousel-container {
+
+
+
+
+
+
+/* 
+.trade_brand {
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px; 
+  padding: 10px; 
+} */
+/* 
+.we-trade {
   text-align: center;
   margin-top: 50px;
+  padding-bottom: 116px;
 }
 
-.carousel-container h3 {
+.we-trade h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -54,9 +55,11 @@
   text-align: left;
 }
 
-.carousel-container img {
-  width: 150px;
-  height: auto;
+.we-trade img {
+  width: 100%;
   margin: 0 auto;
   border: 1px solid #EDEDED;
-} */
+
+}
+
+ */

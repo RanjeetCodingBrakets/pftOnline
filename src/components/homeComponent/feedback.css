@@ -2,6 +2,7 @@
 .feedback-container {
   text-align: center;
   padding: 50px 0;
+  margin-bottom: 50px;
 }
 
 .feedback-container h2 {
@@ -16,10 +17,6 @@
   margin-bottom: 40px;
 }
 
-.carousel-item {
-  display: flex;
-  justify-content: center;
-}
 
 .feedback-card {
   background-color:#E6FFD4 !important;
@@ -51,14 +48,64 @@
   color: #37621A;  
 }
 
-/* .carousel-control-prev, .carousel-control-next {
-  width: 5%;
+
+
+.feedback-name {
+  font-size: 14px;
+  color: #666;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  background-color: #4CAF50; 
+.carousel_feedback > .carousel-indicators {
+  bottom: -70px;
+}
+
+.carousel_feedback > .carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  background-color: #37621A;
+  border-radius: 50%!important;
+ }
+
+
+
+.carousel_feedback > .carousel-control-prev {
+  left: 500px;
+  font-size: 40px;
+  color: #37621A;
+  cursor: pointer;
+  position: absolute;
+  border: 1px solid #37621A;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
-  padding: 10px;
-} */
+  top:   220px;
+  z-index: 1000;
+  opacity: 1;
+}
 
+.carousel_feedback > .carousel-control-next {
+  right: 500px;
+  font-size: 40px;
+  color: #37621A;
+  cursor: pointer;
+  position: absolute;
+  border: 1px solid #37621A;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  top:   220px;
+  z-index: 1000;
+  opacity: 1;
+}
 
+.carousel_feedback > .carousel-control-next:hover {
+
+  background-color: #37621A;
+  color: #fff;
+}
+
+.carousel_feedback > .carousel-control-prev:hover {
+
+  background-color: #37621A;
+  color: #fff;
+}

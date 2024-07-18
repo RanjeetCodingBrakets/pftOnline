@@ -32,6 +32,7 @@
     width: 15%;
 margin-top: -171px;
 margin-left: 194px;
+rotate: y 180deg;
 
 }
 
@@ -132,7 +133,7 @@ margin-left: 11px;
   
 
 .about_content h4{
-    font-family: Pattaya;
+  font-family: "Pattaya", sans-serif;
 font-size: 30px;
 color:  #78BB4A;
 text-align: left;

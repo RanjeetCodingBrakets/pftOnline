@@ -5,13 +5,13 @@ import images from "../../constants/images";
 import './popularProduct.css'; 
 import { IoIosArrowDown } from "react-icons/io";
 const PopularProduct = () => {
-  const [popularProducts] = useState([
+  const [popular] = useState([
     { id: 1, name: 'Matcha Green Tea powder ', imgSrc: images.teaPowder },
     { id: 2, name: 'Matcha Green Tea powder ', imgSrc: images.teaPowder},
     { id: 3, name: 'Matcha Green Tea powder ', imgSrc: images.teaPowder},
     { id: 4, name: 'Matcha Green Tea powder ', imgSrc: images.teaPowder },
     { id: 5, name: 'Matcha Green Tea powder ', imgSrc: images.teaPowder},
-    { id: 5, name: 'Matcha Green Tea powder ', imgSrc: images.teaPowder},
+    { id: 6, name: 'Matcha Green Tea powder ', imgSrc: images.teaPowder},
   ]);
 
   return (
@@ -21,7 +21,7 @@ const PopularProduct = () => {
       <div className='container '>
 
 
-      <div className='row mb-90'>     
+      <div className='row mb-90'> 
           <div className='col-4'>
           <div className='discount-product'>
           <div className='row'>
@@ -95,7 +95,7 @@ const PopularProduct = () => {
 
         </div>
         <div className='row p-5 '>
-          {popularProducts.map(product => (
+          {popular.map(product => (
             <div className='col-2 text-center'>
             <div key={product.id} className='product-item p-2'>
                 <Link to=""   >

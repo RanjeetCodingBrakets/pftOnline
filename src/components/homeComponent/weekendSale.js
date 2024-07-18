@@ -1,6 +1,7 @@
 import React from "react";
 import images from "../../constants/images";
 import { Link } from "react-router-dom";
+
 import "./weekendSale.css";
 import Timer from "./Timer";
 
@@ -8,7 +9,7 @@ const WeekendSale = () => {
   return (
     <div className="sale">
       <div className="container sale_banner rounded-4">
-        <div className="row p-4">
+        <div className="row p-4 ">
           <div className="col-6 text-left text-md-left">
             <div className="position-relative">
               <h3>% Flat Sale % </h3>
