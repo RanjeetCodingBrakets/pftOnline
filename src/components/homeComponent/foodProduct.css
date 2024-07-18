@@ -4,17 +4,19 @@
     border: 1px solid  #EDEDED;
     border-radius: 15px;
     background: #F8F8F8;
-    width: 160 ;
-    height: 145;
+    width: 100% ;   
 
+}
+
+.foodProduct-item:hover{
+  border: 1px solid #000;
 }
 
 .foodProduct-content h6{
 color: #6B6B6B;
 }
 .product-image1 {
-    width: 91px;
-    width: 100px;
+   width: 65%;
     margin-bottom: 10px;
 }
 
@@ -36,17 +38,8 @@ text-decoration: none;
 
 }
 
-/* .popularProduct-viewMore {
-  border: 1px solid #37621A;
-  padding: 10px 12px;
-  border-radius: 25px;
-  max-width: auto;
-  color: #37621A;
-}
 
-.popularProduct-viewMoore a {
-  color: #37621A;
-} */
+
 
  
   

@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Container, Row, Col } from 'react-bootstrap';
 import './nonFoodProduct.css';  
 import images from "../../constants/images";
 
 const NonFoodProduct = () => {
-  const [products] = useState([
-    { id: 1, name: 'Spices', imgSrc: images.teju },
+  const [nonFood] = useState([
+    { id: 1, name: 'Spices',  imgSrc: images.teju },
     { id: 2, name: 'Spices & Tea', imgSrc: images.teju },
     { id: 3, name: 'Sauces', imgSrc: images.teju},
     { id: 4, name: 'Dal', imgSrc: images.teju },
@@ -29,7 +28,7 @@ const NonFoodProduct = () => {
             </div>
           </div>
           <div className='col-6'>
-            <div className='text-right'>
+            <div className='text-right d-flex justify-content-end'>
             <div className='nonFoodProduct-view'>
               <Link to="">View all</Link>
               </div>
@@ -37,13 +36,13 @@ const NonFoodProduct = () => {
           </div>
         </div>
         <div  className='row'>
-          {products.map(product => (
-            <div className='col-2 text-center'>
-            <div key={product.id}  className='nonFoodProduct-item2 mb-3 '>
+          {nonFood.map(product1 => (
+            <div className='col-2_5 text-center'>
+            <div key={product1.id}  className='nonFoodProduct-item2 mb-4 '>
               <div variant="link" className="product-button">
                 <Link to="">
-                  <img src={product.imgSrc} alt={product.name} className='product-image2'/>
-                  <h6>{product.name}</h6>
+                  <img src={product1.imgSrc} alt={product1.name} className='product-image2'/>
+                  <h6>{product1.name}</h6>
                 </Link>
               </div>
             </div>

@@ -28,7 +28,7 @@ Link, a{
 
 
 .custom-btn {
-  margin-left: 280px;
+  /* margin-left: 230px; */
   background-color: #116A2C;
   color: white;
   border-radius: 50px;
@@ -39,4 +39,8 @@ Link, a{
 
 .custom-btn:hover {
   background-color: #37621A;
+}
+
+.col-2_5 {
+  width: 20%;
 }

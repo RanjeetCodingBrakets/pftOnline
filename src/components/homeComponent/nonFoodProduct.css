@@ -1,6 +1,5 @@
 .nonFoodHeading h6{
     color: #6B6B6B;
-
 }
 
 
@@ -8,24 +7,21 @@
     border: 1px solid  #EDEDED;
     border-radius: 15px;
     background: #F8F8F8;
-    width: 160 ;
-    height: 145;
+    width: 100%;
 }
+
+.nonFoodProduct-item2:hover{
+    border: 1px solid #000;
+}
+
 
 .nonFoodProduct-item2 h6{
 color: #000;
 }
 
-.product-item2 {
-
-    border-radius: 15px;
-    width: 160 ;
-    height: 145;
-
-}
 .product-image2{
-    width: 110px;
-    margin-top: 0px;
+    width: 65%;
+    margin-bottom: 10px;
 }
 
 .nonFoodProduct-view{

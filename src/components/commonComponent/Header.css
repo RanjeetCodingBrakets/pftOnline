@@ -1,39 +1,24 @@
-.nav_icon {
-  margin-right: 5px;
-  color: #37621A; 
-  background-color: #fff;
-  border-radius: 20px;
-}
 
-.nav_icon_link {
-  margin: 0 1px;
-  color: #fff;
-}
+.header-logo{
+  margin: 0 200px 0 100px;
 
-.nav_Header {
-  height: 100px;
 }
-
 .nav_logo {
-  width: 80px;
-  height: 70px;
-  margin-right: 10px;
+  width: 100px;
+
 }
 
-.nav_item {
-  margin-bottom: 30px;
-  margin-left: 200px;
+
+.head-link {
+  color: #727272; 
+  font-size: 18px;
 }
 
-.nav-link {
-  color: #727272; /* Default color for nav items */
+.head-link:hover {
+  color: #A36D3B; 
 }
 
-.nav-link:hover {
-  color: #A36D3B; /* Hover color for nav items */
-}
-
-.live-timer {
+.head-live-timer {
   border: 1px solid #37621A;
   padding: 10px 12px;
   border-radius: 25px;
@@ -41,12 +26,13 @@
   white-space: nowrap;
 }
 
-.live-timer a {
+.head-live-timer a {
   color: #37621A;
 }
 
-.live-timer span {
+.head-live-timer span {
   color: #000;
+  padding-right: 2px;
 }
 
 /* Optional responsive adjustments if needed */

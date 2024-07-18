@@ -5,7 +5,7 @@ import './foodProduct.css';
 import images from "../../constants/images";
 
 const FoodProduct = () => {
-  const [products] = useState([
+  const [food] = useState([
     { id: 1, name: 'Spices', imgSrc: images.teju },
     { id: 2, name: 'Spices & Tea', imgSrc: images.teju },
     { id: 3, name: 'Sauces', imgSrc: images.teju},
@@ -28,7 +28,7 @@ const FoodProduct = () => {
               <h6>Over 2000+ products available</h6>
             </div>
             </div>
-            <div className='col-6 text-right'>
+            <div className='col-6 d-flex justify-content-end'>
             <div className='foodProduct-view' >
               <Link to="#">View all</Link>
               </div>
@@ -37,12 +37,12 @@ const FoodProduct = () => {
             
        
         <div className='row'>
-          {products.map(product => (
-            <div className='col-2 text-center'>
-            <div key={product.id}  className='foodProduct-item mb-3'>
+          {food.map(product2 => (
+            <div className='col-2_5 text-center'>
+            <div key={product2.id}  className='foodProduct-item mb-4'>
                 <Link to="">
-                  <img src={product.imgSrc} alt={product.name} className='product-image1'/>
-                  <h6>{product.name}</h6>
+                  <img src={product2.imgSrc} alt={product2.name} className='product-image1'/>
+                  <h6>{product2.name}</h6>
                 </Link>
               </div>
             </div>
