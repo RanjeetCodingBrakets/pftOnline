@@ -22,13 +22,13 @@ const FoodProduct = () => {
     <div className='foodProduct_List1 mb-50'>
       <div className='container '>
         <div className='row mb-40' >
-          <div className='col-6'>
+          <div className='col-8'>
             <div className='foodProduct-content' >
               <h3 >Our Food Products</h3>
               <h6>Over 2000+ products available</h6>
             </div>
             </div>
-            <div className='col-6 d-flex justify-content-end'>
+            <div className='col-4 d-flex justify-content-end'>
             <div className='foodProduct-view' >
               <Link to="#">View all</Link>
               </div>

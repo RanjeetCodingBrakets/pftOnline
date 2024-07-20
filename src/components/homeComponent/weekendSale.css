@@ -1,16 +1,16 @@
 .sale {
   margin-top: 80px;
-  /* width: 100%; */
+ 
 }
 
 .sale_banner {
-  width: 75%;
+  max-width: 75%;
   background: linear-gradient(104deg, #37621A 75%, #78BB4A 72%);
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
   position: relative;
-
+  margin: auto;
 }
 
 .sale h3 {
@@ -20,56 +20,96 @@
   font-weight: 700;
   text-align: left;
   margin-bottom: 10px;
-
 }
 
-.sale h6{
+.sale h6 {
   color: #fff;
   font-weight: 700;
   text-align: left;
- font-family: Josefin Sans;
- text-align: justify;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: justify;
 }
 
-.gift1_image{
-  position:absolute;
+.gift1_image {
+  position: absolute;
   width: 9%;
-  margin-left: 415px;
-  margin-top: -21px;
-
+  right: -14px;
+  bottom: -35px;
 }
 
-.gift2_image{
+.gift2_image {
   position: absolute;
   width: 14%;
-  margin-left: 324px;
-  margin-top: -95px;
+  right: 47px;
+  top: -18px;
 }
 
 .view_button {
   background-color: #fff;
   color: #37621A;
-display: inline-block;
+  display: inline-block;
   border-radius: 20px;
   padding: 8px 20px;
   cursor: pointer;
-   margin-left: 38px;
 }
 
-.view_button a{
-  color: #37621A;
+
+@media (min-width: 768px) and (max-width: 991px){
+  .gift1_image {
+    top: 20px;
+    right:10px
+    
+  }
+
+  .gift2_image {
+    top: -27px;
+    right: 86px;
+  }
+
+  .sale_banner {
+    background:  #37621A;
+    padding: 10px 5px;
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+  }
+
+  .sale-content{
+    padding-left: 22px;
+  }
+
+ 
 }
 
-/* @media (max-width: 768px) {
-  .sale_container {
-    flex-direction: column;
-    height: auto;
-    padding: 20px;
+@media (min-width: 320px) and (max-width: 767px){
+  .sale h3 {
+    font-size: 24px;
   }
 
-  .spices_image, .fruitjuice {
-    width: 90px;
-    height: 80px;
-    margin: 10px 5px;
+  .sale h6 {
+    font-size: 14px;
   }
-} */
+
+  .gift1_image {
+    top: 20px;
+    right:10px
+    
+  }
+
+  .gift2_image {
+    top: -27px;
+    right: 86px;
+  }
+  .sale_banner {
+    background:  #37621A;
+    padding: 10px 5px;
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+  }
+
+  .view_button {
+    margin-top: 12px;
+  }
+}
+

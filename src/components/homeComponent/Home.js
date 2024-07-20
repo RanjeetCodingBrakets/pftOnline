@@ -8,14 +8,23 @@ import AboutUs from './aboutUs';
 import CustomerFeedback from './feedback';
 import Questions from './Questions';
 import PopularProduct from './popularProduct';
+import images from "../../constants/images";
 
 
 const Home = () => {
+  const carouselItems = [
+    <img src={images.aashirvaad} alt="Item 1" />,
+    <img src={images.aashirvaad} alt="Item 2" />,
+    <img src={images.aashirvaad} alt="Item 3" />,
+    <img src={images.aashirvaad} alt="Item 4" />,
+    <img src={images.aashirvaad} alt="Item 5" />,
+    <img src={images.aashirvaad} alt="Item 6" />,
+  ];
   return (
     <>
       <Slider/>
       <WeekendSale/>
-      <WeTrade/>
+      <WeTrade items={carouselItems}/>
       <PopularProduct></PopularProduct>
       <FoodProduct/>
      <NonFoodProduct/> 

@@ -1,36 +1,27 @@
-
 .home_top_section {
  width: 100%;
   background-color: #78BB4A;
-  /* position: relative;
-  overflow: hidden;
-  display: flex; */
+}
 
-
+.organic-slide{
+  padding: 58px 32px;
 }
 
 .pulses_image{
   position: absolute;
-  margin-left: 400px;
-  margin-top: 24px;
-}
-.pulses_image img{
-  width: 35%;
+  right: 62px;
+  top: -25px;
+  width: 25%;
 }
 
 .organic{
-  position:relative;
-  margin-left: 49px;
-  margin-top: 121px; 
-width:100%;
- 
-  
+width:100%; 
 }
 
 .organic h5{
   color: #fff;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   text-align: left;
   margin-bottom: 30px;
@@ -43,8 +34,7 @@ font-weight: 700;
 color: #fff;
 text-align: left;
 line-height: 85px;
-margin-bottom: 40px;
-
+margin-bottom: 30px;
 }
 
 .blend{
@@ -57,11 +47,10 @@ color: #fff;
 }
 
 .quality{
-  font-family: Julius Sans One;
+font-family: "Julius Sans One", sans-serif;
 font-size: 80px;
 font-weight: 400;
 text-align: left;
-
 }
 
 .contact-button {
@@ -71,32 +60,20 @@ text-align: left;
     padding: 8px 20px;
     color: #37621A;
   margin-top: 20px;
-  /* text-align: left; */
 }
-
-
 
 .mint_image{
   position: absolute;
-  margin-left: 400px;
-  margin-top: -24px;
+  right: 88px;
+  bottom: -15px;
+  width: 20%;
 }
-
-.mint_image img{
-  width:18%;
-}
-
-
 .bg_image{
   position: relative;
 width: 65%;
   background-color: #fff;
   border-radius: 300px 300px 60px 60px;
-  margin-right: 55px;
-  margin-top: 53px;
-  margin-bottom: 53px;
   z-index: 2;
-
 }
 
 .people_image{
@@ -107,63 +84,165 @@ border-radius: 300px 300px 60px 60px;
 }
 .spice_image{
   position: absolute;
-  margin-left: 262px;
-  margin-top: 22px;
-  width: 34%;
-  
+  right: 7px;
+  top: 0px;
+  width: 34%; 
 }
 
 .stick_image{
   position: absolute;
-  margin-left: -467px;
-  margin-top: 339px;
+  right: 280px;
+  bottom: 36px;
   width: 51%;
   z-index: -1;
 }
 
-/* .stick_image img{
-  width: 100%;
-
-  top: 120px;
-  left: 850px;
-} */
 .rice_image{
   position: absolute;
-  margin-right: -392px;
-  margin-top: 336px;
-}
-
-.rice_image img{
-width: 30%;
-
+  right: 19px;
+  bottom: 35px;
+  width: 12%;
 }
 
 
-@media (max-width: 768px) {
+
+@media (min-width: 992px) and (max-width: 1197px){
+  .stick_image{
+    left: -84px;
+    bottom: 23px;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+ {
   .organic h1 {
-    font-size: 30px;
+    font-size: 45px;
+    line-height: 53px;
   }
 
-  .quality, .bend {
-    font-size: 30px;
+  .quality, .blend{
+    font-size: 45px;
   }
 
-  .buttons {
-    width: 150px;
-  }
-}
+  .stick_image{
+    left: -60px;
+    bottom: 23px;
 
-@media (max-width: 480px) {
+  }
+
+} 
+
+@media (min-width: 320px) and (max-width: 767px) {
   .organic h1 {
     font-size: 20px;
+    line-height: 10px;
   }
 
-  .quality, .bend {
+  .quality, .blend {
     font-size: 20px;
   }
-
-  .buttons {
-    width: 120px;
+  
+  .pulses_image{
+   top: -42px;
+   right: 33px
   }
+  .mint_image{
+
+   top: 78px;
+   right: 8px;
+  }
+  
+  .stick_image{
+    display: none;
+
+  }
+
+  .bg_image{
+    margin-top: 15px;
+  }
+
 }
 
+
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 992px) {
+  .home_top_section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .organic {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .organic h1 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .blend, .quality {
+    font-size: 50px;
+  }
+
+  .pulses_image {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .pulses_image img {
+    width: 50%;
+  }
+
+  .mint_image {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .mint_image img {
+    width: 25%;
+  }
+
+  .bg_image {
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 300px 300px 60px 60px;
+  }
+
+  .people_image, .spice_image, .stick_image, .rice_image {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .spice_image {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  .stick_image {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  .rice_image img {
+    width: 50%;
+  }
+} */
+
+
+
+
+/* @media (min-width: 320px) and (max-width: 767px)
+@media (min-width: 768px) and (max-width: 991px) */

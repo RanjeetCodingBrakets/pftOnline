@@ -1,12 +1,11 @@
-
 .feedback-container {
   text-align: center;
   padding: 50px 0;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .feedback-container h2 {
-  font-family:  sans-serif; 
+  font-family: sans-serif;
   font-size: 2rem;
   margin-bottom: 10px;
 }
@@ -17,9 +16,8 @@
   margin-bottom: 40px;
 }
 
-
 .feedback-card {
-  background-color:#E6FFD4 !important;
+  background-color: #E6FFD4 !important;
   border-radius: 10px;
   border: none !important;
   max-width: 80%;
@@ -27,9 +25,7 @@
   text-align: left;
 }
 
-.card img {
-  border-radius: 10px 10px 
-}
+
 
 .feedback-body {
   padding: 20px;
@@ -37,18 +33,15 @@
 
 .feedback-content {
   font-size: 0.95rem;
-  font-family:  josefin Sans;
+  font-family: Josefin Sans;
   line-height: 20px;
   color: #6B6B6B;
-
 }
 
 .feedback-name small {
   font-size: 0.85rem;
-  color: #37621A;  
+  color: #37621A;
 }
-
-
 
 .feedback-name {
   font-size: 14px;
@@ -56,56 +49,118 @@
 }
 
 .carousel_feedback > .carousel-indicators {
-  bottom: -70px;
+  bottom: -83px;
 }
 
 .carousel_feedback > .carousel-indicators [data-bs-target] {
   width: 8px;
   height: 8px;
   background-color: #37621A;
-  border-radius: 50%!important;
- }
+  border-radius: 50% !important;
+}
 
-
-
-.carousel_feedback > .carousel-control-prev {
-  left: 500px;
+.carousel_feedback > .carousel-control-prev,
+.carousel_feedback > .carousel-control-next {
   font-size: 40px;
   color: #37621A;
   cursor: pointer;
-  position: absolute;
+  outline: none;
   border: 1px solid #37621A;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  top:   220px;
-  z-index: 1000;
   opacity: 1;
+}
+.carousel-control-next, .carousel-control-prev {
+  top: 233px!important;
+}
+.carousel-control-prev {
+  left: 40%;
+}
+.carousel-control-next {
+  right: 40%;
+}
+/* .carousel_feedback > .carousel-control-prev {
+  left: 490px;
 }
 
 .carousel_feedback > .carousel-control-next {
-  right: 500px;
-  font-size: 40px;
-  color: #37621A;
-  cursor: pointer;
-  position: absolute;
-  border: 1px solid #37621A;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  top:   220px;
-  z-index: 1000;
-  opacity: 1;
+  right: 490px;
 }
 
-.carousel_feedback > .carousel-control-next:hover {
-
-  background-color: #37621A;
-  color: #fff;
-}
-
+.carousel_feedback > .carousel-control-next:hover,
 .carousel_feedback > .carousel-control-prev:hover {
-
   background-color: #37621A;
   color: #fff;
+} */
+
+
+
+/* @media (min-width: 768px) and (max-width: 1199px) {
+  .feedback-card{
+    max-width: 100%;
+  }
+  .carousel_feedback > .carousel-control-prev,
+  .carousel_feedback > .carousel-control-next {
+    width: 35px;
+    height: 35px;
+    font-size: 30px;
+   
+  }
+
+  .carousel_feedback > .carousel-control-prev {
+    left: 276px;
+    top: 217px;
+  }
+  
+  .carousel_feedback > .carousel-control-next {
+    right: 276px;
+    top: 217px;
+  }
+
+  .feedback-body {
+    padding: 15px;
+  }
+
+  .feedback-content {
+    font-size: 0.85rem;
+  }
+
+  .feedback-name small {
+    font-size: 0.75rem;
+  }
+
+  .feedback-name {
+    font-size: 12px;
+  }
 }
+
+@media (min-width: 320px) and (max-width: 767px){
+  .feedback-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .feedback-container h4 {
+    font-size: 1rem;
+  }
+
+  .carousel_feedback > .carousel-indicators {
+    bottom: -78px;
+  }
+
+  .carousel_feedback > .carousel-control-prev {
+    left: 138px;
+    top: 560px
+  }
+
+  .carousel_feedback > .carousel-control-next {
+    right: 138px;
+    top:560px;
+  }
+
+  .feedback-card {
+    max-width: 100%;
+    margin: auto;
+  }
+} */
+

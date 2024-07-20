@@ -44,3 +44,9 @@ Link, a{
 .col-2_5 {
   width: 20%;
 }
+
+@media (min-width: 320px) and (max-width: 767px){
+  .col-2_5{
+    width:50%;
+  }
+}
