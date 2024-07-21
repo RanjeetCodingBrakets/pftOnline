@@ -35,9 +35,30 @@
   padding-right: 2px;
 }
 
-/* Optional responsive adjustments if needed */
-/* @media (max-width: 992px) {
-  .nav_Header .custom-btn {
+@media (min-width: 992px) and (max-width: 1106px){
+  .header-logo{
+    margin: 0 100px 0 100px;
+  
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+ {
+  .header-logo{
+    margin-right: 25px;
+  
+  }
+  .toggle-btn{
+    margin-left: 25px;
+  }
+  
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header-logo{
     margin-right: 10px;
   }
-} */
+  .toggle-btn{
+    margin-left: 10px;
+  }
+}

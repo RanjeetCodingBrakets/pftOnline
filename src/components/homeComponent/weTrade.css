@@ -1,65 +1,44 @@
-
-.we-trade {
-  text-align: center;
-  margin-top: 50px;
-  padding-bottom: 116px;
+.we-trade{
+  margin-bottom: 140px;
 }
 
-.we-trade h3 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.we-trade img {
-  width: 100%;
-  margin: 0 auto;
+.owl-carousel .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background: #fff;
   border: 1px solid #EDEDED;
+  margin: 10px;
+  border-radius: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.trade_brand {
-  margin-left: auto;
-  margin-right: auto;
-  height: 200px; 
-  padding: 10px; 
-} */
-/* 
-.we-trade {
-  text-align: center;
-  margin-top: 50px;
-  padding-bottom: 116px;
+.owl-carousel .item img {
+  max-width: 100%;
+  height: auto;
 }
 
-.we-trade h3 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  text-align: left;
+/* Navigation button styles */
+.custom-nav .prev-slide, .next-slide {
+ position: absolute;
+ top: 0px;
+  border: 1px solid #37621A;
+  color: #37621A;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
 }
 
-.we-trade img {
-  width: 100%;
-  margin: 0 auto;
-  border: 1px solid #EDEDED;
-
+.prev-slide {
+  right: 60px;
 }
 
- */
+.next-slide {
+  right: 20px;
+}
+
+.custom-nav .prev-slide, .next-slide:hover{
+  background-color: #37621A;
+  color: #fff;
+}

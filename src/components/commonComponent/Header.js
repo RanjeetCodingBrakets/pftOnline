@@ -44,7 +44,7 @@ const Header = ({
     <nav className="navbar navbar-expand-lg navbar-light nav_Header ">
       <div className="container-fluid">
         <button
-          class="navbar-toggler"
+          class="navbar-toggler toggle-btn"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"

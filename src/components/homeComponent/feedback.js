@@ -33,13 +33,18 @@ const CustomerFeedback = () => {
     <Container className="feedback-container">
       <h2>Our Customer Feedback</h2>
       <h4>Over 200+ Happy Customer Feedback</h4>
-      <Carousel className='carousel_feedback' interval={2000} indicators={true} nextIcon={<span className="custom-next">&#8250;</span>} prevIcon={<span className="custom-prev">&#8249;</span>}>
+      <Carousel className='carousel_feedback' 
+      interval={4000} 
+      indicators={true} 
+      nextIcon={<span className="custom-next">&#8250;</span>}
+      prevIcon={<span className="custom-prev">&#8249;</span>}>
+
         {feedbackData.map((feedback, index) => (
           <Carousel.Item key={index} className="carousel-item">
             <div className="feedback-card">
               <Row className="g-0">
                 <Col md={4}>
-                  <img src={feedback.imgSrc} className="img-fluid rounded-start" alt={feedback.name} />
+                  <img src={feedback.imgSrc} className="img-fluid rounded-3" alt={feedback.name} />
                 </Col>
                 <Col md={8}>
                   <div className="feedback-body">
@@ -56,19 +61,6 @@ const CustomerFeedback = () => {
         ))}
       </Carousel>
 
-      
-      {/* <div className="carousel-indicators">
-        {feedbackData.map((_, index) => (
-          <button
-            key={index}
-            type="button"
-            data-bs-target="#feedbackCarousel"
-            data-bs-slide-to={index}
-            className={index === 0 ? 'active' : ''}
-            aria-current={index === 0 ? 'true' : 'false'}
-          ></button>
-        ))}
-      </div> */}
     </Container>
   );
 };
