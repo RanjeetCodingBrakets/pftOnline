@@ -83,7 +83,7 @@
   opacity: 1;
 }
 .carousel-control-next, .carousel-control-prev {
-  top: 113% !important;
+
   z-index: 9;
 }
 

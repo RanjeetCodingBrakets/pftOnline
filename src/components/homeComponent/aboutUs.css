@@ -6,12 +6,13 @@
 .subscribe_banner {
   border-radius: 20px;
   background: #78bb4a;
-  margin-top: -162px;
+  margin-top: -175px;
   margin-left: 65px;
   overflow: hidden;
-  max-width: 90%;
+  width: 90%;
   margin-bottom: 45px;
-  z-index: 9;
+  z-index: 1000;
+  position: relative;
 }
 
 .subscribe-section {
@@ -76,6 +77,11 @@
   background-color: white;
   border-radius: 30px;
   float: right;
+}
+
+.subscribe a:hover{
+  background-color: #78bb4a;
+  color: #fff;
 }
 
 .about-box{
@@ -158,6 +164,26 @@
   border-radius: 30px;
 }
 
+.about-border-frame{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -15px;
+}
+
+.about-border-frame .frame-img{
+  width:100%;
+}
+
+.about-border-frame-bottom{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+}
+.about-border-frame-bottom .frame-img{
+  width:100%;
+}
 
 @media (min-width: 992px) and (max-width: 1199px)  {
   .subscribe-section h4 {
@@ -193,7 +219,7 @@
   }
 
   .aboutFruitjuice-img {
-    right: 30px;
+    left: 74%;
     bottom: 13px;
     width:19%
   }
@@ -242,9 +268,10 @@
 
 @media (min-width: 320px) and (max-width: 425px){
   
+  
   .subscribe_banner {
     margin-left: 0px;
-    max-width: 100%;
+    width: 100%;
   }
   .subscribe {
     width: 103%;

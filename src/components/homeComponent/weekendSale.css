@@ -53,6 +53,11 @@
   cursor: pointer;
 }
 
+.view_button:hover{
+  background-color: #37621A;
+  color: #fff;
+}
+
 @media (min-width: 992px) and (max-width: 1087px){
   .sale_banner{
     background: #37621A;

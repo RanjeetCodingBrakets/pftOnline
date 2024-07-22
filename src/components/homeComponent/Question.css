@@ -70,4 +70,14 @@
   bottom: 0;
 }
 
+@media (min-width: 320px) and (max-width: 425px){
+  .accordion-button {
+    font-size: 14px !important;
+  }
+
+  .accordion-body{
+    font-size: 14px;
+  }
+}
+
 

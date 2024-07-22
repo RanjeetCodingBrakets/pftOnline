@@ -31,6 +31,8 @@ import vector3 from '../assets/background/Vector3.png';
 import vector4 from '../assets/background/Vector4.png';
 import frame1 from '../assets/background/Frame1.png';
 import frame2 from '../assets/background/Frame2.png';
+import frame3 from '../assets/background/Frame3.png';
+import frame4 from '../assets/background/Frame4.png';
 
 
 const images = {
@@ -66,7 +68,10 @@ const images = {
   vector3,
   vector4,
   frame1,
-  frame2
+  frame2,
+  frame3,
+frame4
+
 };
 
 export default images;

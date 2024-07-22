@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import images from "../../constants/images";
 import "./popularProduct.css";
-import { IoIosArrowDown } from "react-icons/io";
 
 const PopularProduct = () => {
   const [popular] = useState([
