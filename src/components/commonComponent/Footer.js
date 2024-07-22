@@ -95,13 +95,17 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="footer-policy">
-              <h6>Copyright ©2024 all rights reserved</h6>
-              <h6>Privacy Policy, Term & Conditions</h6>
-            </div>
           </div>
         </div>
       </div>
+       <div className="bottom-footer">
+         <div className="container">
+             <div className="footer-policy">
+                <h6>Copyright ©2024 all rights reserved</h6>
+                <h6>Privacy Policy, Term & Conditions</h6>
+              </div>
+            </div>                  
+        </div>
     </>
   );
 };

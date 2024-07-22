@@ -12,10 +12,12 @@
   right: 62px;
   top: -25px;
   width: 25%;
+  z-index: 9;
 }
 
 .organic{
 width:100%; 
+z-index: 9;
 }
 
 .organic h5{
@@ -67,13 +69,14 @@ text-align: left;
   right: 88px;
   bottom: -15px;
   width: 20%;
+  z-index: 9;
 }
 .bg_image{
   position: relative;
-width: 65%;
+  width: 65%;
   background-color: #fff;
   border-radius: 300px 300px 60px 60px;
-  z-index: 2;
+  z-index: 9;
 }
 
 .people_image{
@@ -102,9 +105,48 @@ border-radius: 300px 300px 60px 60px;
   right: 19px;
   bottom: 35px;
   width: 12%;
+  z-index: 9;
 }
 
+.homepage-hero .carousel-item{
+  position: relative;
+}
 
+.homepage-hero .left-vector-img, .homepage-hero .right-vector-img{
+  position: absolute;
+  width: 50%;
+}
+.left-vector-img{
+  left: -80px;
+  top: 0;
+  z-index: 1;
+}
+.contact-button:hover{
+    background: #37621A;
+    color: #fff;
+}
+
+.right-vector-img{
+  right: 0px;
+  top: 0;
+  z-index: 9;
+}
+.border-fram-group{
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+.border-fram-group-top{
+  top: -10px;
+}
+
+.border-fram-group-bottom{
+  bottom: -10px;
+}
+
+.border-fram-group .frame{
+  width: 16.6%;
+}
 
 @media (min-width: 992px) and (max-width: 1197px){
   .stick_image{

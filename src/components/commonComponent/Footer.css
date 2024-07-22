@@ -1,5 +1,22 @@
 .footer-section{
     background-color:  #78BB4A;
+    background-image: 
+    url('./../../assets/background/Vector3.png'),
+    url('./../../assets/background/Vector4.png'); /* Second image */
+  background-position: 
+    left top, /* Position for the first image */
+    right top; /* Position for the second image */
+  background-size: 
+    auto, /* Size for the first image */
+    auto; /* Size for the second image */
+  background-repeat: 
+    no-repeat, /* Repeat settings for the first image */
+    no-repeat; /* Repeat settings for the second image */
+}
+.bottom-footer{
+  width: 100%;
+  background-color: #37621a;
+  background-image: url('./../../assets/background/Frame1.png');
 }
 .whatsapp_Banner{
 right: 10px;
@@ -117,7 +134,7 @@ width: 89%;
     .footer-policy {
       display: flex;
       justify-content: space-between;
-      padding-bottom: 5px;
+      padding: 8px 0px;
     }
     
     .footer-policy h6 {

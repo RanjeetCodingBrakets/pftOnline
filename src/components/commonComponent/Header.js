@@ -42,7 +42,7 @@ const Header = ({
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light nav_Header ">
-      <div className="container-fluid">
+      <div className="container">
         <button
           class="navbar-toggler toggle-btn"
           type="button"
@@ -61,7 +61,7 @@ const Header = ({
 
         <div className="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
           <div>
-            <ul className="navbar-nav mr-auto nav_item">
+            <ul className="navbar-nav mr-auto nav_item menu-item-header">
               <li className="nav-item">
                 <Link className="nav-link head-link" to="#action1">
                   Home

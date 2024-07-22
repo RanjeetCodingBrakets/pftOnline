@@ -32,16 +32,16 @@
 
 .gift1_image {
   position: absolute;
-  width: 9%;
-  right: -14px;
-  bottom: -35px;
+  width: 35px;
+  right: 50%;
+  bottom: 4px;
 }
 
 .gift2_image {
   position: absolute;
-  width: 14%;
-  right: 47px;
-  top: -18px;
+  width: 65px;
+  left: 40%;
+  top: 4px;
 }
 
 .view_button {

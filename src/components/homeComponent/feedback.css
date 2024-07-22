@@ -8,6 +8,7 @@
   font-family: sans-serif;
   font-size: 2rem;
   margin-bottom: 10px;
+  font-weight: 700;
 }
 
 .feedback-container h4 {
@@ -72,8 +73,10 @@
   opacity: 1;
 }
 .carousel-control-next, .carousel-control-prev {
-  top: 233px!important;
+  top: 113% !important;
+  z-index: 9;;
 }
+
 .carousel-control-prev {
   left: 40%;
 }

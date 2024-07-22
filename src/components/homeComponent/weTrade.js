@@ -58,9 +58,9 @@ const WeTrade = ({ items }) => {
         <button className='prev-slide'><GrFormPrevious /></button>
         <button className='next-slide'><GrFormNext /></button>
       </div>
-      <div className="owl-carousel owl-theme">
+      <div className="owl-carousel owl-theme weTrade-carousel">
         {items.map((item, index) => (
-          <div className="item" key={index}>
+          <div className="item weTrade-carousel-item" key={index}>
             {item}
           </div>
         ))}

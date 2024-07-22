@@ -8,7 +8,7 @@ const AboutUs = () => {
     <div className="about">
       <div className="container">
         <div className="subscribe_banner">
-          <div className="row rounded-4 p-4 mb-40 position-relative align-items-center">
+          <div className="row rounded-4 p-4 position-relative align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="subscribe-section">
                 <h4>
@@ -66,7 +66,7 @@ const AboutUs = () => {
                graphic, print, and publishing industries for previewing layouts
                  and visual mockups.
               </p>
-              <Link to="#">Contact Us</Link>
+              <Link className="btn-light" to="#">Contact Us</Link>
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@
 .popularProduct_List1 {
     background-color: #E6FFD4;
     padding: 50px 0;
+    overflow-x: clip;
   }
   
   .dalImage {
@@ -11,9 +12,9 @@
   }
   
   .spices1 {
-    width: 25%;
-    right: 0;
-    top: 92px;
+    width: 18%;
+    right: -60px;
+    top: 134px;
   }
 
   .discount-block{
@@ -23,7 +24,8 @@
   .discount-product {
     background: #78BB4A;
     border-radius: 15px;
-    padding: 20px 0px 20px 20px;
+    padding: 20px 10px 20px 20px;
+    min-height: 221px;
   }
   
   .discount_content {
@@ -51,6 +53,12 @@
   
   .f-image{
     width: 50%;
+  }
+  .f-image img{
+    width: 100%;
+  }
+  .spice-img{
+    width:  94% !important;
   }
 
   .d-image{
@@ -94,15 +102,17 @@
   .popularProduct-viewMore {
     background-color: #fff;
     border: 1px solid #37621A;
-    width: auto;
     border-radius: 20px;
-    padding: 8px 30px;
     cursor: pointer;
-    display: inline-block;
+    width: max-content;
+    margin: auto;
+    padding: 10px 35px 8px 35px;
+    transition: background-color 0.2s ease; 
   }
   
   .popularProduct-viewMore a {
     color: #37621A;
+    transition: color 0.1s ease 0.1s;
   }
   
   @media (min-width: 768px) and (max-width: 991px) {
@@ -146,5 +156,4 @@
       font-size: 13px;
     } */
   }
-  
 
