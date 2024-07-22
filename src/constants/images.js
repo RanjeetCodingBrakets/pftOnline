@@ -24,6 +24,14 @@ import gift1 from '../assets/gift1.png';
 import gift2 from '../assets/gift2.png';
 import grains from '../assets/grains.png';
 import spice from '../assets/spice.png';
+import heroVector1 from '../assets/background/Vector1.png';
+import heroVector2 from '../assets/background/Vector2.png';
+import frame from '../assets/background/Frame.png';
+import vector3 from '../assets/background/Vector3.png';
+import vector4 from '../assets/background/Vector4.png';
+import frame1 from '../assets/background/Frame1.png';
+import frame2 from '../assets/background/Frame2.png';
+
 
 const images = {
   logo,
@@ -52,9 +60,13 @@ const images = {
   gift2,
   grains,
   spice,
-  
-
-
+  heroVector1,
+  heroVector2,
+  frame,
+  vector3,
+  vector4,
+  frame1,
+  frame2
 };
 
 export default images;

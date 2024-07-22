@@ -29,7 +29,7 @@ const FoodProduct = () => {
             </div>
             </div>
             <div className='col-4 d-flex justify-content-end'>
-            <div className='foodProduct-view' >
+            <div className='foodProduct-view anchor-hover' >
               <Link to="#">View all</Link>
               </div>
               </div>
@@ -41,8 +41,10 @@ const FoodProduct = () => {
             <div className='col-2_5 text-center'>
             <div key={product2.id}  className='foodProduct-item mb-4'>
                 <Link to="">
-                  <img src={product2.imgSrc} alt={product2.name} className='product-image1'/>
+                  <div className='product-image1'>
+                  <img src={product2.imgSrc} alt={product2.name}/>
                   <h6>{product2.name}</h6>
+                  </div>
                 </Link>
               </div>
             </div>

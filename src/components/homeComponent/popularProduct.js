@@ -29,44 +29,49 @@ const PopularProduct = () => {
       <div className="container">
         <div className="row mb-90 discount-block justify-content-center">
           <div className="col-md-8 col-lg-4 col-12 mb-4 ">
-            <div className="discount-product d-flex align-item-center">
+            <div className="discount-product d-flex justify-content-between">
               <div>
                 <p>50% Off</p>
                 <h3 className="mb-3 text-white fw-bold">Fresh Organic <span className="break-line">Juice</span> </h3>
-              <Link to="" className="discount_link">
+              <Link to="" className="discount_link btn-dark">
                 View Products
               </Link>
-              </div>     
-              <img src={images.fruit1} alt="Fruits" className="f-image" />
+              </div>  
+              <div className="f-image">   
+                 <img src={images.fruit1} alt="Fruits" />
+              </div>
             </div>  
           </div>
 
           <div className="col-md-8 col-lg-4 col-12 mb-4">
-            <div className="discount-product d-flex align-item-center">
+            <div className="discount-product d-flex justify-content-between">
                 <div>
                   <p>50% Off</p>   
                 <h3 className="mb-3 text-white fw-bold">All Organic <span className="break-line">Masala</span> </h3>
-                <Link to="" className="discount_link">
+                <Link to="" className="discount_link btn-dark">
                   View Products
                 </Link>
                 </div>
-                <img src={images.spices} alt="" className="m-image"/> 
+                <div className="f-image">   
+                 <img src={images.spices} alt="spices" className="spice-img" />
+                </div>
               </div>
           </div>
 
           <div className="col-md-8 col-lg-4 col-12 mb-4">
-            <div className="discount-product d-flex align-item-center">
+            <div className="discount-product d-flex justify-content-between">
               
                 <div>
                   <p>50% Off</p>
                 
                 <h3 className="mb-3 text-white fw-bold">All Organic <span className="break-line">Dal</span></h3>
-                <Link to="" className="discount_link">
+                <Link to="" className="discount_link btn-dark">
                   View Products
                 </Link>
               </div>
-                <img src={images.dal} alt="Dal" className="d-image" />
-
+                <div className="f-image">   
+                 <img src={images.dal} alt="dal" />
+                </div>  
             </div>
           </div>
         </div>
@@ -101,10 +106,10 @@ const PopularProduct = () => {
         </div>
 
         <div className="row">
-          <div className="col-12 text-center">
-            <div className="popularProduct-viewMore">
+          <div className="col-12">
+            <div className="popularProduct-viewMore btn-dark">
               <Link to="">
-                View More <IoIosArrowDown />
+                View More
               </Link>
             </div>
           </div>

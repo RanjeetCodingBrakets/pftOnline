@@ -8,7 +8,10 @@
   background: #78bb4a;
   margin-top: -162px;
   margin-left: 65px;
+  overflow: hidden;
   max-width: 90%;
+  margin-bottom: 45px;
+  z-index: 9;
 }
 
 .subscribe-section {
@@ -25,15 +28,16 @@
 }
 
 .aboutSpice-img {
-  width: 12%;
-  top: 0px;
-  left: 317px;
+  width: 153px;
+  top: -12px;
+  left: 27%;
+  transform: scaleX(-1) rotate(5deg);
 }
 
 .aboutFruitjuice-img {
-  width: 10%;
+  width: 100px;
   bottom: 0px;
-  right: 460px;
+  left: 48%;
 }
 
 

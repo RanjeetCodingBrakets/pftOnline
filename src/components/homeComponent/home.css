@@ -1,0 +1,12 @@
+.product-image1 {
+    width: 65%;
+    margin-bottom: 10px;
+    display: inline-grid;
+}
+  
+.product-image1 img {
+    width: 100%;
+}
+.about_content{
+    padding-top: 35px;
+}

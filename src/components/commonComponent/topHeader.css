@@ -1,6 +1,6 @@
 .nav_topHeader {
   background-color: #37621A;
-  padding: 5px 0; 
+  padding: 15px 0;
 }
 
 .topHeader-links .nav-link {
@@ -13,33 +13,44 @@
   color: yellow;
 }
 
-.headDrop-button {
+.headDrop-button,
+.headDrop-button.show {
   border: 1px solid #fff;
   border-radius: 30px;
-  padding: 5px 15px;
+  padding: 2px 17px;
   color: #fff;
+  font-size: 16px;
+  background-color: #37621a;
+  margin-right: 5px;
+  min-width: 105px;
 }
 
 .headDrop-button:hover {
-  color: blue;
+  color: #37621A !important;
+  background-color: #fff;
 }
 
 .nav_icon_link {
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 50%;
   color: #37621A;
   margin: 0 5px;
-  padding: 6px 10px;
+  padding: 0px 5px 1px 6px;
   /* padding-left: 6px; */
+  margin-left: 8px;
 }
-.nav_icon_link:hover{
-  color: yellow;
-}
-.nav_icon_link svg:hover{
 
+.nav_icon_link:hover {
   color: yellow;
+}
+.nav_icon_link svg:hover {
+  color: yellow;
+}
+
+.language-dropdown ul li a{
+  cursor: pointer;
 }
 
 
@@ -52,6 +63,3 @@
     padding: 3px 10px; 
   }
 } */
-
-
-

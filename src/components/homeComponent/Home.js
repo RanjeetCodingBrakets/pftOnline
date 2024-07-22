@@ -9,6 +9,7 @@ import CustomerFeedback from './feedback';
 import Questions from './Questions';
 import PopularProduct from './popularProduct';
 import images from "../../constants/images";
+import "./home.css";
 
 
 const Home = () => {

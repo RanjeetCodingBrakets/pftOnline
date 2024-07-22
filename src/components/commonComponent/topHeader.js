@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaYoutube } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaPhone } from "react-icons/fa6";
-
-
 import "./topHeader.css";
 
-function TopHeader() {
+const  TopHeader = () => {
+  const [languageValue, setlanguageValue] = useState('English');
+  const languageChange = (value) =>{
+    setlanguageValue(value);
+  }
   return (
     <nav className="navbar navbar-expand-lg nav_topHeader">
       <div className="container d-flex justify-content-between align-items-center">
@@ -25,31 +27,16 @@ function TopHeader() {
         </div>
         <div className="d-flex align-items-center">
 
-          <div className="nav-item dropdown me-3">
-            <Link
-              className="nav-link dropdown-toggle headDrop-button"
-              to="#"
-              id="basic-nav-dropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Language
-            </Link>
-            <ul className="dropdown-menu" aria-labelledby="basic-nav-dropdown">
-              <li>
-                <Link className="dropdown-item" to="#">
-                  English
-                </Link>
-              </li>
-              <li>
-                <Link className="dropdown-item" to="#">
-                  Other Language
-                </Link>
-              </li>
+          <div class="dropdown language-dropdown">
+            <button class="btn btn-secondary dropdown-toggle headDrop-button" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              {languageValue}
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+              <li><a class="dropdown-item"  onClick={() => languageChange('Hindi')} >Hindi</a></li>
+              <li><a class="dropdown-item"  onClick={() => languageChange('English')} >English</a></li>
             </ul>
           </div>
-          
+
           <Link to="#" className="nav-link nav_icon_link ">
             <FaFacebookF className="nav_icon" />
           </Link>

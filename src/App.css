@@ -44,6 +44,36 @@ Link, a{
 .col-2_5 {
   width: 20%;
 }
+h3{
+  font-weight: 700;
+}
+.btn-dark:hover{
+  background-color: #37621A;
+  color: #fff;
+}
+.btn-dark:hover a {
+  color: #fff;
+}
+
+.btn-light:hover{
+  background-color: #fff;
+  color: #37621A;
+  border: 1px solid #37621A;
+}
+.btn-light:hover a {
+  color: #37621A;
+}
+
+.anchor-hover:hover a {
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  .h3, h3 {
+      font-size: 1.5rem;
+  }
+}   
+
 
 @media (min-width: 320px) and (max-width: 767px){
   .col-2_5{
