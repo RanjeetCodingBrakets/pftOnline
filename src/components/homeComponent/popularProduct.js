@@ -27,7 +27,7 @@ const PopularProduct = () => {
         className="spices1 position-absolute"
       ></img>
       <div className="container">
-        <div className="row mb-90 discount-block">
+        <div className="row mb-90 discount-block justify-content-center">
           <div className="col-md-8 col-lg-4 col-12 mb-4 ">
             <div className="discount-product d-flex align-item-center">
               <div>

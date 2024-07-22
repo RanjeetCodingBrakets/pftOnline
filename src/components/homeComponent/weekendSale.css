@@ -53,17 +53,29 @@
   cursor: pointer;
 }
 
+@media (min-width: 992px) and (max-width: 1087px){
+  .sale_banner{
+    background: #37621A;
+  }
+
+  .view_button{
+    padding: 8px 9px;
+  }
+}
+
+
 
 @media (min-width: 768px) and (max-width: 991px){
   .gift1_image {
     top: 20px;
-    right:10px
+    right:99px
     
   }
 
   .gift2_image {
     top: -27px;
-    right: 86px;
+    right: 249px;
+    width: 10%;
   }
 
   .sale_banner {

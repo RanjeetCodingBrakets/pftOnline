@@ -51,7 +51,7 @@ const Questions = () => {
                 <div className='accordion-item  mb-3' key={item.id}>
                   <h2 className='accordion-header'>
                     <button 
-                      className={`accordion-button fs-5 fw-bold ${activeIndex === index ? '' : 'collapsed'}`}
+                      className={`accordion-button fs-5  ${activeIndex === index ? '' : 'collapsed'}`}
                       type='button'
                       onClick={() => toggleAccordion(index)}
                     >

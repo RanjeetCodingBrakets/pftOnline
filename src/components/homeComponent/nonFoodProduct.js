@@ -21,13 +21,13 @@ const NonFoodProduct = () => {
     <div className='nonfoodProduct_List mb-90'>
       <div className='container'>
         <div className='row mb-40' >
-          <div className='col-6'>
+          <div className='col-8'>
             <div className='nonFoodHeading'>
               <h3>Our Non Food Products</h3>
               <h6>Over 2000+ products available</h6>
             </div>
           </div>
-          <div className='col-6'>
+          <div className='col-4'>
             <div className='text-right d-flex justify-content-end'>
             <div className='nonFoodProduct-view'>
               <Link to="">View all</Link>
@@ -35,7 +35,7 @@ const NonFoodProduct = () => {
             </div>
           </div>
         </div>
-        <div  className='row'>
+        <div  className='row non-food-block'>
           {nonFood.map(product1 => (
             <div className='col-2_5 text-center'>
             <div key={product1.id}  className='nonFoodProduct-item2 mb-4 '>

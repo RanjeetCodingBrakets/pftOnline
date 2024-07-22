@@ -14,9 +14,7 @@ top: -86px;
   border-radius: 50%;
   width: 60px;
   height: 60px;
-
 }
-
 
 .footer-section1{
  padding-top: 50px;
@@ -37,21 +35,6 @@ top: -86px;
   height: 113px;
 }
 
-
-/* .footer_logo1{
-background-color: #FFFFFF;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  padding: 10px;
-width: 100%;
-  margin: 0 auto;
-
- 
-} */
-
-
 .footer_logo img{
     border-radius: 50%;
 width: 89%;
@@ -59,10 +42,7 @@ width: 89%;
     padding: 9px;
     border: 1px dashed #C43821;
     height:100px;
-
-
 }
-
 
 .footer_icon {
     display: flex;
@@ -84,22 +64,15 @@ width: 89%;
     text-decoration: none;
   }
   
-  /* .footer_icon_link:hover {
-    background-color: #78BB4A;
-  } */
-
-
 .footer_links{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     margin-top: 20px;
     }
     
     .footer_links a{
         margin: 0 1rem;
         text-decoration: none;
-        
         color: white;
     }
     
@@ -113,7 +86,6 @@ width: 89%;
         background-color: #FFFFFF;
     }
 
-
     .footer-policy {
       display: flex;
       justify-content: space-between;
@@ -124,15 +96,11 @@ width: 89%;
       color: #FFFFFF;
       margin-top: 10px;
     }
-    
-    /* .footer-policy h6:nth-of-type(1) {
-      text-align: left;
-    }
-    
-    .footer-policy h6:nth-of-type(2) {
-      text-align: right;
+
+    /* @media (min-width: 769px) and (max-width: 991px){
+
+
     } */
-    
 
     @media (max-width: 768px) {
         .footer_content {
@@ -150,11 +118,17 @@ width: 89%;
         .footer_links div{
             width: 0px;
         }
+        .footer_logo {
+          left: 42%;
       }
+    }
       
-      @media (max-width: 480px) {
+      @media (min-width: 320px) and (max-width: 480px){
         .footer_icon {
           flex-direction: column;
+        }
+        .footer_logo {
+          left: 36%;
         }
       
         .nav_icon_link {
@@ -164,4 +138,7 @@ width: 89%;
         .footer_links div{
             width: 0px;
         }
+        .footer_menu {
+          margin-bottom: 2px;
       }
+    }
