@@ -5,7 +5,14 @@ import "./aboutUs.css";
 
 const AboutUs = () => {
   return (
-    <div className="about">
+    <div className="about position-relative">
+          <div className="about-border-frame">
+          <img src={images.frame3} alt="vector" className="frame-img" />  
+          </div>
+
+          <div className="about-border-frame-bottom">
+          <img src={images.frame3} alt="vector" className="frame-img" />  
+          </div>
       <div className="container">
         <div className="subscribe_banner">
           <div className="row rounded-4 p-4 position-relative align-items-center">

@@ -6,12 +6,13 @@
 .subscribe_banner {
   border-radius: 20px;
   background: #78bb4a;
-  margin-top: -162px;
+  margin-top: -175px;
   margin-left: 65px;
   overflow: hidden;
-  max-width: 90%;
+  width: 90%;
   margin-bottom: 45px;
-  z-index: 9;
+  z-index: 1000;
+  position: relative;
 }
 
 .subscribe-section {
@@ -20,7 +21,7 @@
 
 .subscribe-section h4 {
   line-height: 40px;
-  font-size: 34px;
+  font-size: 32px;
 }
 
 .subscribe-section span {
@@ -43,7 +44,7 @@
 
 
 .subscribe {
-  /* display: flex; */
+
   border: none;
   padding: 5px 5px;
   outline: none;
@@ -76,6 +77,11 @@
   background-color: white;
   border-radius: 30px;
   float: right;
+}
+
+.subscribe a:hover{
+  background-color: #78bb4a;
+  color: #fff;
 }
 
 .about-box{
@@ -146,6 +152,7 @@
   line-height: 22px;
   text-align: left;
   margin-bottom: 33px;
+
 }
 
 .about_content a {
@@ -157,38 +164,76 @@
   border-radius: 30px;
 }
 
-/* Media Queries */
-/* @media (max-width: 1200px) {
-  .subscribe_banner {
-    margin-left: 0;
-    width: 100%;
-  }
+.about-border-frame{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -15px;
+}
+
+.about-border-frame .frame-img{
+  width:100%;
+}
+
+.about-border-frame-bottom{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+}
+.about-border-frame-bottom .frame-img{
+  width:100%;
+}
+
+@media (min-width: 992px) and (max-width: 1199px)  {
+  .subscribe-section h4 {
+    line-height: 38px;
+    font-size: 28px;
+}
+
+
   .aboutSpice-img {
-    margin-left: 50px;
+    margin-left: -44px;
   }
   .aboutFruitjuice-img {
-    margin-left: -10px;
+    left: 391px;
   }
-} */
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
   .subscribe_banner {
     margin-top: -186px;
-    margin-left: 38px;
+    margin-left: 78px;
+    max-width: 80%;
   }
   
   .box-image{
     width: 50%;
   }
+
+  .aboutSpice-img {
+ 
+    top: 0px;
+    left: 289px;
+    width: 21%;
+  }
+
   .aboutFruitjuice-img {
-    right: 30px;
-    bottom: 3px;
-    width:12%
+    left: 74%;
+    bottom: 13px;
+    width:19%
+  }
+
+  .about-box{
+    padding: 0px 55px;
+  }
+  .subscribe{
+    width: 70%;
   }
 
 }
 
-@media (min-width: 320px) and (max-width: 767px){
+@media (min-width: 426px) and (max-width: 767px){
   .subscribe_banner {
     margin-left: 15px;
   }
@@ -199,7 +244,10 @@
   }
 
   .aboutSpice-img {
-    display: none;
+ 
+    top: 0px;
+    left: 235px;
+    width: 25%;
   }
   .aboutFruitjuice-img {
     display: none;
@@ -208,28 +256,80 @@
   .subscribe{
     width: 100%;
   }
-  /* .subscribe_banner {
-    margin-top: -50px;
-    padding: 2px 5px 0px;
+  .about-box{
+    padding: 0px 55px;
   }
 
-  .subscribe{
-    padding: 6px 5px 9px;
-  }
   .subscribe input {
-    padding: 4px 10px;
+    padding: 10px 12px;
   }
-  .subscribe a {
-    padding: 5px 10px;
-    float: right;
+  
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+  
+  
+  .subscribe_banner {
+    margin-left: 0px;
+    width: 100%;
   }
- 
+  .subscribe {
+    width: 103%;
+    margin-left: -2px;
+  }
+  
+  .subscribe-section h4 {
+    line-height: 33px;
+    font-size: 20px;
+  }
+
+  .aboutSpice-img {
+    top: 0px;
+    left: 198px;
+    width: 27%;
+  }
+  .aboutFruitjuice-img {
+    display: none;
+  }
+
+  .about-box{
+    padding: 0px 55px;
+  }
+
+  .subscribe input {
+    padding: 9px 2px;
+  }
+
+  .subscribe a{
+    padding: 9px 5px;
+  }
+
+  .about_content h4{
+    font-size: 21px;
+  }
   .about_content h3 {
-    font-size: 28px;
+    font-size: 21px;}
+    .about-box {
+      padding: 0px 30px;
   }
   .about_content p {
-    font-size: 16px;
-  }
- */
+    font-size: 15px;
+    line-height: 18px;
+  
 }
+.about_stick {
+  bottom: 38px;
+  left: -33px;}
+
+  .about_mint {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+.about_wheat {
+  bottom: -3px;
+  right: -30px;}
+}
+
+
 

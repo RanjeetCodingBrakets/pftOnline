@@ -5,9 +5,11 @@ import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { GrMail } from "react-icons/gr";
-import { LuInstagram } from "react-icons/lu";
+import { AiFillInstagram } from "react-icons/ai";
 import { FaYoutube } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
+import { FaPhone } from "react-icons/fa6";
+import images from "../../constants/images";
 import "./Footer.css";
 
 const Footer = () => {
@@ -42,7 +44,7 @@ const Footer = () => {
                 <FaFacebook />
               </Link>
               <Link to="#" className="footer_icon_link">
-                <LuInstagram />
+              <AiFillInstagram />
               </Link>
               <Link to="#" className="footer_icon_link">
                 <FaYoutube />
@@ -75,21 +77,21 @@ const Footer = () => {
               <ul className="list-unstyled d-flex justify-content-center ">
                 <li className="footer_menu">
                   <Link to="#">
-                    <FaLocationDot />
+                    <FaLocationDot className="f-icon" />
                     199 George St, The Rocks NSW 2000, Australia
                   </Link>
                 </li>
                 <div />
                 <li className="footer_menu">
                   <Link to="#">
-                    <FaFacebook />
+                  <FaPhone  className="f-icon" />
                     +91 96635 20321
                   </Link>
                 </li>
                 <div />
                 <li className="footer_menu">
                   <Link to="#">
-                    <GrMail />
+                    <GrMail className="f-icon" />
                     Lorem@gmail.com
                   </Link>
                 </li>
@@ -98,7 +100,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-       <div className="bottom-footer">
+       <div className="bottom-footer ">
+
          <div className="container">
              <div className="footer-policy">
                 <h6>Copyright ©2024 all rights reserved</h6>

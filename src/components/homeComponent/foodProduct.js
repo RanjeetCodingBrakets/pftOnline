@@ -36,7 +36,7 @@ const FoodProduct = () => {
               </div>
             
        
-        <div className='row'>
+        <div className='row food-block'>
           {food.map(product2 => (
             <div className='col-2_5 text-center'>
             <div key={product2.id}  className='foodProduct-item mb-4'>

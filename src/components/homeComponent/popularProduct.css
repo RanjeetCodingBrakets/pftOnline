@@ -3,6 +3,19 @@
     background-color: #E6FFD4;
     padding: 50px 0;
     overflow-x: clip;
+    background-image: 
+    url('./../../assets/background/vector5.png'),
+    url('./../../assets/background/vector6.png'); /* Second image */
+  background-position: 
+    left top, /* Position for the first image */
+    right bottom; /* Position for the second image */
+
+    background-repeat: 
+    no-repeat, /* Repeat settings for the first image */
+    no-repeat; /* Repeat settings for the second image */
+    
+    background-size: 33%; 
+    
   }
   
   .dalImage {
@@ -52,7 +65,7 @@
   }
   
   .f-image{
-    width: 50%;
+    width: 43%;
   }
   .f-image img{
     width: 100%;
@@ -75,7 +88,7 @@
 
 
   .m-image{
-    width: 50%;
+    width: 45%;
   }
   
   .product-item {
@@ -114,46 +127,63 @@
     color: #37621A;
     transition: color 0.1s ease 0.1s;
   }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .f-image {
+      width: 31%;
+      height: 146px;
+  }
+  .d-image {
+    margin-top: 29px;
+    width: 43%;
+    height: 107px;
+}
+.spices1 {
+  top: 117px;
+
+  }
+}
+
   
   @media (min-width: 768px) and (max-width: 991px) {
-    /* .discount-product {
-      margin-top: 20px;
-    } */
-  
-    /* .product-image {
-      max-width: 100%;
-      margin-top: 0;
-    } */
 
     .product-item{
       margin-top: 44px;
     }
+
+    .spices1 {
+      top: 600px;
+    
+      }
+      .dalImage {
+        width: 14%;}
+    
   }
   
   @media (min-width: 320px) and (max-width: 767px) {
    
    .product-item{
     margin-top: 40px;
+      padding: 0px 0px !important;
+   }
+
+   .d-image{
+    width:48%;
+   }
+   .spices1{
+    display: none;
    }
    
-   
-    /* .discount-product {
-      margin-top: 20px;
-    }
-  
+   .dalImage {
+    width: 20%;}
 
   
-    .discount_content {
-      margin-bottom: 20px;
-    } */
-  
-    /* .discount-product img {
-      width: 100%;
-      margin-left: 0;
-    } */
-  
-    /* .product-item h5 {
-      font-size: 13px;
-    } */
+  .product-item h5 {
+      margin-top: 10px;}
+
+      .product-image {
+        margin-top: -45px;
+
+      }
   }
 

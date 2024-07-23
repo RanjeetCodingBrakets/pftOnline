@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import images from "../../constants/images";
 import "./popularProduct.css";
-import { IoIosArrowDown } from "react-icons/io";
 
 const PopularProduct = () => {
   const [popular] = useState([
@@ -27,7 +26,7 @@ const PopularProduct = () => {
         className="spices1 position-absolute"
       ></img>
       <div className="container">
-        <div className="row mb-90 discount-block">
+        <div className="row mb-90 discount-block justify-content-center">
           <div className="col-md-8 col-lg-4 col-12 mb-4 ">
             <div className="discount-product d-flex justify-content-between">
               <div>
