@@ -1,0 +1,38 @@
+.about-section1{
+    background-color: #F5F5F5;
+
+}
+
+.about-head{
+    border-bottom: 1px solid #0000001A;
+    padding: 30px 0px 20px 0px ;
+}
+.about-head h3{
+    font-family: Josefin Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+
+}
+
+.about-con h5{
+    font-family: Josefin Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+
+}
+
+.about-con{
+    padding-top: 0px;
+}
+
+.curve-img{
+    border: 60px solid #37621A;
+        bottom: 0px;
+        right: 0px;
+        border-radius: px;
+        z-index: 1;
+    }
+
+    

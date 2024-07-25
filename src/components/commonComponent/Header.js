@@ -55,58 +55,58 @@ const Header = ({
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <a className="navbar-brand header-logo" href="#">
+        <Link className="navbar-brand header-logo" to="">
           <img src={logo} alt="logo" className="nav_logo" />
-        </a>
+        </Link>
 
         <div className="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
           <div>
             <ul className="navbar-nav mr-auto nav_item menu-item-header">
               <li className="nav-item">
-                <Link className="nav-link head-link" to="#action1">
+                <Link className="nav-link head-link" to="/">
                   Home
                 </Link>
               </li>
 
               <li class="nav-item dropdown">
-                <a
+                <Link
                   class="nav-link dropdown-toggle head-link"
-                  href="#"
+                  to="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Category
-                </a>
+                </Link>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <Link class="dropdown-item" to="">
                       Action
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <Link class="dropdown-item" to="#">
                       Another action
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <Link class="dropdown-item" to="">
                       Something else here
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
 
               <li className="nav-item ">
-                <a className="nav-link head-link" href="#action2">
+                <Link className="nav-link head-link" to="/about-us">
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="nav-item ">
-                <a className="nav-link head-link" href="#">
+                <Link className="nav-link head-link" to="">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -115,6 +115,7 @@ const Header = ({
             <button onClick={handleShow} className="btn custom-btn me-2">
               Login / Signup
             </button>
+            <LoginSignup show={showModal} handleClose={handleClose} />
             <button className="head-live-timer">
               Live Sale
               <span className="ms-2">
@@ -122,7 +123,7 @@ const Header = ({
                 {minutes < 10 ? `0${minutes}` : minutes}:
                 {seconds < 10 ? `0${seconds}` : seconds}
               </span>
-              <LoginSignup show={showModal} handleClose={handleClose} />
+              
             </button>
           </div>
         </div>

@@ -33,6 +33,13 @@ import frame1 from '../assets/background/Frame1.png';
 import frame2 from '../assets/background/Frame2.png';
 import frame3 from '../assets/background/Frame3.png';
 import frame4 from '../assets/background/Frame4.png';
+import frame5 from '../assets/background/Frame5.png';
+import fb from '../assets/background/fb.png';
+import go from '../assets/background/go.png';
+import curvetext from '../assets/curvetext.png';
+import layer2 from '../assets/Layer2.png';
+
+
 
 
 const images = {
@@ -70,7 +77,12 @@ const images = {
   frame1,
   frame2,
   frame3,
-frame4
+frame4,
+frame5,
+fb,
+go,
+curvetext,
+layer2
 
 };
 

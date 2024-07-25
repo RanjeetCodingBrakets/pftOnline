@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../assets/logo.jpeg";
-// import { height } from '@fortawesome/free-solid-svg-icons/fa0';
 import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
@@ -18,10 +17,12 @@ const Footer = () => {
       <div className="footer-section">
         <div className="container text-center position-relative ">
           <div className="whatsapp_Banner position-absolute">
-            <div>
-              <RiWhatsappFill className="whatsapp-icon" />
+          <Link to=''>
+            <div className="whatsapp-icon">
+              <RiWhatsappFill className="w-icon" />
             </div>
-            <h6>Talk To Us?</h6>
+            <h6 className="mt-2 color-black">Talk To Us?</h6>
+            </Link>
           </div>
 
           <div className="footer_logo position-absolute">
@@ -56,7 +57,7 @@ const Footer = () => {
             <div className="footer_links">
               <ul className="list-unstyled d-flex justify-content-center ">
                 <li className="footer_menu">
-                  <Link to="#">Home</Link>
+                  <Link to="/">Home</Link>
                 </li>
                 <div />
                 <li className="footer_menu">
@@ -100,7 +101,16 @@ const Footer = () => {
           </div>
         </div>
       </div>
-       <div className="bottom-footer ">
+       <div className="bottom-footer position-relative">
+       <div className="bottom-footer-frame">
+        <img src={images.frame1} alt="" className="bottom-frame"/>
+        <img src={images.frame1} alt="" className="bottom-frame"/>
+        <img src={images.frame1} alt="" className="bottom-frame"/>
+        <img src={images.frame1} alt="" className="bottom-frame"/>
+        <img src={images.frame1} alt="" className="bottom-frame"/>
+        <img src={images.frame1} alt="" className="bottom-frame"/>
+        
+       </div>
 
          <div className="container">
              <div className="footer-policy">
