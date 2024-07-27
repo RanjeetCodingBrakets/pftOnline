@@ -1,15 +1,15 @@
 import React from 'react';
-import Slider from './Slider';
-import WeekendSale from './weekendSale';
-import WeTrade from './weTrade';
-import FoodProduct from './foodProduct';
-import NonFoodProduct from './nonFoodProduct';
-import AboutUs from './aboutUs';
-import CustomerFeedback from './feedback';
-import Questions from './Questions';
-import PopularProduct from './popularProduct';
+import Slider from './homeSections/Slider';
 import images from "../../constants/images";
 import "./home.css";
+import WeekendSale from './homeSections/weekendSale';
+import WeTrade from './homeSections/weTrade';
+import PopularProduct from './homeSections/popularProduct';
+import FoodProduct from './homeSections/foodProduct';
+import NonFoodProduct from './homeSections/nonFoodProduct';
+import About from './homeSections/about';
+import CustomerFeedback from './homeSections/feedback';
+import Questions from './homeSections/Questions';
 
 
 const Home = () => {
@@ -23,15 +23,16 @@ const Home = () => {
   ];
   return (
     <>
-      <Slider/>
-      <WeekendSale/>
-      <WeTrade items={carouselItems}/>
-      <PopularProduct></PopularProduct>
-      <FoodProduct/>
-     <NonFoodProduct/> 
-     <AboutUs/>
-     <CustomerFeedback/>
-     <Questions/>
+    <Slider/>
+    <WeekendSale/>
+    <WeTrade items={carouselItems}/>
+    <PopularProduct/>
+    <FoodProduct/>
+    <NonFoodProduct/>
+    <About/>
+    <CustomerFeedback/>
+    <Questions/>
+      
       
      
     </>

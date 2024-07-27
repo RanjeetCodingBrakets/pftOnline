@@ -18,10 +18,22 @@
 .bottom-footer{
   width: 100%;
   background-color: #37621a;
-  background-image: url('./../../assets/background/Frame1.png');
+  z-index: 1000;
+  /* background-image: url('./../../assets/background/Frame1.png'); */
+}
+
+.bottom-footer-frame{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: -8px;
+  z-index: -1000;
+}
+.bottom-footer-frame .bottom-frame{
+  width: 16.6%;
 }
 .whatsapp_Banner{
-right: 10px;
+right: 0px;
 top: -86px;
 
 }
@@ -29,10 +41,24 @@ top: -86px;
 .whatsapp-icon{
   color: #FFFFFF;
   background-color: #1AB654;
-  padding: 10px;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  padding: 7px 3px 5px 3px;
+  border-radius: 60%;
+  width: 69%;
+  height: 55px;
+  
+}
+
+.w-icon{
+  width: 75%;
+  height: 42px;
+}
+.whatsapp_Banner h6{
+  color: #000;
+}
+
+.whatsapp-icon:hover{
+  color: #1AB654;
+  background-color: #FFFFFF;
 }
 
 .footer-section1{
@@ -130,6 +156,8 @@ width: 89%;
 
 
 
+
+
     /* @media (min-width: 769px) and (max-width: 991px){
 
 
@@ -159,7 +187,7 @@ width: 89%;
       @media (min-width: 320px) and (max-width: 767px){
        
         .footer_logo {
-          left: 36%;
+          left: 35%;
         }
       
         .nav_icon_link {
