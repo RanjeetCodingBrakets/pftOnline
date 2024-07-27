@@ -54,14 +54,12 @@ const Slider = () => {
                 </div>
                 <div className="col-md-6 col-12">
                   <div className="slider-images d-flex justify-content-center">
+                  <img src={images.spice} alt="people" className="spice_image" />
+                  <img src={images.stick} alt="stick" className="stick_image"/>
                     <div className="bg_image">
-                      <img src={images.spice} alt="people" className="spice_image" />
                       <img src={images.bg} alt="people" className="people_image" />
-                      <img src={images.stick} alt="stick" className="stick_image"></img>
                     </div>
-
-                      <img src={images.rice} alt="rice" className="rice_image"/>
-                  
+                  <img src={images.rice} alt="rice" className="rice_image"/>
                   </div>
                 </div>
               </div>
@@ -91,15 +89,13 @@ const Slider = () => {
                  
                 </div>
                 <div className="col-md-6 col-12">
-                  <div className="slider-images d-flex justify-content-center">
+                <div className="slider-images d-flex justify-content-center">
+                  <img src={images.spice} alt="people" className="spice_image" />
+                  <img src={images.stick} alt="stick" className="stick_image"/>
                     <div className="bg_image">
-                      <img src={images.spice} alt="people" className="spice_image" />
                       <img src={images.bg} alt="people" className="people_image" />
-                      <img src={images.stick} alt="stick" className="stick_image"></img>
                     </div>
-
-                      <img src={images.rice} alt="rice" className="rice_image"/>
-                  
+                  <img src={images.rice} alt="rice" className="rice_image"/>
                   </div>
                 </div>
               </div>
@@ -129,15 +125,13 @@ const Slider = () => {
                  
                 </div>
                 <div className="col-md-6 col-12">
-                  <div className="slider-images d-flex justify-content-center">
+                <div className="slider-images d-flex justify-content-center">
+                  <img src={images.spice} alt="people" className="spice_image" />
+                  <img src={images.stick} alt="stick" className="stick_image"/>
                     <div className="bg_image">
-                      <img src={images.spice} alt="people" className="spice_image" />
                       <img src={images.bg} alt="people" className="people_image" />
-                      <img src={images.stick} alt="stick" className="stick_image"></img>
                     </div>
-
-                      <img src={images.rice} alt="rice" className="rice_image"/>
-                  
+                  <img src={images.rice} alt="rice" className="rice_image"/>
                   </div>
                 </div>
               </div>
@@ -147,14 +141,14 @@ const Slider = () => {
 
 
       </div>
-      {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
       </button>
       <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
-      </button> */}
+      </button>
     </div>
   );
 };

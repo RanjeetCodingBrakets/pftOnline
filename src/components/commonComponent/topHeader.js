@@ -14,7 +14,7 @@ const  TopHeader = () => {
   }
   return (
     <nav className="navbar navbar-expand-lg nav_topHeader">
-      <div className="container d-flex justify-content-between align-items-center">
+      <div className="container-fluid d-flex justify-content-between align-items-center">
         <div className="d-flex flex-column flex-lg-row topHeader-links">
           <Link to="#" className="nav-link d-flex align-items-center">
             <FaLocationDot className="me-2" />

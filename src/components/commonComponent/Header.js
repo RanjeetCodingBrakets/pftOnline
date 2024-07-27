@@ -41,10 +41,16 @@ const Header = ({
   const handleShow = () => setShowModal(true);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light nav_Header ">
-      <div className="container">
+    <div className="container">
+    <div className="row">
+      <nav className="navbar navbar-expand-lg navbar-light nav_Header header-nav">
+        <div className="col-sm-4 col-lg-2">
+          <Link className="navbar-brand header-logo" to="/">
+            <img src={logo} alt="logo" className="nav_logo" />
+          </Link>
+        </div>
         <button
-          class="navbar-toggler toggle-btn"
+          className="navbar-toggler toggle-btn"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
@@ -52,25 +58,19 @@ const Header = ({
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-
-        <Link className="navbar-brand header-logo" to="">
-          <img src={logo} alt="logo" className="nav_logo" />
-        </Link>
-
         <div className="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
-          <div>
+          <div className="col-lg-7  col-sm-6 col-md-6 d-lg-block">
             <ul className="navbar-nav mr-auto nav_item menu-item-header">
               <li className="nav-item">
                 <Link className="nav-link head-link" to="/">
                   Home
                 </Link>
               </li>
-
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <Link
-                  class="nav-link dropdown-toggle head-link"
+                  className="nav-link dropdown-toggle head-link"
                   to="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -78,57 +78,56 @@ const Header = ({
                 >
                   Category
                 </Link>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <Link class="dropdown-item" to="/product-category">
+                    <Link className="dropdown-item" to="/product-category">
                       All Category
                     </Link>
                   </li>
                   <li>
-                    <Link class="dropdown-item" to="#">
+                    <Link className="dropdown-item" to="#">
                       Another action
                     </Link>
                   </li>
-
                   <li>
-                    <Link class="dropdown-item" to="">
+                    <Link className="dropdown-item" to="">
                       Something else here
                     </Link>
                   </li>
                 </ul>
               </li>
-
-              <li className="nav-item ">
+              <li className="nav-item">
                 <Link className="nav-link head-link" to="/about-us">
                   About Us
                 </Link>
               </li>
-              <li className="nav-item ">
+              <li className="nav-item">
                 <Link className="nav-link head-link" to="">
                   Contact Us
                 </Link>
               </li>
             </ul>
           </div>
-
-          <div class="d-inline">
-            <button onClick={handleShow} className="btn custom-btn me-2">
-              Login / Signup
-            </button>
-            <LoginSignup show={showModal} handleClose={handleClose} />
-            <button className="head-live-timer">
-              Live Sale
-              <span className="ms-2">
-                {hours < 10 ? `0${hours}` : hours}:
-                {minutes < 10 ? `0${minutes}` : minutes}:
-                {seconds < 10 ? `0${seconds}` : seconds}
-              </span>
-              
-            </button>
+          <div className="col-lg-5 col-md-6 col-sm-6">
+            <div className="d-inline">
+              <button onClick={handleShow} className="btn custom-btn me-2">
+                Login / Signup
+              </button>
+              <LoginSignup show={showModal} handleClose={handleClose} />
+              <button className="head-live-timer">
+                Live Sale
+                <span className="ms-2">
+                  {hours < 10 ? `0${hours}` : hours}:
+                  {minutes < 10 ? `0${minutes}` : minutes}:
+                  {seconds < 10 ? `0${seconds}` : seconds}
+                </span>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
+  </div>
   );
 };
 

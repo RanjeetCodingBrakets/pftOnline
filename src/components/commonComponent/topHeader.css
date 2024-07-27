@@ -1,6 +1,6 @@
 .nav_topHeader {
   background-color: #37621A;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .topHeader-links .nav-link {
@@ -36,7 +36,7 @@
   background-color: #fff;
   border-radius: 50%;
   color: #37621A;
-  margin: 0 5px;
+  margin: 0 10px;
   padding: 10px;
   display: flex;
 
@@ -54,12 +54,14 @@
 }
 
 
-/* @media (max-width: 768px) {
-  .header-links .nav-link {
-    margin-bottom: 5px; 
-  }
-
-  .dropdown-toggle {
-    padding: 3px 10px; 
-  }
-} */
+@media (min-width: 320px) and (max-width: 425px) {
+  .topHeader-links .nav-link {
+    margin-right: 48px;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.bg_image {
+  height: 150px;
+}
+}

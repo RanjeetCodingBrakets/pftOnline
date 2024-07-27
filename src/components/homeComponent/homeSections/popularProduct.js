@@ -27,7 +27,7 @@ const PopularProduct = () => {
       ></img>
       <div className="container">
         <div className="row mb-50 discount-block justify-content-center">
-          <div className="col-md-8 col-lg-4 col-12 mb-4 ">
+          <div className="col-md-4 col-lg-4 col-sm-4 col-12 mb-4 ">
             <div className="discount-product d-flex justify-content-between">
               <div>
                 <p>50% Off</p>
@@ -42,7 +42,7 @@ const PopularProduct = () => {
             </div>  
           </div>
 
-          <div className="col-md-8 col-lg-4 col-12 mb-4">
+          <div className="col-md-4 col-lg-4 col-sm-4 col-12 mb-4">
             <div className="discount-product d-flex justify-content-between">
                 <div>
                   <p>50% Off</p>   
@@ -57,7 +57,7 @@ const PopularProduct = () => {
               </div>
           </div>
 
-          <div className="col-md-8 col-lg-4 col-12 mb-4">
+          <div className="col-md-4 col-lg-4 col-sm-4 col-12 mb-4">
             <div className="discount-product d-flex justify-content-between">
               
                 <div>
@@ -88,7 +88,7 @@ const PopularProduct = () => {
           {popular.map((product) => (
             <div
               key={product.id}
-              className="col-lg-2 col-md-4 col-6 text-center mb-4"
+              className="col-lg-2 col-md-3 col-sm-3 col-6 text-center mb-4"
             >
               <div className="product-item p-2">
                 <Link to="">

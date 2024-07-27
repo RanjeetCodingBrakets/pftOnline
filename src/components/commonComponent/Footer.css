@@ -33,27 +33,28 @@
   width: 16.6%;
 }
 .whatsapp_Banner{
-right: 0px;
-top: -86px;
-
+bottom: 5%;
+position: fixed;
+right: 30px;
+z-index: 9999;
 }
 
 .whatsapp-icon{
   color: #FFFFFF;
   background-color: #1AB654;
-  padding: 7px 3px 5px 3px;
   border-radius: 60%;
-  width: 69%;
-  height: 55px;
-  
+  width: 62px;
 }
 
 .w-icon{
-  width: 75%;
-  height: 42px;
+  font-size: 60px;
+  padding: 10px;
 }
 .whatsapp_Banner h6{
   color: #000;
+  color: #000;
+    font-weight: 900;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
 .whatsapp-icon:hover{

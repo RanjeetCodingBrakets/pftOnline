@@ -16,15 +16,6 @@ const Footer = () => {
     <>
       <div className="footer-section">
         <div className="container text-center position-relative ">
-          <div className="whatsapp_Banner position-absolute">
-          <Link to=''>
-            <div className="whatsapp-icon">
-              <RiWhatsappFill className="w-icon" />
-            </div>
-            <h6 className="mt-2 color-black">Talk To Us?</h6>
-            </Link>
-          </div>
-
           <div className="footer_logo position-absolute">
             <img src={logo} alt="logo" className="footer_logo_image" />
           </div>
@@ -119,6 +110,14 @@ const Footer = () => {
               </div>
             </div>                  
         </div>
+        <div className="whatsapp_Banner">
+          <Link to=''>
+            <div className="whatsapp-icon">
+              <RiWhatsappFill className="w-icon" />
+            </div>
+            <h6 className="mt-2 color-black">Talk To Us?</h6>
+            </Link>
+          </div>  
     </>
   );
 };

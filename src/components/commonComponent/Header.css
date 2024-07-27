@@ -42,7 +42,7 @@
 }
 
 .menu-item-header li{
- margin-right: 10px;
+ margin-right: 30px;
 }
 
 .custom-btn:hover{
@@ -62,10 +62,12 @@
   .header-logo {
     margin: 0 80px 0 24px;
 }
+.head-link{
+  font-size: 16px;
+}
 }
 
-@media (min-width: 768px) and (max-width: 991px)
- {
+@media (min-width: 768px) and (max-width: 991px){
   .header-logo{
     margin-right: 25px;
   
@@ -77,11 +79,24 @@
   .navbar-collapse {
     margin-bottom: 15px;
   }
-  
+  .head-link {
+    font-size: 16px;
+  }
+  .bg_image{
+    height: 279px; 
+  }
+  .sale_banner{
+    width: 100%;
+    min-width: 100%;
+    padding: 10px 10px 27px 5px;
+  }
   
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .head-link {
+    font-size: 16px;}
+
   .header-logo{
     margin-right: 10px;
   }
@@ -89,10 +104,18 @@
     margin-left: 10px;
   }
   .navbar-collapse {
-    margin-bottom: 15px;
+    margin: 15px;
   }
-
   .custom-btn{
-    margin-bottom: 8px;
+    margin: 15px 30px;
   }
+  .whatsapp_Banner {
+    bottom: 11%;
+    position: fixed;
+    right: 5px;
+    z-index: 9999;
+  }
+  .header-nav{
+    padding: 10px 5px;
+  } 
 }
