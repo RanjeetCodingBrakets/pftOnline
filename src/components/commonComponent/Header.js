@@ -80,8 +80,8 @@ const Header = ({
                 </Link>
                 <ul class="dropdown-menu">
                   <li>
-                    <Link class="dropdown-item" to="">
-                      Action
+                    <Link class="dropdown-item" to="/product-category">
+                      All Category
                     </Link>
                   </li>
                   <li>

@@ -7,7 +7,8 @@ import Timer from "./Timer";
 const WeekendSale = () => {
   return (
     <div className="sale mb-90">
-      <div className="container sale_banner rounded-4 ">
+      <div className="container  ">
+      <div className="sale_banner rounded-4 ">
       <img src={images.gift1} alt="Gifts" className="gift1_image" />
       <img src={images.gift2} alt="Gifts" className="gift2_image" />
         <div className="row p-4">
@@ -20,7 +21,7 @@ const WeekendSale = () => {
           <div className="col-12 col-lg-3 col-md-6 text-center my-3 my-md-0">
             <Timer />
           </div>
-          <div className="col-12 col-lg-3 col-md-6  p-3 text-center">
+          <div className="col-12 col-lg-3 col-md-6 offer-btn">
             
               <Link to="/about-offer" className="view_button">
                 About the Offer
@@ -28,6 +29,7 @@ const WeekendSale = () => {
             
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

@@ -26,7 +26,7 @@ const PopularProduct = () => {
         className="spices1 position-absolute"
       ></img>
       <div className="container">
-        <div className="row mb-90 discount-block justify-content-center">
+        <div className="row mb-50 discount-block justify-content-center">
           <div className="col-md-8 col-lg-4 col-12 mb-4 ">
             <div className="discount-product d-flex justify-content-between">
               <div>
@@ -75,7 +75,7 @@ const PopularProduct = () => {
           </div>
         </div>
 
-        <div className="row mb-50">
+        <div className="row mb-90 p-prod">
           <div className="col-12">
             <div className="product_heading">
               <h3 className="text-center">Choose From Popular Products</h3>
@@ -84,7 +84,7 @@ const PopularProduct = () => {
           </div>
         </div>
 
-        <div className="row p-5">
+        <div className="row mb-40">
           {popular.map((product) => (
             <div
               key={product.id}

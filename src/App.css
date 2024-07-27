@@ -2,11 +2,11 @@
   padding: 0px;
   margin: 0px;
 }
-.main-body{
+/* .main-body{
   background-color: white;
   min-height: 1000px;
   width: 100%;
-}
+} */
 .foote-section{
   background-color: gray;
   width: 100%;
@@ -40,6 +40,8 @@ Link, a{
 .custom-btn:hover {
   background-color: #37621A;
 }
+
+
 
 .col-2_5 {
   width: 20%;
@@ -78,5 +80,11 @@ h3{
 @media (min-width: 320px) and (max-width: 767px){
   .col-2_5{
     width:50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+  .col-2_5{
+    width: 25%;
   }
 }
