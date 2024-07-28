@@ -1281,6 +1281,7 @@
 /* ipad media responsive */
 .offer-btn {
   margin: auto;
+  text-align: end;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {

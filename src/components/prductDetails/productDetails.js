@@ -25,7 +25,7 @@ const ProdctDetails = () => {
     asNavFor: mainSlider.current,
     centerMode: true,
     infinite: true,
-    arrows: true,
+    arrows: false,
   };
 
   const products = [
@@ -94,27 +94,27 @@ const ProdctDetails = () => {
         <div className='container'>
           <div className='row product-details-img-content'>
             <div className='col-12 col-sm-6'>
-              <div className="slider-container">
+              <div className="slider-container prduct-details-page">
                 <Slider {...mainSliderSettings} ref={mainSlider}>
-                  <div className='product-single-images'>
-                    <img src="https://via.placeholder.com/800x400" alt="Slide 1" />
+                  <div className='product-outer product-outer-c'>
+                    <img src={images.teju} alt={images.teju} className="img-fluid" />
                   </div>
-                  <div className='product-single-images'>
-                    <img src="https://via.placeholder.com/800x400" alt="Slide 2" />
+                  <div className='product-outer product-outer-c'>
+                  <img src={images.teju} alt={images.teju} className="img-fluid" />
                   </div>
-                  <div className='product-single-images'>
-                    <img src="https://via.placeholder.com/800x400" alt="Slide 3" />
+                  <div className='product-outer product-outer-c'>
+                  <img src={images.teju} alt={images.teju} className="img-fluid" />
                   </div>
                 </Slider>
                 <Slider {...thumbnailSliderSettings} ref={thumbnailSlider}>
-                  <div className='product-multi-images'>
-                    <img src="https://via.placeholder.com/150x75" alt="Thumbnail 1" />
+                  <div className='product-outer product-outer-m'>
+                  <img src={images.teju} alt={images.teju} className="img-fluid" />
                   </div>
-                  <div className='product-multi-images'>
-                    <img src="https://via.placeholder.com/150x75" alt="Thumbnail 2" />
+                  <div className='product-outer product-outer-m'>
+                  <img src={images.teju} alt={images.teju} className="img-fluid" />
                   </div>
-                  <div className='product-multi-images'>
-                    <img src="https://via.placeholder.com/150x75" alt="Thumbnail 3" />
+                  <div className='product-outer product-outer-m'>
+                  <img src={images.teju} alt={images.teju} className="img-fluid" />
                   </div>
                 </Slider>
               </div>
@@ -123,7 +123,7 @@ const ProdctDetails = () => {
               <div className='product-content'>
                 <h4>Garam Masala (Premium Big), 1 Kg</h4>
                 <small>1 kg</small>
-                <div className='p-price'>Rs. 60.0</div>
+                <div className='p-price'><span>Rs. 60.0</span></div>
                 <h4>Product details</h4>
                 <ul>
                   <li>Lorem ipsum is placeholder text commonly used in the graphi</li>

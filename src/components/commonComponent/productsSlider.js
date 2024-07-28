@@ -47,13 +47,15 @@ const ProductSlider = ({ products }) => {
                 {products.map(product => (
                     <div>
                         <Link to="" className="product-card-link">
-                            <div className="product-card">
+                            <div className="product-card mb-4">
+                                <div className='product-outer'>
                                 <img src={product.image} alt={product.name} className="img-fluid" />
+                                </div>
                                 <h3>{product.name}</h3>
                                 <hr className="divide" />
-                                <div className='d-flex '>
-                                    <p>₹{product.price.toFixed(2)}</p>
-                                    <span>{product.weight}</span>
+                                <div className='product-rate'>
+                                    <p className='p-2'>₹{product.price.toFixed(2)} <span className='float-end product-price'>{product.weight}</span></p>
+
                                 </div>
                             </div>
                         </Link>
