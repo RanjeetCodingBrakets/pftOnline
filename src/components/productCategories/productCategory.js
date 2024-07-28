@@ -40,10 +40,10 @@ const ProductCategory = () => {
         </div>
 
         <div className="row">
-          <div className="col-12 col-md-3 col-lg-3">
+          <div className="col-12 col-md-4 col-lg-3 mb-40">
             <CategorySidebar  onCategoryChange={handleCategoryChange}/>
           </div>
-          <div className="col-12 col-md-9 col-lg-9">
+          <div className="col-12 col-md-8 col-lg-9">
             <ProductGrid products={sortedProducts} />
           </div>
         </div>

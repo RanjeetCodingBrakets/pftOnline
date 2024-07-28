@@ -1,32 +1,48 @@
 .prod-categry{
     background-color: #F5F5F5;
-
 }
 
 .category-head{
     margin-top: 48px;
+    border-bottom: 1px solid #0000001A;
 }
 
-.search-cate Button{
-    background-color: #fff;
-    color:  #999999;
-    border: none;
-    border-radius: 100px 0px 0px 100px;  
+/* .input-group{
+  width: 68%;
+} */
+
+.search-item{
+  border-radius: 300px;
+  border-right: 0px;
+  border: 1px solid #EDEDED;
+  background-color: #fff;
+}
+.search-item:hover{
+  background-color: #fff;
+  border: 1px solid #000;
 }
 
-.input-catgry{
-    border: none;
-    width: 44%;
-    padding: 5px;
-    border-radius: 0px 100px 100px 0px;
- 
+.search-inpt{
+  border-radius: 300px;
+  border-left: 0px;
+  border: 1px solid #EDEDED;
+}
+
+.search-inpt:focus{
+  box-shadow: none;
+  border: 1px solid #EDEDED;
+}
+.sidebar-top{
+  border-radius: 20px 20px 10px 10px;
+  box-shadow: 0px 7px 13px 0px #00000014;
+
 }
 
 .category-sidebar {
-    width: 250px;
+    width: 100%;
     background-color: #fff;
     border-right: 1px solid #ddd;
-    padding: 10px;
+    border-radius: 20px;
   }
   
   .category-sidebar ul {
@@ -44,14 +60,29 @@
   }
   
   .category-sidebar li:hover {
-    background-color: #f0f0f0;
+    background: linear-gradient(90deg, #FFFFFF 0%, #E8F2E1 100%);
+    border-right: 2px solid #37621A;
+
+  }
+
+  .category-sidebar li:active {
+    background: linear-gradient(90deg, #FFFFFF 0%, #E8F2E1 100%);
+    border-right: 2px solid #37621A;
+  }
+
+
+  .category-sidebar li:focus{
+    background: linear-gradient(90deg, #FFFFFF 0%, #E8F2E1 100%);
+    border-right: 2px solid #37621A;
+
   }
   
   .category-sidebar .icon {
-    width: 24px;
-    height: 24px;
+    width: 35px;
+    height: 35px;
     margin-right: 10px;
-    background-color: #eee;
+    background-color: #E8F2E1;
+    ;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -67,16 +98,27 @@
     color: #888;
   }
 
+  .sort-btn{
+    border: 1px solid #DDDDDD;
+    border-radius: 300px;
+    background-color: #fff;
+    padding: 10px 18px;
+    margin-right: 30px;
+font-size: 18px;
+font-weight: 500;
+
+  }
+
   .product-card{
     border: 1px solid #DDDDDD;
     background-color: #fff;
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 30px;
   }
 
   .product-card img{
-    width: 70%;
+    width: 50%;
     margin: auto;
     display: block;
 
@@ -84,13 +126,26 @@
 
   .product-card h3{
     font-family: Josefin Sans;
-font-size: 20px;
+font-size: 16px;
 font-weight: 500;
-line-height: 30px;
+line-height: 25px;
 color: #000;
+margin: 0px 15px;
+  }
+
+  .product-card p{
+    margin: 7px 18px;
+    color: #000;
+  }
+  .product-price{
+  color: #37621A;
   }
 
   .divide{
     border: 1px solid #DDDDDD;
-    
+    margin-bottom: 10px; 
+  }
+
+  .product-card:hover{
+    border: 1px solid #000;
   }

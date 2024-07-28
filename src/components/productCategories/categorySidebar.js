@@ -39,9 +39,9 @@ const CategorySidebar = ({ onCategoryChange }) => {
   };
 
   return (
-    <aside className="category-sidebar">
+    <div className="category-sidebar ">
       <ul>
-        <li onClick={toggleDropdown} className="dropdown-header">
+        <li onClick={toggleDropdown} className="dropdown-header sidebar-top">
           <span className="icon">
             <img src={categoryIcons['All']} alt="All icon" />
           </span>
@@ -62,7 +62,7 @@ const CategorySidebar = ({ onCategoryChange }) => {
           </li>
         ))}
       </ul>
-    </aside>
+    </div>
   );
 };
 
