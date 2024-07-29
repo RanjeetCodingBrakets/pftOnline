@@ -23,12 +23,12 @@ const ProductGrid = ({ products }) => {
       <Row>
         <Col className='mb-4 d-flex align-items-center'>
           {selectedSorts.map((sort, index) => (
-            <Toast key={index} className="me-2">
+            <Toast key={index} className="">
               <Toast.Body>
                 {sort}
                 <button 
                   type="button" 
-                  className="btn-close ms-2" 
+                  className="btn-close " 
                   aria-label="Close"
                   onClick={() => handleToastClose(sort)}
                 ></button>
