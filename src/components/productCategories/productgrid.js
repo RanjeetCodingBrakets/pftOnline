@@ -26,16 +26,18 @@ const ProductGrid = ({ products }) => {
         {products.map(product => (
           <Col key={product.id} xs={12} sm={6} md={6} lg={4}>
             <Link to="" className="product-card-link">
-              <div className="product-card mb-4">
-                <img src={product.image} alt={product.name} className="img-fluid" />
-                <h3>{product.name}</h3>
-                <hr className="divide" />
-                <div className='product-rate'>
-                  <p className='p-2'>₹{product.price.toFixed(2)} <span className='float-end product-price'>{product.weight}</span></p>
-                  
-                </div>
-              </div>
-            </Link>
+                            <div className="product-card mb-4">
+                                <div className='product-outer'>
+                                <img src={product.image} alt={product.name} className="img-fluid" />
+                                </div>
+                                <h3>{product.name}</h3>
+                                <hr className="divide" />
+                                <div className='product-rate'>
+                                    <p className='p-2'>₹{product.price.toFixed(2)} <span className='float-end product-price'>{product.weight}</span></p>
+
+                                </div>
+                            </div>
+                        </Link>
           </Col>
         ))}
       </Row>
