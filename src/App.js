@@ -6,7 +6,7 @@ import AboutUs from "./components/aboutUsComponent/aboutUs";
 import Header from "./components/commonComponent/Header";
 import Footer from "./components/commonComponent/Footer";
 import TopHeader from "./components/commonComponent/topHeader";
-import ProductCategory from "./components/productCategories/productCategory";
+import ProductCategory from "./components/productCategories/productListing";
 
 function App() {
   return (
