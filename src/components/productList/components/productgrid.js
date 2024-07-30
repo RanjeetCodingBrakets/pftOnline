@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { Container, Row, Col, Dropdown, Toast } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Container, Col, Dropdown, Toast } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const ProductGrid = ({ products }) => {
-  const [sortKey, setSortKey] = useState('');
+  const [sortKey, setSortKey] = useState("");
   const [selectedSorts, setSelectedSorts] = useState([]);
 
   const handleSortChange = (key) => {
@@ -15,58 +15,77 @@ const ProductGrid = ({ products }) => {
   };
 
   const handleToastClose = (key) => {
-    setSelectedSorts(selectedSorts.filter(sort => sort !== key));
+    setSelectedSorts(selectedSorts.filter((sort) => sort !== key));
   };
 
   return (
-    <Container className='mb-90'>
-      <Row>
-        <Col className='mb-4 d-flex align-items-center'>
+    <Container className="mb-90">
+      <div className="row mb-4 d-flex align-items-center ">
+        <div className="col-lg-9 col-12 d-flex flex-wrap order-sm-2 order-md-2 order-lg-1 order-2">
           {selectedSorts.map((sort, index) => (
-            <Toast key={index} className="">
-              <Toast.Body>
+            <Toast key={index} className="w-auto m-2 toast-box ">
+              <Toast.Body className="w-auto toast-btn">
                 {sort}
-                <button 
-                  type="button" 
-                  className="btn-close " 
+                <button
+                  type="button"
+                  className="btn-close "
                   aria-label="Close"
                   onClick={() => handleToastClose(sort)}
                 ></button>
               </Toast.Body>
             </Toast>
           ))}
-          <Dropdown>
-            <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+        </div>
+        <div className="col-lg-3 col-12 order-sm-1 order-md-1 order-lg-2 order-1">
+          <Dropdown className="float-end">
+            <Dropdown.Toggle id="dropdown-basic" className="filter-btn">
               Sort Options
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-              <Dropdown.Item onClick={() => handleSortChange('price')}>Sort by Price</Dropdown.Item>
-              <Dropdown.Item onClick={() => handleSortChange('name')}>Sort by Name</Dropdown.Item>
-              <Dropdown.Item onClick={() => handleSortChange('bestseller')}>Sort by Best Seller</Dropdown.Item>
-              <Dropdown.Item onClick={() => handleSortChange('newarrival')}>Sort by New Arrival</Dropdown.Item>
+              <Dropdown.Item onClick={() => handleSortChange("price")}>
+                Sort by Price
+              </Dropdown.Item>
+              <Dropdown.Item onClick={() => handleSortChange("name")}>
+                Sort by Name
+              </Dropdown.Item>
+              <Dropdown.Item onClick={() => handleSortChange("bestseller")}>
+                Sort by Best Seller
+              </Dropdown.Item>
+              <Dropdown.Item onClick={() => handleSortChange("newarrival")}>
+                Sort by New Arrival
+              </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-        </Col>
-      </Row>
-      <Row>
-        {products.map(product => (
+        </div>
+      </div>
+      <div className="row">
+        {products.map((product) => (
           <Col key={product.id} xs={12} sm={6} md={6} lg={4}>
             <Link to="" className="product-card-link">
               <div className="product-card mb-4">
-                <div className='product-outer'>
-                  <img src={product.image} alt={product.name} className="img-fluid" />
+                <div className="product-outer">
+                  <img
+                    src={product.image}
+                    alt={product.name}
+                    className="img-fluid"
+                  />
                 </div>
                 <h3>{product.name}</h3>
                 <hr className="divide" />
-                <div className='product-rate'>
-                  <p className='p-2'>₹{product.price.toFixed(2)} <span className='float-end product-price'>{product.weight}</span></p>
+                <div className="product-rate">
+                  <p className="p-2">
+                    ₹{product.price.toFixed(2)}{" "}
+                    <span className="float-end product-price">
+                      {product.weight}
+                    </span>
+                  </p>
                 </div>
               </div>
             </Link>
           </Col>
         ))}
-      </Row>
+      </div>
     </Container>
   );
 };

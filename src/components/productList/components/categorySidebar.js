@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import products from './productMockData';
 import images from '../../../constants/images';
+import { IoIosArrowDown } from "react-icons/io";
 
 // Mapping of main categories to subcategories
 const mainCategories = {
@@ -49,21 +50,29 @@ const CategorySidebar = ({ onCategoryChange }) => {
   };
 
   return (
-    <div className="category-sidebar">
-      <ul>
-        <li onClick={toggleDropdown} className="dropdown-header sidebar-top">
+    <div className="category-sidebar position-relative">
+      <ul className="sidebar-top">
+        <li onClick={toggleDropdown} className="dropdown-header">
           <span className="icon">
             <img src={categoryIcons['All']} alt="All icon" />
           </span>
           <span className="category-name">{selectedMainCategory}</span>
+          <IoIosArrowDown />
         </li>
-        {isOpen && Object.keys(mainCategories).map((mainCategory, index) => (
-          <li key={index} onClick={() => handleMainCategoryChange(mainCategory)}>
-            <span className="category-name">{mainCategory}</span>
-          </li>
-        ))}
       </ul>
-      <ul>
+      {isOpen && (
+        <ul className="dropdown-options position-absolute side-drop-option">
+          {Object.keys(mainCategories).map((mainCategory, index) => (
+            <li key={index} onClick={() => handleMainCategoryChange(mainCategory)}>
+            <span className="icon">
+            <img src={categoryIcons['All']} alt="All icon" />
+            </span>
+              <span className="category-name">{mainCategory}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+      <ul className="product-categories">
         {mainCategories[selectedMainCategory].map((category, index) => (
           <li key={index} onClick={() => onCategoryChange(category)}>
             <span className="icon">

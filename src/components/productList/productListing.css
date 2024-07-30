@@ -21,9 +21,12 @@
   background-color: #EDEDED;
   border: 1px solid #EDEDED;
 }
-/* .search-item{}
-  background-color: #fff;
-} */
+
+.search-item:first-child:active{
+  background-color: #37621A;
+  border: 1px solid #37621A;
+}
+  
 
 .search-inpt{
   border-radius: 300px;
@@ -36,16 +39,21 @@
   border: 1px solid #EDEDED;
 }
 .sidebar-top{
-  border-radius: 20px 20px 10px 10px;
+  font-size: 18px;
+  border-radius: 20px 20px 0px 0px;
   box-shadow: 0px 7px 13px 0px #00000014;
 
 }
 
 .category-sidebar {
+  font-size: 18px;
     width: 100%;
     background-color: #fff;
     border-right: 1px solid #ddd;
     border-radius: 20px;
+  }
+  .category-name{
+    font-size: 18px;
   }
   
   .category-sidebar ul {
@@ -67,6 +75,7 @@
   .category-sidebar li:hover {
     background: linear-gradient(90deg, #FFFFFF 0%, #E8F2E1 100%);
     border-right: 2px solid #37621A;
+    border-radius: 20px 0px 0px 20px;
 
   }
 
@@ -106,6 +115,13 @@
   .category-sidebar .category-count {
     font-size: 12px;
     color: #888;
+  }
+
+  .side-drop-option{
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 7px 13px 0px #00000014;
+    width: 100%;
   }
 
   .sort-btn{
@@ -160,3 +176,82 @@ text-align: left;
   .product-card:hover{
     border: 1px solid #000;
   }
+
+
+  .toast-btn{
+    font-size: 18px;
+    color: #000;
+  }
+   .toast-btn button{
+    font-size: 10px;
+    margin-left: 10px;
+    color: #0000;
+   }
+
+  .toast-box{
+    border-radius: 300px;
+    padding: 0px 9px;
+  }
+
+  .toast-box:hover{
+    background-color: #E8F2E1;
+    border: 1px solid #37621A
+  }
+
+  .filter-btn{
+    border-radius: 300px;
+    background-color: #37621A;
+    font-size: 18px;
+    padding: 10px 18px;
+    border: 1px solid #37621A;
+}
+
+.filter-btn:hover{
+  background-color: #fff;
+  color: #37621A;
+  border: 1px solid #37621A;
+
+}
+
+.filter-btn:first-child:active{
+  background-color: #37621A;
+  border: 1px solid #37621A;
+  color: #fff;
+ 
+}
+
+.btn.show{
+  background-color: #37621A ;
+  border: 1px solid #37621A;
+  color: #fff;
+ 
+}
+
+
+@media (min-width: 320px) and (max-width: 767px){
+  .input-group{
+    width: 100% !important;
+  }
+
+  .toast-box {
+    padding: 0px 2px;
+}
+.category-head{
+  margin-bottom: 50px !important;
+}
+
+.filter-btn{
+  margin-bottom: 10px;
+}
+  }
+
+
+
+
+
+
+
+
+
+
+

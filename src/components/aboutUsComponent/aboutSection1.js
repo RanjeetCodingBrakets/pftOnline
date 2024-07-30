@@ -47,9 +47,9 @@ const AboutSection1 = () => {
                 </div>
                 <div className="col-md-6 col-12">
                   <div className="slider-images d-flex justify-content-center">
-                    <div className="bg_image">
+                    <div className="about_image">
                       
-                      <img src={images.bg} alt="people" className="people_image" />
+                      <img src={images.bg} alt="people" className="banner_img" />
                       {/* <div className='curve-img position-absolute'>
                         <img src={images.curvetext} alt='curvetext' className=''/>
                       </div> */}

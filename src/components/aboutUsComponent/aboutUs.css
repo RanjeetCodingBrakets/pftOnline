@@ -35,4 +35,19 @@ line-height: 22px;
         z-index: 1;
     }
 
+    .about_image {
+        position: relative;
+        width: 100%;
+        background-color: #fff;
+        z-index: 1;
+        height: 365px;
+        overflow: hidden;
+        border-radius: 5px;
+      }
+      
+      .banner_img {
+        width: 100%;
+      
+      }
+
     

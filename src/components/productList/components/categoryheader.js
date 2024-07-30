@@ -7,7 +7,7 @@ const Categoryheader = ({ selectedCategory }) => {
     <div className="container">
       <div className="row category-head mb-90">
         <div className="col-lg-6 col-md-6 col-12 col-sm-6">
-          <h1>Spices</h1>
+          <h1>All Products</h1>
         </div>
         <div className="col-lg-6 col-md-6 col-12 col-sm-6 d-flex justify-content-end ">
           <div class="input-group mb-3 w-75">
