@@ -52,7 +52,7 @@ const Footer = () => {
                 </li>
                 <div />
                 <li className="footer_menu">
-                  <Link to="/product-category">Category</Link>
+                  <Link to="/product-Listing">Category</Link>
                 </li>
                 <div />
                 <li className="footer_menu">

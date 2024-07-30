@@ -256,7 +256,7 @@
 }
 
 .sale_banner {
-  max-width: 75%;
+  max-width: 90%;
   background: linear-gradient(104deg, #37621A 75%, #78BB4A 72%);
   padding: 10px 20px;
   font-size: 16px;
@@ -1282,6 +1282,7 @@
 .offer-btn {
   margin: auto;
   text-align: end;
+
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {

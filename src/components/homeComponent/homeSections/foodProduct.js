@@ -40,7 +40,7 @@ const FoodProduct = () => {
           {food.map(product2 => (
             <div className='col-2_5 text-center'>
             <div key={product2.id}  className='foodProduct-item mb-4'>
-                <Link to="">
+                <Link to="/product-details">
                   <div className='product-image1'>
                   <img src={product2.imgSrc} alt={product2.name}/>
                   <h6>{product2.name}</h6>

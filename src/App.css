@@ -99,6 +99,10 @@ h3{
     max-height: 100%;
 }
 
+.dropdown-item:active{
+  background-color: #37621A;
+}
+
 @media (min-width: 1200px) {
   .h3, h3 {
       font-size: 1.5rem;
