@@ -119,7 +119,7 @@
 
 .stick_image {
   position: absolute;
-  left: -120px;
+  left: -100px;
   width: 30%;
   z-index: 1;
   bottom: 88px;

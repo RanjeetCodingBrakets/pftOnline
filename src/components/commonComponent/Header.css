@@ -1,16 +1,11 @@
 
-/* .header-logo{
-  margin: 0 200px 0 100px;
-
-} */
 .nav_logo {
-  width: 100px;
-
+  width: 120px;
 }
 
-/* .header-logo {
-  margin: 0 100px 0 100px;
-} */
+.drop-option{
+  width: 117%;
+}
 
 
 .head-link {
@@ -46,7 +41,9 @@
 }
 
 .custom-btn:hover{
-  color: yellowgreen;
+  color: #37621A;
+  background-color: #fff;
+  border: 1px solid #37621A;
 }
 
 .head-live-timer:hover{

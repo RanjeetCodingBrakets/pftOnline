@@ -50,7 +50,11 @@ import option9 from '../assets/optionIcon/option9.png';
 import option10 from '../assets/optionIcon/option10.png';
 import option11 from '../assets/optionIcon/option11.png';
 import option12 from '../assets/optionIcon/option12.png';
-import option13 from '../assets/optionIcon/option13.png'
+import option13 from '../assets/optionIcon/option13.png';
+import frame6 from '../assets/background/Frame6.png';
+import frame7 from '../assets/background/Frame7.png';
+import frame8 from '../assets/background/Frame8.png';
+import group1 from '../assets/Group1.png';
 
 const images = {
   logo,
@@ -106,8 +110,10 @@ const images = {
   option11,
   option12,
   option13,
-
-
+  frame6,
+  frame7,
+  frame8,
+  group1
 
 };
 
