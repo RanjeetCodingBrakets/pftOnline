@@ -135,14 +135,45 @@ p {
   }
 }
 
+/* team css */
 
-.card {
-  margin-bottom: 30px;
+.team-container{
+  background-color: #F5F5F5;
+
+}
+.team-card {
+  box-shadow: 19px 14px 34px 0px #00000026;
+  border: none;
+  height: 600px;
+
 }
 
 .card-img-top {
-  height: 200px; /* Adjust height as needed */
+  height: 320px; /* Adjust height as needed */
   object-fit: cover;
+}
+
+.text-body{
+  background-color: #F5F5F5;
+}
+
+.member-name{
+  background-color: #37621A;
+font-size: 22px;
+font-weight: 600;
+line-height: 18px;
+color: #fff;
+padding: 12px 10px;
+}
+
+.member-text{
+  color: #6B6B6B;
+  font-family: Josefin Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+
+
 }
 
 

@@ -63,8 +63,8 @@ const ProductGrid = ({ products }) => {
         {products.map((product) => (
           <Col key={product.id} xs={12} sm={6} md={6} lg={4}>
             <Link to="/product-details" className="product-card-link">
-              <div className="product-card mb-4">
-                <div className="product-outer">
+              <div className="product-card  mb-4">
+                <div className="product-outer mx-auto">
                   <img
                     src={product.image}
                     alt={product.name}

@@ -4,6 +4,7 @@ import Categoryheader from "./components/categoryheader";
 import CategorySidebar from "./components/categorySidebar";
 import ProductGrid from "./components/productgrid";
 import products from "./components/productMockData";
+import images from "../../constants/images";
 import "./productListing.css";
 
 const ProductListing = () => {

@@ -36,7 +36,6 @@ import frame4 from '../assets/background/Frame4.png';
 import frame5 from '../assets/background/Frame5.png';
 import fb from '../assets/background/fb.png';
 import go from '../assets/background/go.png';
-import curvetext from '../assets/curvetext.png';
 import layer2 from '../assets/Layer2.png';
 import option1 from '../assets/optionIcon/option1.png';
 import option2 from '../assets/optionIcon/option2.png';
@@ -55,6 +54,8 @@ import frame6 from '../assets/background/Frame6.png';
 import frame7 from '../assets/background/Frame7.png';
 import frame8 from '../assets/background/Frame8.png';
 import group1 from '../assets/Group1.png';
+import member from '../assets/member.png';
+import frame9 from '../assets/background/Frame9.png';
 
 const images = {
   logo,
@@ -95,7 +96,6 @@ const images = {
   frame5,
   fb,
   go,
-  curvetext,
   layer2,
   option1,
   option2,
@@ -113,7 +113,9 @@ const images = {
   frame6,
   frame7,
   frame8,
-  group1
+  group1,
+  member,
+  frame9,
 
 };
 

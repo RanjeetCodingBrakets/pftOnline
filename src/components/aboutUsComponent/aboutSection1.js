@@ -6,7 +6,7 @@ import WeekendSale from '../homeComponent/homeSections/weekendSale';
 
 const AboutSection1 = () => {
   return (
-    <div className='about-section1 mb-50'>
+    <div className='about-section1'>
        <div className="container">
        <div className='row mb-50'>
         <div className='col-12 about-head'>

@@ -35,7 +35,7 @@ const NonFoodProduct = () => {
             </div>
           </div>
         </div>
-        <div  className='row non-food-block'>
+        <div  className='row non-food-block justify-content-center'>
           {nonFood.map(product1 => (
             <div className='col-2_5 text-center'>
             <div key={product1.id}  className='nonFoodProduct-item2 mb-4 '>

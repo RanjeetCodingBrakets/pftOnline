@@ -139,14 +139,14 @@ font-weight: 500;
     border: 1px solid #DDDDDD;
     background-color: #fff;
     width: 100%;
-    /* padding: 10px; */
     border-radius: 30px;
+    text-align: center;
   }
 
 
   .product-card h3{
     font-family: Josefin Sans;
-font-size: 20px;
+font-size: 18px;
 font-weight: 500;
 line-height: 30px;
 text-align: left;
@@ -156,9 +156,9 @@ margin: 0px 20px;
 
   .product-card p{
     font-family: Josefin Sans;
-font-size: 20px;
+font-size: 18px;
 font-weight: 500;
-line-height: 30px;
+line-height: 25px;
 text-align: left;
 
     margin: 7px 18px;
@@ -170,7 +170,8 @@ text-align: left;
 
   .divide{
     border: 1px solid #DDDDDD;
-    margin-bottom: 10px; 
+    margin-bottom: 5px;
+    margin-top: 5px; 
   }
 
   .product-card:hover{
