@@ -168,12 +168,78 @@ padding: 12px 10px;
 
 .member-text{
   color: #6B6B6B;
-  font-family: Josefin Sans;
 font-size: 18px;
 font-weight: 400;
 line-height: 22px;
 
+}
+
+.map-box{
+  padding-bottom: 90px;
+}
+
+.map-con h4{
+font-size: 24px;
+font-weight: 700;
+line-height: 24px;
+}
+.map-con p{
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+color: #6B6B6B;
 
 }
+
+.map img{
+  height: 470px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+  .card-img-top {
+    height: 255px;
+    width: 100%;
+  }
+  .team-card{
+    height: 520px;
+  }
+  .team-box{
+    margin-top: 0px !important;
+    width: 33.33%;
+    padding: 10px !important;
+  }
+
+  
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+  .team-desc{
+    display: grid;
+    justify-items: center;
+  }
+ 
+  .card-img-top {
+    height: 400px;
+    width: 100%;
+  }
+  .team-card{
+    height: 450px;
+  }
+  .team-box{
+    margin-top: 0px !important;
+    width: 75%;
+    padding: 15px !important;
+    margin-bottom: 100px !important;
+
+  }
+
+  .map img{
+    height: 290px;
+  }
+}
+
+
 
 

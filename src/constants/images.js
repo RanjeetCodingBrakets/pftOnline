@@ -56,6 +56,7 @@ import frame8 from '../assets/background/Frame8.png';
 import group1 from '../assets/Group1.png';
 import member from '../assets/member.png';
 import frame9 from '../assets/background/Frame9.png';
+import map from '../assets/map.png';
 
 const images = {
   logo,
@@ -116,6 +117,7 @@ const images = {
   group1,
   member,
   frame9,
+  map,
 
 };
 
