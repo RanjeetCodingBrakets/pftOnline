@@ -57,6 +57,7 @@ import group1 from '../assets/Group1.png';
 import member from '../assets/member.png';
 import frame9 from '../assets/background/Frame9.png';
 import map from '../assets/map.png';
+import profilepic from '../assets/profilepic.png';
 
 const images = {
   logo,
@@ -118,6 +119,7 @@ const images = {
   member,
   frame9,
   map,
+  profilepic,
 
 };
 
