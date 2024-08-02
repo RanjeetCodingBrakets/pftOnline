@@ -241,10 +241,6 @@
     margin-top: 15px;
   }
 
-  /* .organic h5 img {
-     width: 8%;
-     
- } */
 
 }
 
@@ -346,6 +342,19 @@
     padding-left: 22px;
   }
 
+}
+
+@media (min-width: 320px) and (max-width: 424px){
+.sale_banner {
+  background:#37621A;
+}
+.offer-btn{
+  text-align: center;
+}
+.gift1_image {
+  top: 20px;
+  right: 10px;
+}
 }
 
 /* trade css */
@@ -998,13 +1007,21 @@
   }
 
   .about-box {
-    padding: 0px 55px;
+    padding: 0px 30px;
   }
 
   .subscribe input {
     padding: 10px 12px;
   }
 
+  .subscribe a {
+    padding: 9px 14px;
+}
+.about_stick{
+  left: -56px;
+}
+.about_wheat {
+  bottom: -8px}
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
@@ -1033,10 +1050,6 @@
 
   .aboutFruitjuice-img {
     display: none;
-  }
-
-  .about-box {
-    padding: 0px 55px;
   }
 
   .subscribe input {

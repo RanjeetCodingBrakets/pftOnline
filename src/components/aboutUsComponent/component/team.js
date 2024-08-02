@@ -14,7 +14,7 @@ const Team = () => {
           </p>
         </div>
       </div>
-      <div className="row team-desc">
+      <div className="row mb-5 justify-content-center team-desc">
         <div className="col-2_5 p-1 team-box">
           <div className="card team-card">
             <img
@@ -22,7 +22,7 @@ const Team = () => {
               className="card-img-top"
               alt="member"
             />
-            <div className="card-body p-0 text-body">
+            <div className="card-body text-body">
               <h5 className="card-title member-name">Monika Roy</h5>
               <p className="card-text member-text p-3">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual </p>
             </div>
@@ -35,7 +35,7 @@ const Team = () => {
               className="card-img-top"
               alt="member"
             />
-            <div className="card-body p-0 text-body">
+            <div className="card-body text-body">
               <h5 className="card-title member-name">Monika Roy</h5>
               <p className="card-text member-text p-3">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual </p>
             </div>
@@ -48,7 +48,7 @@ const Team = () => {
               className="card-img-top"
               alt="member"
             />
-            <div className="card-body p-0 text-body">
+            <div className="card-body text-body">
               <h5 className="card-title member-name">Monika Roy</h5>
               <p className="card-text member-text p-3">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual </p>
             </div>
@@ -61,7 +61,7 @@ const Team = () => {
               className="card-img-top"
               alt="member"
             />
-            <div className="card-body p-0 text-body">
+            <div className="card-body text-body">
               <h5 className="card-title member-name">Monika Roy</h5>
               <p className="card-text member-text p-3">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual </p>
             </div>
@@ -74,7 +74,7 @@ const Team = () => {
               className="card-img-top"
               alt="member"
             />
-            <div className="card-body p-0 text-body">
+            <div className="card-body text-body">
               <h5 className="card-title member-name">Monika Roy</h5>
               <p className="card-text member-text p-3">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual </p>
             </div>

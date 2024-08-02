@@ -198,4 +198,9 @@
     background-repeat: repeat-y,
       /* Repeat settings for the first image */ repeat-y; /* Repeat settings for the second image */
   }
+
+  .footer-policy{
+    flex-direction: column;
+    text-align: center;
+  }
 }
