@@ -139,14 +139,14 @@ font-weight: 500;
     border: 1px solid #DDDDDD;
     background-color: #fff;
     width: 100%;
-    /* padding: 10px; */
     border-radius: 30px;
+    text-align: center;
   }
 
 
   .product-card h3{
     font-family: Josefin Sans;
-font-size: 20px;
+font-size: 18px;
 font-weight: 500;
 line-height: 30px;
 text-align: left;
@@ -156,9 +156,9 @@ margin: 0px 20px;
 
   .product-card p{
     font-family: Josefin Sans;
-font-size: 20px;
+font-size: 18px;
 font-weight: 500;
-line-height: 30px;
+line-height: 25px;
 text-align: left;
 
     margin: 7px 18px;
@@ -170,13 +170,13 @@ text-align: left;
 
   .divide{
     border: 1px solid #DDDDDD;
-    margin-bottom: 10px; 
+    margin-bottom: 5px;
+    margin-top: 5px; 
   }
 
   .product-card:hover{
     border: 1px solid #000;
   }
-
 
   .toast-btn{
     font-size: 18px;
@@ -244,14 +244,49 @@ text-align: left;
   margin-bottom: 10px;
 }
   }
+  
 
+  
 
+/* Styles for the sidebar */
+.category-sidebar {
+  display: none; /* Hide by default */
+}
 
+/* Toggle button styles */
+.toggle-button {
+  display: none; /* Hide by default */
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  padding: 10px;
+}
+.toggle-button span{
+  padding-left: 10px;
+}
 
+/* For tablets and mobile devices */
+@media (max-width: 991px) {
+  .category-sidebar {
+    display: none; /* Hide sidebar */
+  }
+  .category-sidebar.open {
+    display: block; /* Show sidebar when open */
+  }
+  .toggle-button {
+    display: block; /* Show toggle button */
+  }
+}
 
-
-
-
+/* For screens larger than tablets */
+@media (min-width: 992px) {
+  .category-sidebar {
+    display: block; /* Show sidebar */
+  }
+  .toggle-button {
+    display: none; /* Hide toggle button */
+  }
+}
 
 
 

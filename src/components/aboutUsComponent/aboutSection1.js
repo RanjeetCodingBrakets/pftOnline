@@ -16,7 +16,7 @@ const AboutSection1 = () => {
         </div>
        </div>
               <div className="row ">
-                <div className="col-md-6 col-12  ">
+                <div className="col-md-12 col-lg-6 order-md-2 order-2 order-lg-1">
                   
                 <div className="about_content about-con">
               <h4>
@@ -37,22 +37,24 @@ const AboutSection1 = () => {
                graphic, print, and publishing industries for previewing layouts
                  and visual mockups.
               </p>
-              <h5><img src={images.layer2} alt='layer' className='mr-2'/>Lorem ipsum is placeholder text commonly</h5>
-              <h5><img src={images.layer2} alt='layer' className='mr-2'/>Lorem ipsum is placeholder text commonly</h5>
-              <h5><img src={images.layer2} alt='layer' className='mr-2'/>Lorem ipsum is placeholder text commonly</h5>
-              <h5><img src={images.layer2} alt='layer' className='mr-2' />Lorem ipsum is placeholder text commonly</h5>
+              <h5><img src={images.layer2} alt='layer' className=''/>Lorem ipsum is placeholder text commonly</h5>
+              <h5><img src={images.layer2} alt='layer' className=''/>Lorem ipsum is placeholder text commonly</h5>
+              <h5><img src={images.layer2} alt='layer' className=''/>Lorem ipsum is placeholder text commonly</h5>
+              <h5><img src={images.layer2} alt='layer' className='' />Lorem ipsum is placeholder text commonly</h5>
+              <div className='mt-4'>
               <Link className="btn-light" to="#">Contact Us</Link>
+              </div>
             </div>
                  
                 </div>
-                <div className="col-md-6 col-12">
-                  <div className="slider-images d-flex justify-content-center">
+                <div className="col-md-12 col-lg-6 order-md-1 order-1  order-lg-2">
+                  <div className=" d-flex justify-content-center">
                     <div className="about_image">
                       
                       <img src={images.bg} alt="people" className="banner_img" />
-                      {/* <div className='curve-img position-absolute'>
-                        <img src={images.curvetext} alt='curvetext' className=''/>
-                      </div> */}
+                      
+                        <img src={images.group1} alt='curvetext' className='curve-img'/>
+                      
                       
                     </div>
                
@@ -60,8 +62,14 @@ const AboutSection1 = () => {
                   </div>
                 </div>
               </div>
+              <div className='row'>
+                <div className='col'>
+                <WeekendSale/>
+
+                </div>
+              </div>
             </div>
-            <WeekendSale/>
+
     </div>
   )
 }

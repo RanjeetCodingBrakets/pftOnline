@@ -8,6 +8,9 @@ import Footer from "./components/commonComponent/Footer";
 import TopHeader from "./components/commonComponent/topHeader";
 import ProdctDetails from "./components/prductDetails/productDetails";
 import ProductListing from "./components/productList/productListing";
+import Profile from "./components/profile/profile";
+import Contactus from "./components/contactUs/contactus";
+
 
 function App() {
   return (
@@ -20,6 +23,8 @@ function App() {
           <Route exact path="/about-us" element={<AboutUs/>} />
           <Route exact path="/product-Listing" element={<ProductListing/>}/>
           <Route exact path="/product-details" element={<ProdctDetails/>}/>
+          <Route exact path="/profile" element={<Profile/>}/>
+          <Route exact path="/contactUs" element={<Contactus/>}/>
         </Routes>
       </div>
       <Footer />

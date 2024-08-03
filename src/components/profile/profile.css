@@ -1,0 +1,170 @@
+.profile-page{
+    background: #F5F5F5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.profile-box{
+    border-radius: 20px;
+    width: 85%;
+    margin: auto;
+    background-color: #fff;
+    padding: 0px 30px 30px;
+}
+.profile-header {
+    
+    margin-bottom: 2rem;
+  }
+
+  .profile-header h3{
+    padding-top: 25px;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: -50px;
+  }
+  .profile-label{
+    color: #6B6B6B;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+  }
+
+  .input-feed{
+    background: #F5F5F5;
+    border-radius: 10px;
+    color: #A1A1A1;    
+    font-size: 18px;
+    border: none;
+    margin-bottom: 30px;
+    padding: 12px 19px;
+  }
+
+  .input-feed:focus{
+    border: 1px solid #A1A1A1;
+    box-shadow: none;
+  }
+
+  .pass-feed{
+    background: #F5F5F5;
+    border:none;
+  }
+
+  .pass-feed:focus{
+    border: 1px solid #A1A1A1;
+    box-shadow: none;
+  }
+
+  .change-pass{
+    background: #F5F5F5;
+    border-radius: 10px;
+    border-right: none
+  }
+
+  .change-pass span{
+    background: #F5F5F5;
+    border: none;
+  }
+
+  .password-btn{
+    border: 1px solid #37621A;
+    border-radius: 10px;
+    color: #37621A;
+    font-size: 16px;
+  }
+
+  .password-btn:hover{
+    background-color: #37621A;
+    color: #fff;
+  }
+
+
+
+.history-box{
+    border-radius: 20px;
+    width: 85%;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+}
+.history-img{
+    background: #fff;
+    width: 22%;
+    margin-right: 10px;
+}
+  
+  .order-row {
+    background: #F5F5F5;
+    border-radius: 10px;
+  }
+
+  .order-value h5{
+color:#969696;
+font-size: 18px;
+  }
+
+.order-value span{
+    font-size: 18px;
+}  
+
+.view-order{
+    border: 1px solid #37621A;
+    color: #37621A;
+
+}
+
+.view-order:hover{
+    background-color: #37621A;
+    color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+
+    .profile-box{
+        width: 90%;
+        padding: 0px 8px;
+    }
+
+    .history-box{
+        width: 90%;
+        padding: 20px;
+    }
+
+    .order-value{
+        margin-top: 10px;
+    }
+    .view-order{
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1087px){
+    
+
+    .profile-box{
+        width: 100%;
+        padding: 0px 8px;
+    }
+
+    .history-box{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .order-value{
+        margin-top: 10px;
+    }
+    .view-order{
+        margin-top: 10px;
+    }
+}
+  
+  
+  
+  
+  

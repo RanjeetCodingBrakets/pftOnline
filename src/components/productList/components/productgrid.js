@@ -19,7 +19,7 @@ const ProductGrid = ({ products }) => {
   };
 
   return (
-    <Container className="mb-90">
+    < >
       <div className="row mb-4 d-flex align-items-center ">
         <div className="col-lg-9 col-12 d-flex flex-wrap order-sm-2 order-md-2 order-lg-1 order-2">
           {selectedSorts.map((sort, index) => (
@@ -62,9 +62,9 @@ const ProductGrid = ({ products }) => {
       <div className="row">
         {products.map((product) => (
           <Col key={product.id} xs={12} sm={6} md={6} lg={4}>
-            <Link to="" className="product-card-link">
-              <div className="product-card mb-4">
-                <div className="product-outer">
+            <Link to="/product-details" className="product-card-link">
+              <div className="product-card  mb-4">
+                <div className="product-outer mx-auto">
                   <img
                     src={product.image}
                     alt={product.name}
@@ -86,7 +86,7 @@ const ProductGrid = ({ products }) => {
           </Col>
         ))}
       </div>
-    </Container>
+    </>
   );
 };
 

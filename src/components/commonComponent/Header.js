@@ -80,20 +80,20 @@ const Header = ({
                 </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link className="dropdown-item" to="/product-Listing">
-                      All Category
+                    <Link className="dropdown-item drop-option" to="/product-Listing">
+                      All Products
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="#">
+                    <Link className="dropdown-item drop-option" to="#">
                       Another action
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link className="dropdown-item" to="">
                       Something else here
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li className="nav-item">
@@ -102,7 +102,7 @@ const Header = ({
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link head-link" to="">
+                <Link className="nav-link head-link" to="/contactUs">
                   Contact Us
                 </Link>
               </li>

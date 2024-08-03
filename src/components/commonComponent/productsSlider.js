@@ -48,7 +48,7 @@ const ProductSlider = ({ products }) => {
                     <div>
                         <Link to="" className="product-card-link">
                             <div className="product-card mb-4">
-                                <div className='product-outer'>
+                                <div className='product-outer mx-auto'>
                                 <img src={product.image} alt={product.name} className="img-fluid" />
                                 </div>
                                 <h3>{product.name}</h3>

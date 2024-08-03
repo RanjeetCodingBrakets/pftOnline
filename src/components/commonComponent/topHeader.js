@@ -32,8 +32,8 @@ const  TopHeader = () => {
               {languageValue}
             </button>
             <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-              <li><a class="dropdown-item"  onClick={() => languageChange('Hindi')} >Hindi</a></li>
               <li><a class="dropdown-item"  onClick={() => languageChange('English')} >English</a></li>
+              <li><a class="dropdown-item"  onClick={() => languageChange('German')} >German</a></li>
             </ul>
           </div>
 
