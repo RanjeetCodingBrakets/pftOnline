@@ -19,7 +19,7 @@ const ProductGrid = ({ products }) => {
   };
 
   return (
-    <Container className="mb-90">
+    < >
       <div className="row mb-4 d-flex align-items-center ">
         <div className="col-lg-9 col-12 d-flex flex-wrap order-sm-2 order-md-2 order-lg-1 order-2">
           {selectedSorts.map((sort, index) => (
@@ -86,7 +86,7 @@ const ProductGrid = ({ products }) => {
           </Col>
         ))}
       </div>
-    </Container>
+    </>
   );
 };
 

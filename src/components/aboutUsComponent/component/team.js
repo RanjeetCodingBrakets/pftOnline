@@ -1,5 +1,6 @@
 import React from "react";
 import images from "../../../constants/images";
+// import MapComponent from "./map";
 
 const Team = () => {
   return (
@@ -81,22 +82,9 @@ const Team = () => {
           </div>
         </div>
       </div>
-      <div className="row map-box">
-        <div className="col-md-12 col-lg-6 map-con">
-        <h4 className="map-head">Lorem Ipsum Dummy text</h4>
-          <p className="map-text">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-        </div>
-        <div className="col-md-12 col-lg-6 map">
-          <img src={images.map} alt="" className=""/>
-        </div>
-      </div>
+      
     </div>
+    {/* <MapComponent/> */}
     </div>
   );
 };

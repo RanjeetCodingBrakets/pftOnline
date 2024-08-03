@@ -9,6 +9,7 @@ const AboutUs = () => {
       <AboutSection1/>
       <Service/>
       <Team/>
+    
     </div>
    
   );

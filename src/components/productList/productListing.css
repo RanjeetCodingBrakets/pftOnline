@@ -244,5 +244,49 @@ text-align: left;
   margin-bottom: 10px;
 }
   }
+  
+
+  
+
+/* Styles for the sidebar */
+.category-sidebar {
+  display: none; /* Hide by default */
+}
+
+/* Toggle button styles */
+.toggle-button {
+  display: none; /* Hide by default */
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+  padding: 10px;
+}
+.toggle-button span{
+  padding-left: 10px;
+}
+
+/* For tablets and mobile devices */
+@media (max-width: 991px) {
+  .category-sidebar {
+    display: none; /* Hide sidebar */
+  }
+  .category-sidebar.open {
+    display: block; /* Show sidebar when open */
+  }
+  .toggle-button {
+    display: block; /* Show toggle button */
+  }
+}
+
+/* For screens larger than tablets */
+@media (min-width: 992px) {
+  .category-sidebar {
+    display: block; /* Show sidebar */
+  }
+  .toggle-button {
+    display: none; /* Hide toggle button */
+  }
+}
+
 
 
