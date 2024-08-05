@@ -127,6 +127,10 @@ p {
     width: 100% !important;
   }
 
+  .ab-con{
+    width: 90% !important;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px){
