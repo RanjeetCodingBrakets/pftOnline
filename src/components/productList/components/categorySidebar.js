@@ -57,8 +57,9 @@ const CategorySidebar = ({ onCategoryChange }) => {
 
   return (
     <>
-      <button className="toggle-button" onClick={toggleSidebar}>
-      <RxHamburgerMenu/><span>Filter </span>
+      <button className="toggle-button filteropt-button" onClick={toggleSidebar}>
+      <RxHamburgerMenu/>
+      <span>Filter </span>
       </button>
       <div className={`category-sidebar ${isSidebarOpen ? 'open' : ''} position-relative`}>
         <ul className="sidebar-top">

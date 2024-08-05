@@ -127,6 +127,10 @@ p {
     width: 100% !important;
   }
 
+  .ab-con{
+    width: 90% !important;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -192,8 +196,10 @@ color: #6B6B6B;
 
 }
 
-.map img{
-  height: 470px;
+.map-container{
+  margin: auto;
+  width: 700px;
+  height: 500px;
 }
 
 

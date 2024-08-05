@@ -1,6 +1,6 @@
 import React from "react";
 import images from "../../../constants/images";
-// import MapComponent from "./map";
+import MapComponent from "./map";
 
 const Team = () => {
   return (
@@ -84,7 +84,7 @@ const Team = () => {
       </div>
       
     </div>
-    {/* <MapComponent/> */}
+    <MapComponent/>
     </div>
   );
 };

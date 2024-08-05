@@ -39,8 +39,8 @@ const ProductListing = () => {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-12 col-md-4 col-lg-3 mb-40">
+        <div className="row position-relative">
+          <div className="col-12 col-md-4 col-lg-3 mb-40 sidebar-container">
             <CategorySidebar onCategoryChange={handleCategoryChange} />
           </div>
           <div className="col-12 col-md-8 col-lg-9">

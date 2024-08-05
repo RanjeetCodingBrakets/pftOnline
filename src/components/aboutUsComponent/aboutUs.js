@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutSection1 from './aboutSection1';
+import AboutSection1 from './component/aboutSection1';
 import Service from './component/service';
 import Team from './component/team';
 
