@@ -196,8 +196,10 @@ color: #6B6B6B;
 
 }
 
-.map img{
-  height: 470px;
+.map-container{
+  margin: auto;
+  width: 700px;
+  height: 500px;
 }
 
 
