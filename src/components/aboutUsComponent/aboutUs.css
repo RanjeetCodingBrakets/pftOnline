@@ -148,7 +148,6 @@ p {
 .team-card {
   box-shadow: 19px 14px 34px 0px #00000026;
   border: none;
-  /* height: 600px; */
 
 }
 
@@ -209,9 +208,7 @@ color: #6B6B6B;
     height: 255px;
     width: 100%;
   }
-  /* .team-card{
-    height: 520px;
-  } */
+
   .team-box{
     margin-top: 0px !important;
     width: 33.33%;
@@ -231,9 +228,7 @@ color: #6B6B6B;
     height: 400px;
     width: 100%;
   }
-  /* .team-card{
-    height: 450px;
-  } */
+
   .team-box{
     margin-top: 0px !important;
     width: 75%;
@@ -246,3 +241,6 @@ color: #6B6B6B;
     height: 290px;
   }
 }
+
+
+

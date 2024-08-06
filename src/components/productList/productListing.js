@@ -31,7 +31,7 @@ const ProductListing = () => {
     return 0;
   });
   return (
-    <div className="prod-categry">
+    <div className="prod-categry ">
       <div className="container">
         <div className="row">
           <div className="col">
@@ -40,7 +40,7 @@ const ProductListing = () => {
         </div>
 
         <div className="row position-relative">
-          <div className="col-12 col-md-4 col-lg-3 mb-40 sidebar-container">
+          <div className="col-8 col-md-4 col-lg-3 mb-40 sidebar-container">
             <CategorySidebar onCategoryChange={handleCategoryChange} />
           </div>
           <div className="col-12 col-md-8 col-lg-9">
