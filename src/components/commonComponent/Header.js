@@ -64,13 +64,13 @@ const Header = ({
           <div className="col-lg-7  col-sm-6 col-md-6 d-lg-block">
             <ul className="navbar-nav mr-auto nav_item menu-item-header">
               <li className="nav-item">
-                <Link className="nav-link head-link" to="/">
+                <Link className="nav-link head-link " to="/">
                   Home
                 </Link>
               </li>
               <li className="nav-item dropdown">
                 <Link
-                  className="nav-link dropdown-toggle head-link"
+                  className="nav-link dropdown-toggle head-link "
                   to="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -97,12 +97,12 @@ const Header = ({
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link head-link" to="/about-us">
+                <Link className="nav-link head-link " to="/about-us">
                   About Us
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link head-link" to="/contactUs">
+                <Link className="nav-link head-link " to="/contactUs">
                   Contact Us
                 </Link>
               </li>

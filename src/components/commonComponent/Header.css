@@ -11,10 +11,25 @@
 .head-link {
   color: #727272; 
   font-size: 18px;
+  padding: 0px 5px;
 }
 
 .head-link:hover {
   color: #A36D3B; 
+}
+
+.menu-item-header li::after{
+  content: '';
+  display: block;
+  /* width: 90px; */
+  height: 1.5px;
+  background: #A36D3B;
+  transform: scaleX(0);
+  transition: transform .3s;
+}
+.menu-item-header li:hover:after{
+  transform: scaleX(1);
+  transition: transform .3s;
 }
 
 .head-live-timer {
@@ -68,6 +83,9 @@
   .header-logo{
     margin-right: 25px;
   
+  }
+  .menu-item-header li::after{
+    width: 90px;
   }
   .toggle-btn{
     margin-left: 25px;

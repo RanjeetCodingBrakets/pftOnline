@@ -26,14 +26,14 @@ const PopularProduct = () => {
       ></img>
       <div className="container">
         <div className="row mb-50 discount-block justify-content-center">
-          <div className="col-md-4 col-lg-4 col-sm-4 col-12 mb-4 ">
+          <div className="col-md-4 col-lg-4 col-sm-10 col-12 mb-4 ">
             <div className="discount-product discount-juice d-flex justify-content-between">
               <div>
                 <p>50% Off</p>
                 <h3 className="mb-3 text-white fw-bold">
                   Fresh Organic <span className="break-line">Juice</span>{" "}
                 </h3>
-                <Link to="" className="discount_link btn-dark">
+                <Link to="/Promotional" className="discount_link btn-dark">
                   View Products
                 </Link>
               </div>
@@ -43,14 +43,14 @@ const PopularProduct = () => {
             </div>
           </div>
 
-          <div className="col-md-4 col-lg-4 col-sm-4 col-12 mb-4">
+          <div className="col-md-4 col-lg-4 col-sm-10 col-12 mb-4">
             <div className="discount-product discount-masala d-flex justify-content-between">
               <div>
                 <p>50% Off</p>
                 <h3 className="mb-3 text-white fw-bold">
                   All Organic <span className="break-line">Masala</span>{" "}
                 </h3>
-                <Link to="" className="discount_link btn-dark">
+                <Link to="/Promotional" className="discount_link btn-dark">
                   View Products
                 </Link>
               </div>
@@ -60,7 +60,7 @@ const PopularProduct = () => {
             </div>
           </div>
 
-          <div className="col-md-4 col-lg-4 col-sm-4 col-12 mb-4">
+          <div className="col-md-4 col-lg-4 col-sm-10 col-12 mb-4">
             <div className="discount-product discount-dal d-flex justify-content-between">
               <div>
                 <p>50% Off</p>
@@ -68,7 +68,7 @@ const PopularProduct = () => {
                 <h3 className="mb-3 text-white fw-bold">
                   All Organic <span className="break-line">Dal</span>
                 </h3>
-                <Link to="" className="discount_link btn-dark">
+                <Link to="/Promotional" className="discount_link btn-dark">
                   View Products
                 </Link>
               </div>
