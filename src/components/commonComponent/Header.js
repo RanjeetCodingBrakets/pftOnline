@@ -108,7 +108,7 @@ const Header = ({
               </li>
             </ul>
           </div>
-          <div className="col-lg-5 col-md-6 col-sm-6">
+          <div className="col-lg-5 col-md-6 col-sm-6 login-sec">
             <div className="d-inline">
               <button onClick={handleShow} className="btn custom-btn me-2">
                 Login / Signup
