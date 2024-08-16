@@ -9,19 +9,11 @@ const Slider = () => {
     <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="true">
       <div className="border-fram-group border-fram-group-top">
         <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" /> 
+        
       </div>
       <div className="border-fram-group border-fram-group-bottom">
         <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" /> 
+        
       </div>
       <div className="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>

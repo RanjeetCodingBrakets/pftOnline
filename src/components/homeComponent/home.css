@@ -178,7 +178,7 @@
 }
 
 .border-fram-group .frame {
-  width: 16.6%;
+  width: 100%;
 }
 
 @media (min-width: 992px) and (max-width: 1197px) {
@@ -945,8 +945,10 @@
     left: 391px;
   }
   .subscribe input {
-    padding: 10px 12px;}
-}
+    padding: 10px 12px;
+    /* width: 51%; */
+  }}
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   .subscribe_banner {

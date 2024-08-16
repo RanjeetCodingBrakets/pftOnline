@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import logo from "../../assets/logo.jpeg";
 import { Link } from "react-router-dom";
-
+import images from '../../constants/images';
 import "./Header.css";
 import LoginSignup from "../LoginSignUp/LoginSignup";
 
@@ -41,6 +41,10 @@ const Header = ({
   const handleShow = () => setShowModal(true);
 
   return (
+    <div classname="header-section position-relative">
+    <div className=" bottom-border-frame">
+    <img src={images.frame9} alt="heroVector1" className="header-frame" />
+    </div> 
     <div className="container">
     <div className="row">
       <nav className="navbar navbar-expand-lg navbar-light nav_Header header-nav">
@@ -127,6 +131,7 @@ const Header = ({
         </div>
       </nav>
     </div>
+  </div>
   </div>
   );
 };

@@ -1,4 +1,10 @@
-
+.bottom-border-frame{
+  bottom: -5px;
+  position: absolute;
+}
+.header-frame{
+  width: 100%
+}
 .nav_logo {
   width: 120px;
 }
