@@ -35,6 +35,10 @@ body {
   margin-top: 120px !important;
 }
 
+.w-90{
+  max-width: 90%;
+}
+
 Link,
 a {
   text-decoration: none !important;

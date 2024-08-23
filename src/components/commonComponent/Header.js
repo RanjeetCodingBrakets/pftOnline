@@ -41,7 +41,7 @@ const Header = ({
   const handleShow = () => setShowModal(true);
 
   return (
-    <div classname="header-section position-relative">
+    <div className="header-section position-relative">
     <div className=" bottom-border-frame">
     <img src={images.frame9} alt="heroVector1" className="header-frame" />
     </div> 

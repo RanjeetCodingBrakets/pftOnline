@@ -23,6 +23,7 @@ const Slider = () => {
       <div className="carousel-inner homepage-hero">
       <img src={images.heroVector2} alt="heroVector1" className="left-vector-img" />
       <img src={images.heroVector1} alt="heroVector2" className=" right-vector-img"/>
+      
         <div className="carousel-item active" data-bs-interval="10000">
           <div className="home_top_section">
             <div className="container">

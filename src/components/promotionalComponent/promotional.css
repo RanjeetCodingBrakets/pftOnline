@@ -1,0 +1,53 @@
+.promotion-frame{
+    background-color: #0F2D11;
+    color: #fff;
+    padding: 50px;
+}
+
+.promoimage1{
+    width: 45%;
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    transform: rotate(-13.7deg);
+}
+.promoimage3{
+width: 25%;
+position: absolute;
+bottom: 0px;
+left: 200px;
+}
+
+.promoimage2{
+width: 45%;
+position: absolute;
+bottom: 0px;
+right: 63px;
+transform: rotate(8.71deg);
+}
+
+.big-value{
+    font-family: Arial;
+font-size: 95px;
+font-weight: 800;
+line-height: 135px;
+
+}
+
+.big-value span{
+    color: #F1CA2F;
+}
+
+.promo-disc-banner{
+    border-radius: 25px;
+}
+.disc-banner-sec2{
+    background-color: #fff !important;
+}
+
+
+.promo-disc-banner div{
+    background-color: #F1CA2F;
+    color: #0F2D11;
+}
+

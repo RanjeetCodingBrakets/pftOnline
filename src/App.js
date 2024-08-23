@@ -10,6 +10,7 @@ import ProdctDetails from "./components/prductDetails/productDetails";
 import ProductListing from "./components/productList/productListing";
 import Profile from "./components/profile/profile";
 import Contactus from "./components/contactUs/contactus";
+import Promotional from "./components/promotionalComponent/promotional";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/product-details" element={<ProdctDetails/>}/>
           <Route exact path="/profile" element={<Profile/>}/>
           <Route exact path="/contactUs" element={<Contactus/>}/>
+          <Route exact path="/promotionalPage" element={<Promotional/>}/>
         </Routes>
       </div>
       <Footer />
