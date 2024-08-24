@@ -1,4 +1,5 @@
 import React from "react";
+
 import "../promotional.css";
 import images from "../../../constants/images";
 
@@ -34,13 +35,13 @@ const PromotionalFrame = () => {
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="10000">
           <div className="promotion-frame">
-            <div className="container">
+            <div className="container ">
               <div className="row">
                 <div className="col-6">
                   <h1 className="big-value">
                     <span>Big Value </span>Deals
                   </h1>
-                  <p>
+                  <p className="offer-time">
                     Offer Available In <span>July - September</span>
                   </p>
                 </div>
@@ -61,22 +62,20 @@ const PromotionalFrame = () => {
                       alt=""
                       className="promoimage3"
                     />
-                    
-                    
                   </div>
                 </div>
               </div>
-              <div className="row w-90 m-auto text-center promo-disc-banner">
-                <div className="col-4 text-center">
-                  <h3>50% OFF</h3>
+              <div className="row w-90 m-auto promo-disc-banner">
+                <div className="col text-center disc-banner-sec">
+                  <h3>100% OFF</h3>
                   <p>All Juices Products</p>
                 </div>
-                <div className="col-4 disc-banner-sec2">
+                <div className="col text-center disc-banner-cente">
                   <h3>20% OFF</h3>
                   <p>All Spices Products</p>
                 </div>
-                <div className="col-4">
-                  <h3>10% OFF</h3>
+                <div className="col text-center disc-banner-sec">
+                  <h3>15% OFF</h3>
                   <p>All Dairy Products</p>
                 </div>
               </div>

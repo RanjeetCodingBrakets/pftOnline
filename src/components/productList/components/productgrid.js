@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Col, Dropdown, Toast } from "react-bootstrap";
+import { Col, Dropdown, Toast } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const ProductGrid = ({ products }) => {
