@@ -1,16 +1,16 @@
 .promotion-frame {
-    background-image: url("../../assets/background/Frame10.jpg");
-    background-repeat: repeat space;
-    background-size: 100%;  
-  }
+  background-image: url("../../assets/background/Frame10.jpg");
+  background-repeat: repeat space;
+  background-size: 100%;
+}
 
-  .promotional-slide-icon{
-    border: 1px solid #fff;
-    border-radius: 100px;
-    padding: 10px;
-    font-size: 10px;
-    background-size: 21px;
-  }
+.promotional-slide-icon {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 10px;
+  font-size: 10px;
+  background-size: 21px;
+}
 
 .promotion-frame {
   background-color: #0f2d11;
@@ -51,15 +51,15 @@
   color: #f1ca2f;
 }
 
-.offer-time{
-    font-family: Josefin Sans;
-font-size: 28px;
-font-weight: 700;
-margin-bottom: 33px;
+.offer-time {
+  font-family: Josefin Sans;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 33px;
 }
 
-.offer-time span{
-    color: #96D86A;
+.offer-time span {
+  color: #96d86a;
 }
 
 .promo-disc-banner {
@@ -88,59 +88,59 @@ margin-bottom: 33px;
   margin: 0;
 }
 
-.disc-banner-cente p{
-    font-size: 18px;
+.disc-banner-cente p {
+  font-size: 18px;
   margin: 0;
-  }
+}
 
-  .promoOffer-btn{
-    background: #F1CA2F;
-    color: #000000;
-    margin-right: 16px;
-    border: 1px solid #F1CA2F;
-    font-size: 16px;
-    font-weight: 600;
-  }
+.promoOffer-btn {
+  background: #f1ca2f;
+  color: #000000;
+  margin-right: 16px;
+  border: 1px solid #f1ca2f;
+  font-size: 16px;
+  font-weight: 600;
+}
 
-  .promoOffer-btn:hover{
-    border: 1.09px solid #FF0707;
-    background: #F1CA2F;
-    color: #000000;
-  }
+.promoOffer-btn:hover {
+  border: 1.09px solid #ff0707;
+  background: #f1ca2f;
+  color: #000000;
+}
 
-  .Offerbtn-banner, .sonderangebot-banner{
-    border: 2.18px solid #000000;
-    width: fit-content;
-    border-radius: 108px;
-    padding: 15px 0px 15px 15px;
+.Offerbtn-banner,
+.sonderangebot-banner {
+  border: 2.18px solid #000000;
+  width: fit-content;
+  border-radius: 108px;
+  padding: 15px 0px 15px 15px;
+}
 
-  }
+.Offerbtn-banner::before {
+  position: absolute;
+  content: "Offer";
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  top: -14px;
+  left: 62px;
+  background-color: #fff;
+  padding: 0px 5px;
+}
 
-  .Offerbtn-banner::before{
-    position: absolute;
-    content: "Offer";
-    color: #000;
-    font-size: 20px;
-    font-weight: 400;
-    top: -14px;
-    left: 62px;
-    background-color: #fff;
-    padding: 0px 5px;
-  }
+.sonderangebot-banner::before {
+  position: absolute;
+  content: "Sonderangebot";
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  top: -14px;
+  right: 214px;
+  background-color: #fff;
+  padding: 0px 5px;
+}
 
-  .sonderangebot-banner::before{
-    position: absolute;
-    content: "Sonderangebot";
-    color: #000;
-    font-size: 20px;
-    font-weight: 400;
-    top: -14px;
-    right: 214px;
-    background-color: #fff;
-    padding: 0px 5px;
-  }
-
-  /* .offer-toast-box{
+/* .offer-toast-box{
     border-radius: 300px;
     font-size: 18px;
     box-shadow: none;
@@ -153,4 +153,233 @@ margin-bottom: 33px;
     background: #37621A;
     color: #E6E6E6;
   } */
-  
+
+.offer-container {
+  background-color: #78bb4a;
+  color: #fff;
+  border-radius: 21px 21px 0px 0px;
+}
+
+.offer-container h3 {
+  font-size: 53px;
+  font-weight: 700;
+}
+
+.offer-card {
+  border-radius: 24px;
+  box-shadow: 0px 2.43px 14.58px 0px #00000033;
+}
+
+.product-promo-grid {
+  background: #fbfef9;
+  padding: 43px 30px;
+  border-radius: 0px 0px 21px 21px;
+}
+
+.launchPad h3{
+  font-size: 38px;
+}
+
+.offer-gridImg {
+  width: 85%;
+}
+
+.offer-body {
+  padding: 0px;
+}
+
+.offerGrid-title {
+  font-size: 17.31px;
+  font-weight: 700;
+}
+
+.prod-quantity {
+  font-size: 11.5px;
+  font-weight: 500;
+  color: #797979;
+}
+
+.discount-banner {
+  width: 45px;
+  top: 0px;
+  right: 18px;
+  background-color: #ff0404;
+  color: #fff;
+  padding: 10px 5px 0px;
+  text-align: center;
+}
+.discount-banner small {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.discount-banner:before,
+.discount-banner:after {
+  content: "";
+  position: absolute;
+}
+.discount-banner:after {
+  height: 0;
+  width: 0;
+  bottom: -20px;
+  left: 0;
+  border-right: 45px solid #ff0404;
+  border-bottom: 25px solid transparent;
+}
+
+.discount-banner:before {
+  height: 0;
+  width: 0;
+  bottom: -20px;
+  left: 0;
+  border-left: 45px solid #ff0404;
+
+  border-bottom: 25px solid transparent;
+}
+
+.seller-banner {
+  top: 40px;
+  left: 0px;
+  color: #000;
+  background: #f1ca2f;
+  font-size: 18px;
+  font-weight: 700;
+  gap: 0px;
+  border-radius: 0px 32.68px 32.68px 0px;
+  opacity: 0px;
+}
+
+.price-section {
+  background: #f1f0f0;
+}
+
+.offerGrid-content {
+  padding: 0px 10px 10px;
+}
+
+.price-section {
+  padding: 0px 10px;
+  border-radius: 0px 0px 24px 24px;
+  padding: 10px 10px;
+}
+
+.offer-price {
+  font-size: 25.39px;
+  font-weight: 700;
+  color: #ff0404;
+  margin: 0px;
+}
+
+.offer-price span {
+  font-size: 11.34px;
+  font-weight: 400;
+  color: #ff0404;
+}
+
+.prod-weight {
+  font-size: 18.06px;
+  font-weight: 700;
+  color: #020202;
+}
+
+.showMore-btn {
+  right: 52px;
+  bottom: 189px;
+  border: 0px;
+  width: auto;
+  background: #fbfef9;
+  color: #78bb4a;
+}
+
+.showMore-icon {
+  font-size: 45px;
+  margin-bottom: 12px;
+}
+
+.showMore-btn span {
+  font-size: 21.79px;
+  font-weight: 500;
+}
+
+.DealOfThe-day {
+  background: #a36d3b;
+}
+
+.promoGridDealOfTheDay {
+  background: #fff7f0;
+}
+
+.dealofTheDay-showbtn {
+  color: #a36d3b;
+  background: #fff7f0;
+}
+
+.top-selling {
+  background: #37621a;
+}
+
+.promoGrid-topSelling {
+  background-color: #fff;
+}
+
+.topSelling-showbtn {
+  color: #37621a;
+  background: #fff;
+}
+
+.top-selling1 {
+  background: #f9a331;
+}
+
+.promoGrid-topSelling1 {
+  background: #fff6eb;
+}
+
+.topSelling1-showbtn {
+  color: #f9a331;
+  background: #fff6eb;
+}
+
+.offer-gridImg1 {
+  width: 100%;
+  padding: 20px;
+}
+
+.launchPad {
+  background: #c63a23;
+}
+.promoGrid-launchPad{
+  background: #FFECE9;
+}
+
+.launchPad-showBtn{
+  color: #c63a23;
+  background: #FFECE9;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .offer-container h3 {
+    font-size: 30px;
+  }
+  .offer-container h5 {
+    font-size: 18px;
+  }
+  .product-promo-grid {
+    padding: 30px 5px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .offer-container {
+    padding: 12px !important;
+  }
+  .offer-container h3 {
+    font-size: 22px;
+  }
+  .offer-container h5 {
+    font-size: 14px;
+  }
+  .product-promo-grid {
+    padding: 25px 5px;
+  }
+}

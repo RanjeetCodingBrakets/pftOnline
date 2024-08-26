@@ -1,3 +1,113 @@
+// import React, { useState } from "react";
+// import { Link } from "react-router-dom";
+// import "./Header.css";
+// import images from "../../constants/images";
+// import { GiHamburgerMenu } from "react-icons/gi";
+// import { MdOutlineRestaurantMenu } from "react-icons/md";
+
+// const Header = () => {
+//   const [toggleMenu, setToggleMenu] = useState(false);
+
+//   return (
+//     <nav className="app__navbar">
+//       <div className="app__navbar-logo">
+//         <img src={images.logo} alt="app logo" />
+//       </div>
+
+//       <ul className="app__navbar-links">
+//         <li className="p__opensans">
+//           <a href="#home">Home</a>
+//         </li>
+//         <li className="nav-item dropdown">
+//                 <a
+//                   className="nav-link dropdown-toggle head-link "
+//                   href="#"
+//                   role="button"
+//                   data-bs-toggle="dropdown"
+//                   aria-expanded="false"
+//                 >
+//                   Category
+//                 </a>
+//                 <ul className="dropdown-menu">
+//                   <li>
+//                     <a className="dropdown-item drop-option" href="/product-Listing">
+//                       All Products
+//                     </a>
+//                   </li>
+//                   <li>
+//                     <a className="dropdown-item drop-option" href="#">
+//                       Another action
+//                     </a>
+//                   </li>
+//                 </ul>
+//               </li>
+//         <li className="p__opensans">
+//           <a href="#home">About Us</a>
+//         </li>
+//         <li className="p__opensans">
+//           <a href="#home">Contact Us</a>
+//         </li>
+//       </ul>
+//       <div className="app__navbar-login">
+//         <a href="#login" className="p__opensans">
+//           login / Register
+//         </a>
+//         <div />
+//         <a href="/" className="p__opensans">
+//           Book Table
+//         </a>
+//       </div>
+
+//       <div className="app__navbar-smallscreen">
+//         <GiHamburgerMenu
+//           color="#fff"
+//           fontSize={27}
+//           onClick={() => setToggleMenu(true)}
+//         />
+//         {toggleMenu && (
+
+//         <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
+//           <MdOutlineRestaurantMenu
+//             fontSize={27}
+//             className="overlay__close"
+//             onClick={() => setToggleMenu(false)}
+//           />
+//           <ul className="app__navbar-smallscreen_links">
+//             <li className="p__opensans">
+//               <a href="#home">Home</a>
+//             </li>
+//             <li className="p__opensans">
+//               <a href="#home">About</a>
+//             </li>
+//             <li className="p__opensans">
+//               <a href="#home">Menu</a>
+//             </li>
+//             <li className="p__opensans">
+//               <a href="#home">awards</a>
+//             </li>
+//             <li className="p__opensans">
+//               <a href="#home">Contact</a>
+//             </li>
+//           </ul>
+          
+//         </div>
+        
+//       )}
+//       </div>
+//     </nav>
+//   );
+// };
+
+// export default Header;
+
+
+
+
+
+
+
+
+
 import React, { useState, useEffect } from "react";
 import logo from "../../assets/logo.jpeg";
 import { Link } from "react-router-dom";
