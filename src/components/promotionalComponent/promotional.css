@@ -15,25 +15,25 @@
 .promotion-frame {
   background-color: #0f2d11;
   color: #fff;
-  padding: 50px;
+  padding: 60px;
 }
 
 .promoimage1 {
-  width: 50%;
+  width: 56%;
   position: absolute;
-  bottom: -33px;
-  left: 30px;
+  bottom: -47px;
+  left: -17px;
   transform: rotate(-13.7deg);
 }
 .promoimage3 {
-  width: 30%;
+  width: 35%;
   position: absolute;
   bottom: -61px;
-  left: 234px;
+  left: 169px;
 }
 
 .promoimage2 {
-  width: 50%;
+  width: 55%;
   position: absolute;
   bottom: -50px;
   right: -21px;
@@ -42,9 +42,9 @@
 
 .big-value {
   font-family: Arial;
-  font-size: 95px;
+  font-size: 90px;
   font-weight: 800;
-  line-height: 135px;
+  line-height: 130px;
 }
 
 .big-value span {
@@ -96,16 +96,22 @@
 .promoOffer-btn {
   background: #f1ca2f;
   color: #000000;
-  margin-right: 16px;
+  margin-right: 12px;
   border: 1px solid #f1ca2f;
   font-size: 16px;
   font-weight: 600;
+  padding: 10px 14px;
 }
 
 .promoOffer-btn:hover {
   border: 1.09px solid #ff0707;
   background: #f1ca2f;
   color: #000000;
+}
+
+.promoOffer-timebtn{
+  font-size: 16px;
+  padding: 10px 14px;
 }
 
 .Offerbtn-banner,
@@ -358,6 +364,13 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .big-value {
+    font-size: 59px;
+    line-height: 85px;
+}
+.offer-time {
+    font-size: 20px;
+}
   .offer-container h3 {
     font-size: 30px;
   }
@@ -367,9 +380,68 @@
   .product-promo-grid {
     padding: 30px 5px;
   }
+  .promoimage3 {
+    width: 38%;
+    bottom: -61px;
+    left: 90px;
+}
+.promoimage2 {
+  width: 70%;
+  bottom: -50px;
+  right: -31px;
+}
+.promoimage1 {
+  width: 65%;
+  bottom: -33px;
+  left: -85px;
+}
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .promotion-frame {
+    padding: 15px 5px ;
+}
+
+.big-value {
+  font-size: 30px;
+  line-height: 40px;
+}
+.offer-time {
+  font-size: 14px;
+}
+.promoimage3 {
+  width: 40%;
+  bottom: -18px;
+  left: 46px;
+}
+.promoimage1 {
+  width: 80%;
+  bottom: -25px;
+  left: -57px;
+}
+.promoimage2 {
+  width: 69%;
+  bottom: -17px;
+  right: -21px;
+}
+
+.promo-disc-banner{
+  max-width: 100%;
+}
+.disc-banner-sec h3 {
+  font-size: 20px;
+}
+.disc-banner-sec p {
+  font-size: 12px;
+}
+.disc-banner-cente h3 {
+  font-size: 20px;
+
+}
+.disc-banner-cente p {
+  font-size: 12px;
+
+}
   .offer-container {
     padding: 12px !important;
   }
@@ -382,4 +454,26 @@
   .product-promo-grid {
     padding: 25px 5px;
   }
+  .Offerbtn-banner, .sonderangebot-banner {
+    margin-bottom: 30px;
+}
+.showMore-btn{
+  position: static !important;
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+}
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+  .promotion-frame {
+    padding: 40px ;
+}
+  .big-value {
+    font-size: 45px;
+    line-height: 61px;
+}
+.offer-time {
+  font-size: 14px;
+}
 }

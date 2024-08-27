@@ -37,7 +37,7 @@ const PromotionalFrame = () => {
           <div className="promotion-frame">
             <div className="container ">
               <div className="row">
-                <div className="col-6">
+                <div className="col-7 col-md-7">
                   <h1 className="big-value">
                     <span>Big Value </span>Deals
                   </h1>
@@ -45,7 +45,7 @@ const PromotionalFrame = () => {
                     Offer Available In <span>July - September</span>
                   </p>
                 </div>
-                <div className="col-6 position-relative">
+                <div className="col-5 col-md-5 position-relative">
                   <div>
                     <img
                       src={images.promoimg1}
@@ -67,7 +67,7 @@ const PromotionalFrame = () => {
               </div>
               <div className="row w-90 m-auto promo-disc-banner">
                 <div className="col text-center disc-banner-sec">
-                  <h3>100% OFF</h3>
+                  <h3>50% OFF</h3>
                   <p>All Juices Products</p>
                 </div>
                 <div className="col text-center disc-banner-cente">

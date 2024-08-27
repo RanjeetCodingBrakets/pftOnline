@@ -36,7 +36,7 @@ const OfferOption = () => {
     <div className="offer-option p-5">
       <div className="container">
         <div className="row mt-5">
-          <div className="col-6 position-relative">
+          <div className=" col-md-12 col-lg-6 position-relative">
             <div className="Offerbtn-banner">
               <div>
                 <button className="custom-btn promoOffer-btn">Deal Of The Day</button>
@@ -45,12 +45,12 @@ const OfferOption = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 position-relative">
+          <div className=" col-md-12 col-lg-6 position-relative">
             <div className="sonderangebot-banner float-end">
               <div>
-                <button className="custom-btn promoOffer-btn">Start Date</button>
+                <button className="custom-btn promoOffer-btn promoOffer-timebtn">Start Date<br/>20/07/2024</button>
                 <button className="custom-btn promoOffer-btn">Today</button>
-                <button className="custom-btn promoOffer-btn">End Date</button>
+                <button className="custom-btn promoOffer-btn promoOffer-timebtn">End Date<br/>20/07/2024</button>
               </div>
             </div>
           </div>
