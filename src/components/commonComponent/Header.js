@@ -54,7 +54,7 @@ const Header = () => {
           <Link to="/contactUs">Contact Us</Link>
         </li>
       </ul>
-      <div className="app__navbar-login">
+      <div className="app__navbar-login nav__login">
       <button onClick={handleShow} className="btn custom-btn me-2">
                 Login / Signup
               </button>
@@ -124,6 +124,27 @@ const Header = () => {
           <Link to="/contactUs">Contact Us</Link>
         </li>
           </ul>
+          <div className="app__navbar-login">
+      <button onClick={handleShow} className="btn custom-btn me-2">
+                Login / Signup
+              </button>
+              <LoginSignup show={showModal} handleClose={handleClose} />
+             <button className="head-live-timer">
+               Live Sale
+                <span className="ms-2">
+                  {/* {hours < 10 ? `0${hours}` : hours}:
+                 {minutes < 10 ? `0${minutes}` : minutes}:
+                 {seconds < 10 ? `0${seconds}` : seconds}               */}
+                  </span>
+              </button>
+        {/* <a href="#login" className="p__opensans">
+          login / Register
+        </a> */}
+        
+        {/* <a href="/" className="p__opensans">
+          Book Table
+        </a> */}
+      </div>
           
         </div>
         

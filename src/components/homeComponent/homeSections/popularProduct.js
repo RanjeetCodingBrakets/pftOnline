@@ -33,7 +33,7 @@ const PopularProduct = () => {
                 <h3 className="mb-3 text-white fw-bold">
                   Fresh Organic <span className="break-line">Juice</span>{" "}
                 </h3>
-                <Link to="/Promotional" className="discount_link btn-dark">
+                <Link to="/promotionalPage" className="discount_link btn-dark">
                   View Products
                 </Link>
               </div>
@@ -50,7 +50,7 @@ const PopularProduct = () => {
                 <h3 className="mb-3 text-white fw-bold">
                   All Organic <span className="break-line">Masala</span>{" "}
                 </h3>
-                <Link to="/Promotional" className="discount_link btn-dark">
+                <Link to="/promotionalPage" className="discount_link btn-dark">
                   View Products
                 </Link>
               </div>
@@ -68,7 +68,7 @@ const PopularProduct = () => {
                 <h3 className="mb-3 text-white fw-bold">
                   All Organic <span className="break-line">Dal</span>
                 </h3>
-                <Link to="/Promotional" className="discount_link btn-dark">
+                <Link to="/promotionalPage" className="discount_link btn-dark">
                   View Products
                 </Link>
               </div>

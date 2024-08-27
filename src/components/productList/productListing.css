@@ -318,6 +318,10 @@ text-align: left;
     grid-template-columns: 1fr;
     background-color: #fff;
   }
+  .toast-btn {
+    font-size: 12px;
+    padding: 10px;
+}
   }
 
   
