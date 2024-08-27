@@ -4,6 +4,8 @@ import images from "../../../constants/images";
 
 const Service = () => {
   return (
+    <div className="service-section">
+    
     <div className="container mb-50">
       <div className="row text-center mb-5">
         <div className="col pt-5">
@@ -52,6 +54,7 @@ const Service = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

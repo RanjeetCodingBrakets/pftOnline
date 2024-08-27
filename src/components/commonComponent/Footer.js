@@ -94,13 +94,7 @@ const Footer = () => {
       </div>
        <div className="bottom-footer position-relative">
        <div className="bottom-footer-frame">
-        <img src={images.frame1} alt="" className="bottom-frame"/>
-        <img src={images.frame1} alt="" className="bottom-frame"/>
-        <img src={images.frame1} alt="" className="bottom-frame"/>
-        <img src={images.frame1} alt="" className="bottom-frame"/>
-        <img src={images.frame1} alt="" className="bottom-frame"/>
-        <img src={images.frame1} alt="" className="bottom-frame"/>
-        
+        <img src={images.frame1} alt="" className="bottom-frame"/>   
        </div>
 
          <div className="container">

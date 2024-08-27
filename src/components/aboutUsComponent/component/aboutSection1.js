@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import images from '../../constants/images';
-import "./aboutUs.css";
-import WeekendSale from '../homeComponent/homeSections/weekendSale';
+import images from '../../../constants/images';
+import "../aboutUs.css";
+import WeekendSale from '../../homeComponent/homeSections/weekendSale';
 
 const AboutSection1 = () => {
   return (

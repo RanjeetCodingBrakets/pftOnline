@@ -9,19 +9,11 @@ const Slider = () => {
     <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="true">
       <div className="border-fram-group border-fram-group-top">
         <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" /> 
+        
       </div>
       <div className="border-fram-group border-fram-group-bottom">
         <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" />  
-        <img src={images.frame} alt="heroVector1" className="frame" /> 
+        
       </div>
       <div className="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -31,6 +23,7 @@ const Slider = () => {
       <div className="carousel-inner homepage-hero">
       <img src={images.heroVector2} alt="heroVector1" className="left-vector-img" />
       <img src={images.heroVector1} alt="heroVector2" className=" right-vector-img"/>
+      
         <div className="carousel-item active" data-bs-interval="10000">
           <div className="home_top_section">
             <div className="container">

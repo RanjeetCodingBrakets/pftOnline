@@ -34,8 +34,7 @@ const FoodProduct = () => {
               </div>
               </div>
               </div>
-            
-       
+              
         <div className='row food-block justify-content-center'>
           {food.map(product2 => (
             <div className='col-2_5 text-center'>

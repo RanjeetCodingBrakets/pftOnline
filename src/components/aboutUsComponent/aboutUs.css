@@ -29,9 +29,9 @@
 
 .curve-img {
   position: absolute;
-  bottom: -65px;
+  bottom: -48px;
   width: 40%;
-  right: -65px;
+  right: -45px;
 }
 
 .about_image {
@@ -107,9 +107,9 @@ line-height: 22px;
   width: 100%;
 }
 
-p {
+/* .about-con p {
   color: #6b6b6b;
-}
+} */
 
 .service-card h5 {
   font-size: 24px;
@@ -125,6 +125,10 @@ p {
 
   .service-con{
     width: 100% !important;
+  }
+
+  .ab-con{
+    width: 90% !important;
   }
 
 }
@@ -144,7 +148,6 @@ p {
 .team-card {
   box-shadow: 19px 14px 34px 0px #00000026;
   border: none;
-  /* height: 600px; */
 
 }
 
@@ -192,8 +195,14 @@ color: #6B6B6B;
 
 }
 
-.map img{
-  height: 470px;
+.map-container{
+  margin: auto;
+  width: 700px;
+  height: 500px;
+}
+
+.map-con{
+  padding-left: 115px;
 }
 
 
@@ -203,9 +212,7 @@ color: #6B6B6B;
     height: 255px;
     width: 100%;
   }
-  /* .team-card{
-    height: 520px;
-  } */
+
   .team-box{
     margin-top: 0px !important;
     width: 33.33%;
@@ -225,9 +232,7 @@ color: #6B6B6B;
     height: 400px;
     width: 100%;
   }
-  /* .team-card{
-    height: 450px;
-  } */
+
   .team-box{
     margin-top: 0px !important;
     width: 75%;
@@ -240,3 +245,6 @@ color: #6B6B6B;
     height: 290px;
   }
 }
+
+
+

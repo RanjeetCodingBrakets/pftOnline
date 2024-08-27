@@ -12,16 +12,15 @@
   padding-top: 35px;
 }
 
-
 /* Slider css */
 
 .home_top_section {
   width: 100%;
-  background-color: #78BB4A;
+  background-color: #78bb4a;
 }
 
 .organic-slide {
-  padding: 58px 32px;
+  padding: 58px 0px;
 }
 
 .pulses_image {
@@ -65,7 +64,7 @@
   font-family: Josefin Sans;
   font-size: 80px;
   font-weight: 700;
-  color: #37621A !important;
+  color: #37621a !important;
   text-align: left;
   color: #fff;
 }
@@ -82,7 +81,7 @@
   background: #fff;
   border-radius: 25px;
   padding: 8px 20px;
-  color: #37621A;
+  color: #37621a;
   margin-top: 20px;
 }
 
@@ -106,7 +105,6 @@
 
 .people_image {
   width: 100%;
-
 }
 
 .spice_image {
@@ -155,7 +153,7 @@
 }
 
 .contact-button:hover {
-  background: #37621A;
+  background: #37621a;
   color: #fff;
 }
 
@@ -180,14 +178,13 @@
 }
 
 .border-fram-group .frame {
-  width: 16.6%;
+  width: 100%;
 }
 
 @media (min-width: 992px) and (max-width: 1197px) {
   .stick_image {
     left: -84px;
     bottom: 23px;
-
   }
 }
 
@@ -205,13 +202,11 @@
   .stick_image {
     left: -60px;
     bottom: 23px;
-
   }
 
-  .mint_image{
+  .mint_image {
     right: 66px;
   }
-
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -227,37 +222,42 @@
 
   .pulses_image {
     top: -42px;
-    right: 33px
+    right: 33px;
   }
 
   .mint_image {
-
     top: 78px;
     right: 8px;
   }
 
   .stick_image {
     display: none;
-
   }
 
   .bg_image {
     margin-top: 15px;
   }
 
-
+  .left-vector-img {
+    display: none;
+  }
+  .homepage-hero .right-vector-img {
+    width: 95%;
+  }
+  .organic-slide {
+    padding: 58px 20px;
+  }
 }
 
 /* sale css */
 
 .sale {
   margin-top: 80px;
-
 }
 
 .sale_banner {
   max-width: 90%;
-  background: linear-gradient(104deg, #37621A 75%, #78BB4A 72%);
+  background: linear-gradient(104deg, #37621a 75%, #78bb4a 72%);
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -298,7 +298,7 @@
 
 .view_button {
   background-color: #fff;
-  color: #37621A;
+  color: #37621a;
   display: inline-block;
   border-radius: 20px;
   padding: 8px 20px;
@@ -306,13 +306,13 @@
 }
 
 .view_button:hover {
-  background-color: #37621A;
+  background-color: #37621a;
   color: #fff;
 }
 
 @media (min-width: 992px) and (max-width: 1087px) {
   .sale_banner {
-    background: #37621A;
+    background: #37621a;
   }
 
   .view_button {
@@ -320,12 +320,10 @@
   }
 }
 
-
-
 @media (min-width: 768px) and (max-width: 991px) {
   .gift1_image {
     top: 20px;
-    right: 99px
+    right: 99px;
   }
 
   .gift2_image {
@@ -335,7 +333,7 @@
   }
 
   .sale_banner {
-    background: #37621A;
+    background: #37621a;
     padding: 10px 5px;
     cursor: pointer;
     position: relative;
@@ -345,26 +343,28 @@
   .sale-content {
     padding-left: 22px;
   }
-
 }
 
-@media (min-width: 320px) and (max-width: 424px){
-.sale_banner {
-  background:#37621A;
-}
-.offer-btn{
-  text-align: center;
-}
-.gift1_image {
-  top: 20px;
-  right: 10px;
-}
-sale_banner {
-  max-width: 100%;}
+@media (min-width: 320px) and (max-width: 767px) {
+  .sale_banner {
+    background: #37621a;
+  }
+  .offer-btn {
+    text-align: center !important;
+  }
+  .gift1_image {
+    top: 20px;
+    right: 10px;
+  }
+  .sale_banner {
+    max-width: 100%;
+  }
+  .view_button {
+    margin-top: 25px;}
+
 }
 
 /* trade css */
-
 
 .we-trade {
   margin-bottom: 140px;
@@ -376,10 +376,10 @@ sale_banner {
   align-items: center;
   height: auto;
   background: #fff;
-  border: 1px solid #EDEDED;
+  border: 1px solid #ededed;
   margin: 10px;
   border-radius: 10px;
-  padding: 10px 41px;
+  padding: 10px 25px;
 }
 
 .owl-carousel .weTrade-carousel-item img {
@@ -392,8 +392,8 @@ sale_banner {
 .next-slide {
   position: absolute;
   top: 0px;
-  border: 1px solid #37621A;
-  color: #37621A;
+  border: 1px solid #37621a;
+  color: #37621a;
   border-radius: 50%;
   width: 35px;
   height: 35px;
@@ -410,12 +410,11 @@ sale_banner {
 
 .custom-nav .prev-slide,
 .next-slide:hover {
-  background-color: #37621A;
+  background-color: #37621a;
   color: #fff;
 }
 
 /* timer css */
-
 
 .timer {
   padding-top: 10px;
@@ -423,7 +422,6 @@ sale_banner {
   justify-content: space-evenly;
   align-items: center;
   color: white;
-
 }
 
 .timer-box {
@@ -457,36 +455,25 @@ sale_banner {
     padding-top: 0px;
     justify-content: space-evenly;
   }
-
 }
-
 
 /* popularproducr css */
 
-
-
 .popularProduct_List1 {
-  background-color: #E6FFD4;
+  background-color: #e6ffd4;
   padding: 50px 0;
   overflow-x: clip;
-  background-image:
-    url('./../../assets/background/vector5.png'),
-    url('./../../assets/background/vector6.png');
+  background-image: url("./../../assets/background/vector5.png"),
+    url("./../../assets/background/vector6.png");
   /* Second image */
-  background-position:
-    left top,
-    /* Position for the first image */
-    right bottom;
+  background-position: left top, /* Position for the first image */ right bottom;
   /* Position for the second image */
 
-  background-repeat:
-    no-repeat,
-    /* Repeat settings for the first image */
-    no-repeat;
+  background-repeat: no-repeat,
+    /* Repeat settings for the first image */ no-repeat;
   /* Repeat settings for the second image */
 
   background-size: 33%;
-
 }
 
 .dalImage {
@@ -506,14 +493,40 @@ sale_banner {
 }
 
 .discount-product {
-  background: #78BB4A;
+  background: #78bb4a;
   border-radius: 15px;
   padding: 20px 10px 20px 20px;
   min-height: 221px;
 }
 
+.discount-juice {
+  background-image: url("./../../assets/fruit1.png");
+  background-position: right;
+  /* Position for the second image */
+
+  background-repeat: no-repeat;
+  /* Repeat settings for the second image */
+
+  background-size: 55%;
+}
+.discount-masala {
+  background-image: url("./../../assets/spices.png");
+  background-position: right;
+
+  background-repeat: no-repeat;
+  background-size: 55%;
+}
+
+.discount-dal {
+  background-image: url("./../../assets/dal.png");
+  background-position: right;
+
+  background-repeat: no-repeat;
+  background-size: 55%;
+}
+
 .discount_content {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .break-line {
@@ -521,10 +534,10 @@ sale_banner {
 }
 
 .discount-product p {
-  background: #37621A;
+  background: #37621a;
   color: #fff;
   border-radius: 34px;
-  padding: 9px 23px;
+  padding: 7px 18px;
   margin-bottom: 10px;
   width: fit-content;
 }
@@ -554,11 +567,10 @@ sale_banner {
 .discount_link {
   background: #fff;
   border-radius: 25px;
-  padding: 11px 20px;
-  color: #37621A;
+  padding: 9px 15px;
+  color: #37621a;
   display: inline-block;
 }
-
 
 .m-image {
   width: 45%;
@@ -571,7 +583,7 @@ sale_banner {
 }
 
 .product-item:hover {
-  border: 1px solid #A36D3B;
+  border: 1px solid #a36d3b;
 }
 
 .product-image {
@@ -587,7 +599,7 @@ sale_banner {
 
 .popularProduct-viewMore {
   background-color: #fff;
-  border: 1px solid #37621A;
+  border: 1px solid #37621a;
   border-radius: 20px;
   cursor: pointer;
   width: max-content;
@@ -597,7 +609,7 @@ sale_banner {
 }
 
 .popularProduct-viewMore a {
-  color: #37621A;
+  color: #37621a;
   transition: color 0.1s ease 0.1s;
 }
 
@@ -615,30 +627,24 @@ sale_banner {
 
   .spices1 {
     top: 117px;
-
   }
 }
 
-
 @media (min-width: 768px) and (max-width: 991px) {
-
   .product-item {
     margin-top: 44px;
   }
 
   .spices1 {
     top: 600px;
-
   }
 
   .dalImage {
     width: 14%;
   }
-
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-
   .product-item {
     margin-top: 40px;
     padding: 0px 0px !important;
@@ -656,53 +662,46 @@ sale_banner {
     width: 20%;
   }
 
-
   .product-item h5 {
     margin-top: 10px;
   }
 
   .product-image {
     margin-top: -45px;
-
   }
 }
 
 /* foodprdouct css */
 
-
-
-
 .foodProduct-item {
-  border: 1px solid #EDEDED;
+  border: 1px solid #ededed;
   border-radius: 15px;
-  background: #F8F8F8;
+  background: #f8f8f8;
   width: 100%;
-
 }
 
 .foodProduct-item:hover {
-  border: 1px solid #000;
+  border: 1px solid #37621A;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .foodProduct-content h6 {
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 
 .foodProduct-item h6 {
   color: black;
   text-align: center;
   text-decoration: none;
-
 }
 
 .foodProduct-view {
-  color: #37621A;
+  color: #37621a;
   text-decoration: underline;
 }
 
 .foodProduct-view a {
-  color: #37621A;
-
+  color: #37621a;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -714,34 +713,34 @@ sale_banner {
 /* nonFoodProduct css */
 
 .nonFoodHeading h6 {
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 
-
 .nonFoodProduct-item2 {
-  border: 1px solid #EDEDED;
+  border: 1px solid #ededed;
   border-radius: 15px;
-  background: #F8F8F8;
+  background: #f8f8f8;
   width: 100%;
 }
 
 .nonFoodProduct-item2:hover {
-  border: 1px solid #000;
-}
+  border: 1px solid #37621A;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
+  ;
+}
 
 .nonFoodProduct-item2 h6 {
   color: #000;
 }
 
 .nonFoodProduct-view {
-  color: #37621A;
+  color: #37621a;
   text-decoration: underline;
 }
 
 .nonFoodProduct-view a {
-  color: #37621A;
-
+  color: #37621a;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -750,9 +749,7 @@ sale_banner {
   }
 }
 
-
 /* aboutus css */
-
 
 .about {
   padding: 100px 0;
@@ -797,10 +794,7 @@ sale_banner {
   left: 48%;
 }
 
-
-
 .subscribe {
-
   border: none;
   padding: 5px 5px;
   outline: none;
@@ -908,7 +902,6 @@ sale_banner {
   line-height: 22px;
   text-align: left;
   margin-bottom: 33px;
-
 }
 
 .about_content a {
@@ -951,7 +944,11 @@ sale_banner {
   .aboutFruitjuice-img {
     left: 391px;
   }
-}
+  .subscribe input {
+    padding: 10px 12px;
+    /* width: 51%; */
+  }}
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   .subscribe_banner {
@@ -965,7 +962,6 @@ sale_banner {
   }
 
   .aboutSpice-img {
-
     top: 0px;
     left: 289px;
     width: 21%;
@@ -974,7 +970,7 @@ sale_banner {
   .aboutFruitjuice-img {
     left: 74%;
     bottom: 13px;
-    width: 19%
+    width: 19%;
   }
 
   .about-box {
@@ -984,7 +980,6 @@ sale_banner {
   .subscribe {
     width: 70%;
   }
-
 }
 
 @media (min-width: 426px) and (max-width: 767px) {
@@ -998,7 +993,6 @@ sale_banner {
   }
 
   .aboutSpice-img {
-
     top: 0px;
     left: 235px;
     width: 25%;
@@ -1022,17 +1016,16 @@ sale_banner {
 
   .subscribe a {
     padding: 9px 14px;
-}
-.about_stick{
-  left: -56px;
-}
-.about_wheat {
-  bottom: -8px}
+  }
+  .about_stick {
+    left: -56px;
+  }
+  .about_wheat {
+    bottom: -8px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
-
-
   .subscribe_banner {
     margin-left: 0px;
     width: 100%;
@@ -1081,7 +1074,6 @@ sale_banner {
   .about_content p {
     font-size: 15px;
     line-height: 18px;
-
   }
 
   .about_stick {
@@ -1101,22 +1093,16 @@ sale_banner {
   }
 }
 
-
 /* feedback css */
 
-
-.feedback-card{
+.feedback-card {
   overflow-x: clip;
-  background-image:
-    url('./../../assets/background/vector6.png');
+  background-image: url("./../../assets/background/vector6.png");
 
-  background-position:
-    right bottom;
-  background-repeat:
-    no-repeat;
+  background-position: right bottom;
+  background-repeat: no-repeat;
 
   background-size: 25%;
-
 }
 
 .feedback-container {
@@ -1139,15 +1125,13 @@ sale_banner {
 }
 
 .feedback-card {
-  background-color: #E6FFD4 !important;
+  background-color: #e6ffd4 !important;
   border-radius: 10px;
   border: none !important;
   max-width: 80%;
   margin: auto;
   text-align: left;
 }
-
-
 
 .feedback-body {
   padding: 20px;
@@ -1157,12 +1141,12 @@ sale_banner {
   font-size: 18px;
   font-family: Josefin Sans;
   line-height: 20px;
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 
 .feedback-name small {
   font-size: 18px;
-  color: #37621A;
+  color: #37621a;
 }
 
 .feedback-name {
@@ -1174,10 +1158,9 @@ sale_banner {
   bottom: -85px;
 }
 
-
 /* Custom indicator styles */
 .custom-carousel-indicators button {
-  background-color: #E6E6E6 !important;
+  background-color: #e6e6e6 !important;
   border: none;
   width: 10px !important;
   height: 10px !important;
@@ -1185,20 +1168,20 @@ sale_banner {
 }
 
 .custom-carousel-indicators .active {
-  background-color: #37621A !important;
+  background-color: #37621a !important;
 }
 
 /* Custom control button styles */
 .custom-carousel-control-prev,
 .custom-carousel-control-next {
-  color: #37621A;
+  color: #37621a;
   border-radius: 50%;
   width: 40px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #37621A;
+  border: 1px solid #37621a;
   font-size: 40px;
   top: 36px;
   z-index: 1000;
@@ -1207,7 +1190,6 @@ sale_banner {
 
 .carousel-control-next,
 .carousel-control-prev {
-
   z-index: 9;
 }
 
@@ -1218,7 +1200,6 @@ sale_banner {
 .custom-carousel-control-next {
   right: 40%;
 }
-
 
 .custom-carousel-control-prev-icon,
 .custom-carousel-control-next-icon {
@@ -1234,19 +1215,16 @@ sale_banner {
   .carousel-control-prev {
     left: 35%;
   }
-  
+
   .custom-carousel-control-next {
     right: 35%;
   }
 }
 
-
 /* question css */
 
-
-
 .img_box {
-  background: #E6FFD4;
+  background: #e6ffd4;
   margin-bottom: 100px !important;
   margin-bottom: 50px;
 }
@@ -1263,23 +1241,21 @@ sale_banner {
 }
 
 .accordion-button {
-  background-color: #E6FFD4 !important;
-  color: #37621A;
-  border: 1px solid #37621A;
+  background-color: #e6ffd4 !important;
+  color: #37621a;
+  border: 1px solid #37621a;
   border-radius: 10px;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #FFFFFF !important;
+  background-color: #ffffff !important;
   border: none;
   box-shadow: none;
-  color: #37621A;
-
-
+  color: #37621a;
 }
 
-.accordion-item:first-of-type>.accordion-header .accordion-button,
-.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+.accordion-item:first-of-type > .accordion-header .accordion-button,
+.accordion-item:last-of-type > .accordion-header .accordion-button.collapsed {
   border-radius: 10px !important;
 }
 
@@ -1294,9 +1270,8 @@ sale_banner {
 
 .accordion-body {
   font-size: 18px;
-  color: #6A6A6A;
+  color: #6a6a6a;
   line-height: 20px;
-
 }
 
 .img_leaf2 {
@@ -1326,7 +1301,6 @@ sale_banner {
 .offer-btn {
   margin: auto;
   text-align: end;
-
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -1361,8 +1335,8 @@ sale_banner {
   .discount-product div h3 {
     font-size: 15px;
   }
-  
-  .discount_link{
+
+  .discount_link {
     font-size: 12px;
     padding: 11px 11px;
   }
@@ -1374,9 +1348,7 @@ sale_banner {
   .discount-product {
     min-height: 205px;
   }
-
 }
-
 
 @media (min-width: 425px) and (max-width: 767px) {
   .feedback-container h2 {
@@ -1412,10 +1384,6 @@ sale_banner {
     right: 30%;
   }
 
-  .discount-product h3 {
-    font-size: 17px;
-  }
-
   .subscribe-section h4 {
     font-size: 24px;
   }
@@ -1426,7 +1394,10 @@ sale_banner {
 
   .organic h1 {
     font-size: 52px;
-    line-height: 78px;
+    line-height: 55px;
+  }
+  .organic h5 {
+    margin-bottom: 25px;
   }
 
   .quality {
@@ -1470,7 +1441,7 @@ sale_banner {
   }
 
   .discount-product div h3 {
-    font-size: 16px;
+    font-size: 25px;
   }
 
   .sale h3 {
@@ -1483,7 +1454,7 @@ sale_banner {
 
   .gift1_image {
     top: 20px;
-    right: 10px
+    right: 10px;
   }
 
   .gift2_image {
@@ -1492,19 +1463,14 @@ sale_banner {
   }
 
   .sale_banner {
-    background: #37621A;
+    background: #37621a;
     padding: 10px 5px;
     cursor: pointer;
     position: relative;
     margin: auto;
   }
 
-  .view_button {
-    margin-top: 12px;
-  }
-
 }
-
 
 @media (min-width: 320px) and (max-width: 425px) {
   .accordion-button {
@@ -1527,20 +1493,17 @@ sale_banner {
     width: 20%;
     z-index: 9;
   }
-  .sale h6{
+  .sale h6 {
     text-align: inherit;
   }
-  .sale h3{
+  .sale h3 {
     font-size: 27px;
   }
-  .gift2_image{
+  .gift2_image {
     display: none;
   }
-  .view_button {
-    margin-top: 32px;
-    margin-left: 15px;
-   }
+
   #customCarousel .carousel-indicators {
     display: none;
-  } 
+  }
 }

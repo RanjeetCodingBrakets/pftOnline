@@ -23,7 +23,7 @@ const WeekendSale = () => {
           </div>
           <div className="col-12 col-lg-3 col-md-6 offer-btn">
             
-              <Link to="/about-offer" className="view_button">
+              <Link to="/promotionalPage" className="view_button">
                 About the Offer
               </Link>
             

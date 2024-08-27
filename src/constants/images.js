@@ -58,6 +58,10 @@ import member from '../assets/member.png';
 import frame9 from '../assets/background/Frame9.png';
 import map from '../assets/map.png';
 import profilepic from '../assets/profilepic.png';
+import promoimg1 from '../assets/promoimg1.png';
+import promoimg2 from '../assets/promoimg2.png';
+import promoimg3 from '../assets/promoimg3.png';
+import ComboProduct from '../assets/ComboProduct.png';
 
 const images = {
   logo,
@@ -120,6 +124,10 @@ const images = {
   frame9,
   map,
   profilepic,
+  promoimg1,
+  promoimg2,
+  promoimg3,
+  ComboProduct,
 
 };
 

@@ -15,7 +15,7 @@ const Contactus = () => {
             
           </div>
         </div>
-        <div className="row pt-5 mb-40">
+        <div className="row pt-5 mb-50">
           <div className="col-md-6 connect-us">
             <h3>Get In Touch With Us</h3>
             <p>
@@ -63,41 +63,37 @@ const Contactus = () => {
           </div>
         </div>
 
-            <div className="row" id="contact-row">
-                <div className="col-lg-3">
+            <div className="row " id="contact-row">
+                <div className="col-lg-3 contact-info">
                     <div className="image-email">
-                    <GrMail className="contact-icon" />
+                    <GrMail className="c-icon" />
                     </div>
                     <div className="inquiry-headings">
                         <h4>E-mail Us</h4>
-                        <p className="text-center">Sales: sales@youstable.com</p>
-                        <p className="text-center">Billing: accounts@youstable.com</p>
-                        <p className="text-center">Support: support@youstable.com</p>
+                        <p className="text-center">Lorem ipsum is placeholder text commonly used in the graphic.</p>
                     </div>
                 </div>
-                <div className="col-lg-3">
+                <div className="col-lg-3 contact-info">
                     <div className="image-email image-email-1">
-                    <BsFillChatFill />
+                    <BsFillChatFill className="c-icon" />
                     </div>
                     <div className="inquiry-headings">
                         <h4>Chat</h4>
                         <p className="text-center">Lorem ipsum is placeholder text commonly used in the graphic.</p>
                     </div>
                 </div>
-                <div className="col-lg-3">
+                <div className="col-lg-3 contact-info">
                     <div className="image-email">
-                    <FaPhoneAlt className="contact-icon" />
+                    <FaPhoneAlt className="c-icon" />
                     </div>
                     <div className="inquiry-headings">
                         <h4>Call Us</h4>
-                        <p className="text-center">Lorem ipsum is placeholder text commonly used in the graphic.
-                            theperfect
-                            hosting.</p>
+                        <p className="text-center">Lorem ipsum is placeholder text commonly used in the graphic.</p>
                     </div>
                 </div>
-                <div className="col-lg-3">
+                <div className="col-lg-3 contact-info">
                     <div className="image-email image-email-1">
-                    <FaCalendarDays />
+                    <FaCalendarDays className="c-icon" />
                     </div>
                     <div className="inquiry-headings">
                         <h4>Working Days/Hours</h4>
