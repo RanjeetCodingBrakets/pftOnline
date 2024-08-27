@@ -410,18 +410,18 @@
   font-size: 14px;
 }
 .promoimage3 {
-  width: 40%;
+  width: 35%;
   bottom: -18px;
-  left: 46px;
+  left: 60px;
 }
 .promoimage1 {
-  width: 80%;
+  width: 65%;
   bottom: -25px;
-  left: -57px;
+  left: -20px;
 }
 .promoimage2 {
-  width: 69%;
-  bottom: -17px;
+  width: 64%;
+  bottom: -36px;
   right: -21px;
 }
 
@@ -467,11 +467,11 @@
 
 @media (min-width: 426px) and (max-width: 767px) {
   .promotion-frame {
-    padding: 40px ;
+    padding: 40px 15px ;
 }
   .big-value {
-    font-size: 45px;
-    line-height: 61px;
+    font-size: 34px;
+    line-height: 50px;
 }
 .offer-time {
   font-size: 14px;
