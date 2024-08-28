@@ -203,6 +203,16 @@ align-items: center;
   }
 }
 
+.header-timer{
+  border: 1px solid #37621A;
+  border-radius: 300px;
+  padding: 10px 20px;
+}
+
+.header-timer .sale{
+  margin-right: 5px;
+  color: #37621A;
+}
 
 
 

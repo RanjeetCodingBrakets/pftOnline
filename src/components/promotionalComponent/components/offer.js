@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BsPlusSquare } from "react-icons/bs";
+import LiveTimer from '../../commonComponent/liveTimer';
 
 const Offer = ({ offerMockData }) => {
   const [itemsToShow, setItemsToShow] = useState(11);
@@ -13,12 +14,12 @@ const Offer = ({ offerMockData }) => {
     <div className='mb-50'>
       <div className="container">
         <div className="row p-4 offer-container">
-          <div className="col-8">
+          <div className="col-6">
             <h3>Sonderangebot</h3>
             <h5>Offer valid on 19.07.</h5>
           </div>
-          <div className="col-4 d-flex align-items-center justify-content-end">
-            <h5>Time left: 2h 45m</h5>
+          <div className="col-6 d-flex align-items-center justify-content-end">
+            <h5><LiveTimer offerTimer="offer-timer" initialHours={10} initialMinutes={0} initialSeconds={0} /></h5>
           </div>
         </div>
 

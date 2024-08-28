@@ -5,6 +5,7 @@ import images from "../../constants/images";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 import LoginSignup from "../LoginSignUp/LoginSignup";
+import LiveTimer from "./liveTimer";
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -59,14 +60,12 @@ const Header = () => {
                 Login / Signup
               </button>
               <LoginSignup show={showModal} handleClose={handleClose} />
-             <button className="head-live-timer">
-               Live Sale
+             
+            
                 <span className="ms-2">
-                  {/* {hours < 10 ? `0${hours}` : hours}:
-                 {minutes < 10 ? `0${minutes}` : minutes}:
-                 {seconds < 10 ? `0${seconds}` : seconds}               */}
+                <LiveTimer offerTimer="header-timer" initialHours={10} initialMinutes={0} initialSeconds={0} />
                   </span>
-              </button>
+          
         {/* <a href="#login" className="p__opensans">
           login / Register
         </a> */}
@@ -132,18 +131,9 @@ const Header = () => {
              <button className="head-live-timer">
                Live Sale
                 <span className="ms-2">
-                  {/* {hours < 10 ? `0${hours}` : hours}:
-                 {minutes < 10 ? `0${minutes}` : minutes}:
-                 {seconds < 10 ? `0${seconds}` : seconds}               */}
+                <LiveTimer initialHours={10} initialMinutes={0} initialSeconds={0} />
                   </span>
               </button>
-        {/* <a href="#login" className="p__opensans">
-          login / Register
-        </a> */}
-        
-        {/* <a href="/" className="p__opensans">
-          Book Table
-        </a> */}
       </div>
           
         </div>
