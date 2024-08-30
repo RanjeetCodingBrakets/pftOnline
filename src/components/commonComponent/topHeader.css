@@ -46,11 +46,12 @@
 .nav_icon_link:hover {
   color: yellow;
 }
+
 .nav_icon_link svg:hover {
   color: yellow;
 }
 
-.language-dropdown ul li a{
+.language-dropdown ul li a {
   cursor: pointer;
 }
 
@@ -61,8 +62,13 @@
     color: #fff;
     font-size: 13px;
     margin-bottom: 8px;
-}
-.bg_image {
-  height: 150px;
-}
+  }
+
+  .bg_image {
+    height: 150px;
+  }
+
+  .nav_topHeader {
+    display: none;
+  }
 }
