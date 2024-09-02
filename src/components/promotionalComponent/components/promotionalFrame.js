@@ -52,16 +52,6 @@ const PromotionalFrame = () => {
                       alt=""
                       className="promoimage1"
                     />
-                    <img
-                      src={images.promoimg2}
-                      alt=""
-                      className="promoimage2"
-                    />
-                    <img
-                      src={images.promoimg3}
-                      alt=""
-                      className="promoimage3"
-                    />
                   </div>
                 </div>
               </div>

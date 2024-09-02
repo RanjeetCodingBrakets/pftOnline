@@ -19,32 +19,17 @@
 }
 
 .promoimage1 {
-  width: 56%;
+  width: 125%;
   position: absolute;
-  bottom: -47px;
-  left: -17px;
-  transform: rotate(-13.7deg);
-}
-.promoimage3 {
-  width: 35%;
-  position: absolute;
-  bottom: -61px;
-  left: 169px;
-}
-
-.promoimage2 {
-  width: 55%;
-  position: absolute;
-  bottom: -50px;
-  right: -21px;
-  transform: rotate(8.71deg);
+  bottom: -80px;
+  left: -80px;
 }
 
 .big-value {
   font-family: Arial;
   font-size: 90px;
   font-weight: 800;
-  line-height: 130px;
+  line-height: 112px;
 }
 
 .big-value span {
@@ -390,8 +375,8 @@ margin: 0px;
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .big-value {
-    font-size: 59px;
-    line-height: 85px;
+    font-size: 68px;
+    line-height: 90px;
 }
 .offer-time {
     font-size: 20px;
@@ -405,20 +390,11 @@ margin: 0px;
   .product-promo-grid {
     padding: 30px 5px;
   }
-  .promoimage3 {
-    width: 38%;
-    bottom: -61px;
-    left: 90px;
-}
-.promoimage2 {
-  width: 70%;
-  bottom: -50px;
-  right: -31px;
-}
+
 .promoimage1 {
-  width: 65%;
-  bottom: -33px;
-  left: -85px;
+  width: 129%;
+  bottom: -66px;
+  left: -72px;
 }
 .showMore-btn {
   right: 5px}
@@ -436,21 +412,13 @@ margin: 0px;
 .offer-time {
   font-size: 14px;
 }
-.promoimage3 {
-  width: 35%;
-  bottom: -18px;
-  left: 60px;
-}
+
 .promoimage1 {
-  width: 65%;
-  bottom: -25px;
-  left: -20px;
+  width: 110%;
+  bottom: -39px;
+  left: 13px;
 }
-.promoimage2 {
-  width: 64%;
-  bottom: -36px;
-  right: -21px;
-}
+
 
 .promo-disc-banner{
   max-width: 100%;
@@ -519,13 +487,13 @@ margin: 0px;
     right: 96px;}
 }
 
-@media (min-width: 426px) and (max-width: 767px) {
+@media (min-width: 545px) and (max-width: 767px) {
   .promotion-frame {
     padding: 40px 15px ;
 }
   .big-value {
-    font-size: 34px;
-    line-height: 50px;
+    font-size: 45px;
+    line-height: 60px;
 }
 .offer-time {
   font-size: 14px;
