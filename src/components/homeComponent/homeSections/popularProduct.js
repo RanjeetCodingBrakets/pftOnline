@@ -54,9 +54,7 @@ const PopularProduct = () => {
                   View Products
                 </Link>
               </div>
-              {/* <div className="f-image">   
-                 <img src={images.spices} alt="spices" className="spice-img" />
-                </div> */}
+
             </div>
           </div>
 
@@ -71,10 +69,7 @@ const PopularProduct = () => {
                 <Link to="/promotionalPage" className="discount_link btn-dark">
                   View Products
                 </Link>
-              </div>
-              {/* <div className="f-image">   
-                 <img src={images.dal} alt="dal" />
-                </div>   */}
+              </div>    
             </div>
           </div>
         </div>
@@ -82,7 +77,49 @@ const PopularProduct = () => {
         <div className="row mb-90 p-prod">
           <div className="col-12">
             <div className="product_heading">
-              <h3 className="text-center">Choose From Popular Products</h3>
+              <h3 className="text-center popularProduct-text">
+                {" "}
+                Sonderangebot
+              </h3>
+              <h6 className="text-center">From 20/04/2024 to 27/04/2024</h6>
+            </div>
+          </div>
+        </div>
+
+        <div className="row mb-40">
+          {popular.map((product) => (
+            <div
+              key={product.id}
+              className="col-lg-2 col-md-3 col-sm-3 col-6 text-center mb-4"
+            >
+              <div className="product-item p-2">
+                <Link to="">
+                  <img
+                    src={product.imgSrc}
+                    alt={product.name}
+                    className="product-image"
+                  />
+                  <h5>{product.name}</h5>
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="row mb-40">
+          <div className="col-12">
+            <div className="popularProduct-viewMore btn-dark">
+              <Link to="">View More</Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="row mb-90 p-prod">
+          <div className="col-12">
+            <div className="product_heading">
+              <h3 className="text-center popularProduct-text">
+                Choose From Popular Products
+              </h3>
               <h6 className="text-center">Over 250+ products available</h6>
             </div>
           </div>

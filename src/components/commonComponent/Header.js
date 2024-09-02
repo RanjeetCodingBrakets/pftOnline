@@ -93,7 +93,26 @@ const Header = () => {
           <li className="p__opensans">
           <Link to="/">Home</Link>
         </li>
-            <li className="nav-item dropdown p__opensans">
+        <li class="accordion" id="accordionFlushExample">
+        <button class="accordion-button categoryDrop-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+          Category
+        </button>
+        <ul id="flush-collapseOne" class="accordion-collapse collapse list-unstyled" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+          <li>
+                    <Link className="dropdown-item drop-option" to="/product-Listing">
+                      All Products
+                    </Link>
+                  </li>
+                  <li>
+                    <a className="dropdown-item drop-option" href="#">
+                      Another action
+                    </a>
+                  </li>
+          </div>
+        </ul>
+</li>
+            {/* <li className="nav-item dropdown p__opensans">
                 <Link
                   className="nav-link dropdown-toggle head-link "
                   to="#"
@@ -115,7 +134,7 @@ const Header = () => {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="p__opensans">
           <Link to="/about-us">About Us</Link>
         </li>
@@ -128,12 +147,10 @@ const Header = () => {
                 Login / Signup
               </button>
               <LoginSignup show={showModal} handleClose={handleClose} />
-             <button className="head-live-timer">
-               Live Sale
-                <span className="ms-2">
-                <LiveTimer initialHours={10} initialMinutes={0} initialSeconds={0} />
+             
+             <span className="ms-2">
+                <LiveTimer offerTimer="head-live-timer" initialHours={10} initialMinutes={0} initialSeconds={0} />
                   </span>
-              </button>
       </div>
           
         </div>

@@ -44,11 +44,30 @@
 
 }
 
-.nav_icon_link:hover {
-  color: yellow;
+.facebook:hover {
+  color: #1877F2;
 }
-.nav_icon_link svg:hover {
-  color: yellow;
+
+
+.instagram:hover {
+  color: #E4405F;
+}
+
+.youtube:hover {
+  color: #CD201F;
+}
+
+.facebook svg:hover {
+  color: #1877F2;
+}
+
+
+.instagram svg:hover {
+  color: #E4405F;
+}
+
+.youtube svg:hover {
+  color: #CD201F;
 }
 
 .language-dropdown ul li a{

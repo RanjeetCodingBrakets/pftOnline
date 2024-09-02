@@ -81,9 +81,8 @@ align-items: center;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100vh;
-  background: #F5F5F5;
+  background: #fff;
   z-index: 10000;
   transition: 0.5s;
   flex-direction: column;
@@ -91,7 +90,7 @@ align-items: center;
 }
 
 .app__navbar-smallscreen_overlay .overlay__close{
-  font-size: 27px;
+  font-size: 24px;
   cursor: pointer;
   top: 20px;
   right: 20px;
@@ -104,27 +103,22 @@ align-items: center;
 
 }
 .app__navbar-smallscreen_links li{
-  text-align: center;
   cursor: pointer;
   color: #727272; 
-  padding: 10px;
+  padding: 8px;
   font-weight: 500;
-  border-bottom: 1px solid #727272;
-
-  
 }
+
 .app__navbar-smallscreen_links a{
-  text-align: center;
   cursor: pointer;
   color: #727272; 
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 600; 
 }
 
 
-.app__navbar-smallscreen_links li:hover:after{
-  transform: scaleX(1);
-  transition: transform .3s;
+.app__navbar-smallscreen_links li:hover{
+  background-color: #f5f5f5;
 }
 
 .head-live-timer {
@@ -167,13 +161,26 @@ align-items: center;
   text-align: end;
 }
 
+.categoryDrop-btn{
+  background-color: #fff !important;
+  color: #727272 !important;
+  border: 0px;
+  border-radius: 0px;
+  font-size: 26px;
+  padding: 0px;
+  font-weight: 600;
+}
+.categoryDrop-btn:hover{
+  background-color: #f5f5f5 !important;
+}
+
 @media screen and (min-width: 1200px) {
   .app__navbar-logo img{
       width: 120px;
   }
   .app__navbar-links li {
     margin: 0 14px;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 500;
     padding: 0px 5px;
 }
@@ -207,11 +214,22 @@ align-items: center;
   border: 1px solid #37621A;
   border-radius: 300px;
   padding: 10px 20px;
+  width: 175px;
 }
 
 .header-timer .sale{
   margin-right: 5px;
   color: #37621A;
+}
+
+@media(max-width: 1041px){
+  .app__navbar-links li {
+    font-size: 20px;
+    margin: 0px 8px;
+  }
+  .app__navbar {
+    padding: 1rem 1.5rem;
+  }
 }
 
 
