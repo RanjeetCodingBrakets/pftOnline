@@ -314,8 +314,8 @@ margin: 0px;
 
 
 .offer-card:hover{
-  transform: translateX(2px);
-  border: 1px solid #37621a;
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .showMore-btn:hover{
@@ -377,6 +377,16 @@ margin: 0px;
   color: #c63a23;
   background: #FFECE9;
 }
+
+.offer-timer{
+  border: 1px solid #fff;
+  border-radius: 300px;
+  padding: 10px 20px;
+}
+.offer-timer .sale-opt{
+  margin-right: 2px;
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .big-value {

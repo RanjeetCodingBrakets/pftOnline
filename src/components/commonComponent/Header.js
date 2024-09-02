@@ -5,6 +5,7 @@ import images from "../../constants/images";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 import LoginSignup from "../LoginSignUp/LoginSignup";
+import LiveTimer from "./liveTimer";
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -59,14 +60,12 @@ const Header = () => {
                 Login / Signup
               </button>
               <LoginSignup show={showModal} handleClose={handleClose} />
-             <button className="head-live-timer">
-               Live Sale
+             
+            
                 <span className="ms-2">
-                  {/* {hours < 10 ? `0${hours}` : hours}:
-                 {minutes < 10 ? `0${minutes}` : minutes}:
-                 {seconds < 10 ? `0${seconds}` : seconds}               */}
+                <LiveTimer offerTimer="header-timer" initialHours={10} initialMinutes={0} initialSeconds={0} />
                   </span>
-              </button>
+          
         {/* <a href="#login" className="p__opensans">
           login / Register
         </a> */}
@@ -94,7 +93,26 @@ const Header = () => {
           <li className="p__opensans">
           <Link to="/">Home</Link>
         </li>
-            <li className="nav-item dropdown p__opensans">
+        <li class="accordion" id="accordionFlushExample">
+        <button class="accordion-button categoryDrop-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+          Category
+        </button>
+        <ul id="flush-collapseOne" class="accordion-collapse collapse list-unstyled" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+          <li>
+                    <Link className="dropdown-item drop-option" to="/product-Listing">
+                      All Products
+                    </Link>
+                  </li>
+                  <li>
+                    <a className="dropdown-item drop-option" href="#">
+                      Another action
+                    </a>
+                  </li>
+          </div>
+        </ul>
+</li>
+            {/* <li className="nav-item dropdown p__opensans">
                 <Link
                   className="nav-link dropdown-toggle head-link "
                   to="#"
@@ -116,7 +134,7 @@ const Header = () => {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="p__opensans">
           <Link to="/about-us">About Us</Link>
         </li>
@@ -129,21 +147,10 @@ const Header = () => {
                 Login / Signup
               </button>
               <LoginSignup show={showModal} handleClose={handleClose} />
-             <button className="head-live-timer">
-               Live Sale
-                <span className="ms-2">
-                  {/* {hours < 10 ? `0${hours}` : hours}:
-                 {minutes < 10 ? `0${minutes}` : minutes}:
-                 {seconds < 10 ? `0${seconds}` : seconds}               */}
+             
+             <span className="ms-2">
+                <LiveTimer offerTimer="head-live-timer" initialHours={10} initialMinutes={0} initialSeconds={0} />
                   </span>
-              </button>
-        {/* <a href="#login" className="p__opensans">
-          login / Register
-        </a> */}
-        
-        {/* <a href="/" className="p__opensans">
-          Book Table
-        </a> */}
       </div>
           
         </div>
