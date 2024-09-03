@@ -19,15 +19,15 @@
 }
 
 .promoimage1 {
-  width: 125%;
+  width: 115%;
   position: absolute;
-  bottom: -80px;
-  left: -80px;
+  bottom: -108px;
+  left: -40px;
 }
 
 .big-value {
   font-family: Arial;
-  font-size: 90px;
+  font-size: 82px;
   font-weight: 800;
   line-height: 112px;
 }
@@ -136,19 +136,6 @@ margin: 0px;
   padding: 0px 5px;
 }
 
-/* .offer-toast-box{
-    border-radius: 300px;
-    font-size: 18px;
-    box-shadow: none;
-    border: 1.09px solid #DDDDDD;
-    background: #E6E6E6;
-    padding: 0px 8px;
-  }
-
-  .offer-toast-box:hover{
-    background: #37621A;
-    color: #E6E6E6;
-  } */
 
 .offer-container {
   background-color: #78bb4a;
@@ -279,7 +266,7 @@ margin: 0px;
 }
 
 .showMore-btn {
-  right: 52px;
+  right: 30px;
   bottom: 189px;
   border: 0px;
   width: auto;
@@ -414,9 +401,9 @@ margin: 0px;
 }
 
 .promoimage1 {
-  width: 110%;
+  width: 115%;
   bottom: -39px;
-  left: 13px;
+  left: -8px;
 }
 
 
@@ -451,12 +438,6 @@ margin: 0px;
   }
   .Offerbtn-banner, .sonderangebot-banner {
     margin-bottom: 30px;
-}
-.showMore-btn{
-  position: static !important;
-  text-align: center;
-  margin: auto;
-  padding: 50px;
 }
 
 .offer-option{
@@ -540,5 +521,18 @@ margin: 0px;
 .sonderangebot-banner::before {
   right: 302px;
 }
+.big-value {
+  font-size: 58px;
+  line-height: 90px;
+}
+  }
+
+  @media (min-width: 320px) and (max-width: 575px) {
+    .showMore-btn{
+      position: static !important;
+      text-align: center;
+      margin: auto;
+      padding: 50px;
+    }
   }
 
