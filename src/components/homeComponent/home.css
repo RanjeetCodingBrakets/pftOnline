@@ -80,7 +80,7 @@
   border: 0px solid;
   background: #fff;
   border-radius: 25px;
-  padding: 8px 20px;
+  padding: 14px 20px;
   color: #37621a;
   margin-top: 20px;
 }
@@ -278,7 +278,7 @@
 .sale_banner {
   max-width: 90%;
   background: linear-gradient(104deg, #37621a 75%, #78bb4a 72%);
-  padding: 10px 20px;
+  padding: 15px 20px;
   font-size: 16px;
   cursor: pointer;
   position: relative;
@@ -331,9 +331,6 @@
 }
 
 @media (min-width: 992px) and (max-width: 1087px) {
-  .sale_banner {
-    background: #37621a;
-  }
 
   .view_button {
     padding: 8px 9px;
@@ -354,10 +351,6 @@
 
   .sale_banner {
     background: #37621a;
-    padding: 10px 5px;
-    cursor: pointer;
-    position: relative;
-    margin: auto;
   }
 
   .sale-content {
@@ -526,6 +519,17 @@
   width: 18%;
   right: -60px;
   top: 134px;
+}
+
+.popularProduct-text{
+  font-size: 42px;
+  font-weight: 700;
+}
+.product_heading h6{
+  font-size: 20px;
+  font-weight: 400;
+  color: #6B6B6B;
+
 }
 
 .discount-block {
@@ -778,6 +782,13 @@
 
   .product-image {
     margin-top: -45px;
+  }
+  .popularProduct-text{
+    font-size: 27px;
+  }
+  .product_heading h6{
+    font-size: 18px;
+  
   }
 }
 
@@ -1518,11 +1529,6 @@
     font-size: 25px;
   }
 
-  .sale_banner {
-    width: 80%;
-    padding: 10px 0px;
-  }
-
   .discount_link {
     padding: 10px 14px;
   }
@@ -1568,10 +1574,6 @@
 
   .sale_banner {
     background: #37621a;
-    padding: 10px 5px;
-    cursor: pointer;
-    position: relative;
-    margin: auto;
   }
 
 }
@@ -1618,5 +1620,13 @@
 
   #customCarousel .carousel-indicators {
     display: none;
+  }
+}
+
+@media (max-width: 1200px){
+
+  .sale_banner {
+    max-width: 100%;
+    padding: 15px 5px;
   }
 }

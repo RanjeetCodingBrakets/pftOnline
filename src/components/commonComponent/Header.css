@@ -86,7 +86,7 @@
   left: -100%;
   width: 100%;
   height: 100vh;
-  background: #F5F5F5;
+  background: #fff;
   z-index: 10000;
   transition: 0.5s;
   flex-direction: column;
@@ -210,6 +210,19 @@
   text-align: end;
 }
 
+.categoryDrop-btn{
+  background-color: #fff !important;
+  color: #727272 !important;
+  border: 0px;
+  border-radius: 0px;
+  font-size: 26px;
+  padding: 0px;
+  font-weight: 600;
+}
+.categoryDrop-btn:hover{
+  background-color: #f5f5f5 !important;
+}
+
 @media screen and (min-width: 1200px) {
   .app__navbar-logo img {
     width: 120px;
@@ -217,7 +230,7 @@
 
   .app__navbar-links li {
     margin: 0 14px;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 500;
     padding: 0px 5px;
   }
@@ -267,6 +280,27 @@
   }
 }
 
+.header-timer{
+  border: 1px solid #37621A;
+  border-radius: 300px;
+  padding: 10px 20px;
+  width: 175px;
+}
+
+.header-timer .sale{
+  margin-right: 5px;
+  color: #37621A;
+}
+
+@media(max-width: 1041px){
+  .app__navbar-links li {
+    font-size: 20px;
+    margin: 0px 8px;
+  }
+  .app__navbar {
+    padding: 1rem 1.5rem;
+  }
+}
 
 
 

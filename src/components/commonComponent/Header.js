@@ -5,6 +5,7 @@ import images from "../../constants/images";
 import { AiOutlineMenu  } from "react-icons/ai";
 import { IoCloseSharp, IoMenuOutline  } from "react-icons/io5";
 import LoginSignup from "../LoginSignUp/LoginSignup";
+import LiveTimer from "./liveTimer";
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -113,7 +114,7 @@ const Header = () => {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> 
               <li className="p__opensans">
                 <Link to="/about-us">About Us</Link>
               </li>

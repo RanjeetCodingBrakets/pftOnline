@@ -11,7 +11,8 @@
 }
 
 .topHeader-links .nav-link:hover {
-  color: yellow;
+    transform: translateX(2px);
+ 
 }
 
 .headDrop-button,
@@ -43,8 +44,8 @@
 
 }
 
-.nav_icon_link:hover {
-  color: yellow;
+.facebook:hover {
+  color: #1877F2;
 }
 
 .nav_icon_link svg:hover {

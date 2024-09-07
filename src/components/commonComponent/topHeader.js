@@ -32,18 +32,18 @@ const  TopHeader = () => {
               {languageValue}
             </button>
             <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-              <li><a class="dropdown-item"  onClick={() => languageChange('English')} >English</a></li>
-              <li><a class="dropdown-item"  onClick={() => languageChange('German')} >German</a></li>
+              <li><a className="dropdown-item"  onClick={() => languageChange('English')} >English</a></li>
+              <li><a className="dropdown-item"  onClick={() => languageChange('German')} >German</a></li>
             </ul>
           </div>
 
-          <Link to="#" className="nav-link nav_icon_link ">
+          <Link to="#" className="nav-link nav_icon_link  facebook">
             <FaFacebookF className="nav_icon" />
           </Link>
-          <Link to="#" className="nav-link nav_icon_link">
+          <Link to="#" className="nav-link nav_icon_link instagram">
             <RiInstagramFill className="nav_icon" />
           </Link>
-          <Link to="#" className="nav-link nav_icon_link">
+          <Link to="#" className="nav-link nav_icon_link youtube">
             <FaYoutube className="nav_icon" />
           </Link>
         </div>

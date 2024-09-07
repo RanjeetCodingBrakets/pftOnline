@@ -102,7 +102,9 @@ const PopularProduct = () => {
         <div className="row mb-90 p-prod">
           <div className="col-12">
             <div className="product_heading">
-              <h3 className="text-center">Choose From Popular Products</h3>
+              <h3 className="text-center popularProduct-text">
+                Choose From Popular Products
+              </h3>
               <h6 className="text-center">Over 250+ products available</h6>
             </div>
           </div>
