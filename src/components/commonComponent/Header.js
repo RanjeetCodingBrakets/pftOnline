@@ -1,53 +1,54 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import images from "../../constants/images";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { IoCloseSharp } from "react-icons/io5";
+import { AiOutlineMenu  } from "react-icons/ai";
+import { IoCloseSharp, IoMenuOutline  } from "react-icons/io5";
 import LoginSignup from "../LoginSignUp/LoginSignup";
 import LiveTimer from "./liveTimer";
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
- const [showModal, setShowModal] = useState(false);
-
- const handleClose = () => setShowModal(false);
- const handleShow = () => setShowModal(true);
+  const [showModal, setShowModal] = useState(false);
+  const handleClose = () => setShowModal(false);
+  const handleShow = () => { 
+    setShowModal(true);
+    setToggleMenu(false);
+  };
 
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <img src={images.logo} alt="app logo" />
       </div>
-
+      <h2 className="mobile-header-heading">PANJABI GMBH</h2> 
       <ul className="app__navbar-links">
         <li className="p__opensans">
           <Link to="/">Home</Link>
         </li>
         <li className="nav-item dropdown">
-                <Link
-                  className="nav-link dropdown-toggle head-link "
-                  to="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Category
-                </Link>
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link className="dropdown-item drop-option" to="/product-Listing">
-                      All Products
-                    </Link>
-                  </li>
-                  <li>
-                    <a className="dropdown-item drop-option" href="#">
-                      Another action
-                    </a>
-                  </li>
-                </ul>
-              </li>
+          <Link
+            className="nav-link dropdown-toggle head-link "
+            to="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Category
+          </Link>
+          <ul className="dropdown-menu">
+            <li>
+              <Link className="dropdown-item drop-option" to="/product-Listing">
+                All Products
+              </Link>
+            </li>
+            <li>
+              <a className="dropdown-item drop-option" href="#">
+                Another action
+              </a>
+            </li>
+          </ul>
+        </li>
         <li className="p__opensans">
           <Link to="/about-us">About Us</Link>
         </li>
@@ -56,63 +57,45 @@ const Header = () => {
         </li>
       </ul>
       <div className="app__navbar-login nav__login">
-      <button onClick={handleShow} className="btn custom-btn me-2">
-                Login / Signup
-              </button>
-              <LoginSignup show={showModal} handleClose={handleClose} />
-             
-            
-                <span className="ms-2">
-                <LiveTimer offerTimer="header-timer" initialHours={10} initialMinutes={0} initialSeconds={0} />
-                  </span>
-          
+        <button onClick={handleShow} className="btn custom-btn me-2">
+          Login / Signup
+        </button>
+        <LoginSignup show={showModal} handleClose={handleClose} />
+        <button className="head-live-timer">
+          Live Sale
+          <span className="ms-2">
+            {/* {hours < 10 ? `0${hours}` : hours}:
+                 {minutes < 10 ? `0${minutes}` : minutes}:
+                 {seconds < 10 ? `0${seconds}` : seconds}               */}
+          </span>
+        </button>
         {/* <a href="#login" className="p__opensans">
           login / Register
         </a> */}
-        
+
         {/* <a href="/" className="p__opensans">
           Book Table
         </a> */}
       </div>
 
       <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu
+        <AiOutlineMenu 
           color="#000"
           fontSize={27}
           onClick={() => setToggleMenu(true)}
         />
-        {toggleMenu && (
-
-        <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-        <IoCloseSharp 
-            fontSize={27}
-            className="overlay__close"
-            onClick={() => setToggleMenu(false)}
-          />
-          <ul className="app__navbar-smallscreen_links ">
-          <li className="p__opensans">
-          <Link to="/">Home</Link>
-        </li>
-        <li class="accordion" id="accordionFlushExample">
-        <button class="accordion-button categoryDrop-btn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
-          Category
-        </button>
-        <ul id="flush-collapseOne" class="accordion-collapse collapse list-unstyled" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">
-          <li>
-                    <Link className="dropdown-item drop-option" to="/product-Listing">
-                      All Products
-                    </Link>
-                  </li>
-                  <li>
-                    <a className="dropdown-item drop-option" href="#">
-                      Another action
-                    </a>
-                  </li>
-          </div>
-        </ul>
-</li>
-            {/* <li className="nav-item dropdown p__opensans">
+        {/* {toggleMenu && ( */}
+          <div className={`app__navbar-smallscreen_overlay flex__center slide-bottom ${toggleMenu && 'app__menu-hide'} `}>
+            <IoCloseSharp
+              fontSize={27}
+              className="overlay__close"
+              onClick={() => setToggleMenu(false)}
+            />
+            <ul className="app__navbar-smallscreen_links ">
+              <li className="p__opensans">
+                <Link to="/" onClick={() => setToggleMenu(false)}>Home</Link>
+              </li>
+              <li className="nav-item dropdown p__opensans">
                 <Link
                   className="nav-link dropdown-toggle head-link "
                   to="#"
@@ -122,40 +105,50 @@ const Header = () => {
                 >
                   Category
                 </Link>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu dropdown__menu-box">
                   <li>
-                    <Link className="dropdown-item drop-option" to="/product-Listing">
+                    <Link className="dropdown-item drop-option" to="/product-Listing" onClick={() => setToggleMenu(false)}>
                       All Products
                     </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item drop-option" href="#">
+                    <a className="dropdown-item drop-option" href="#" onClick={() => setToggleMenu(false)}>
                       Another action
                     </a>
                   </li>
                 </ul>
-              </li> */}
+              </li> 
               <li className="p__opensans">
-          <Link to="/about-us">About Us</Link>
-        </li>
-        <li className="p__opensans">
-          <Link to="/contactUs">Contact Us</Link>
-        </li>
-          </ul>
-          <div className="app__navbar-login">
-      <button onClick={handleShow} className="btn custom-btn me-2">
+                <Link to="/about-us" onClick={() => setToggleMenu(false)}>About Us</Link>
+              </li>
+              <li className="p__opensans">
+                <Link to="/contactUs" onClick={() => setToggleMenu(false)}>Contact Us</Link>
+              </li>
+            </ul>
+            <div className="app__navbar-login">
+              <button onClick={handleShow} className="btn custom-btn me-2">
                 Login / Signup
               </button>
-              <LoginSignup show={showModal} handleClose={handleClose} />
-             
-             <span className="ms-2">
-                <LiveTimer offerTimer="head-live-timer" initialHours={10} initialMinutes={0} initialSeconds={0} />
-                  </span>
-      </div>
-          
-        </div>
-        
-      )}
+              <LoginSignup show={showModal} handleClose={handleClose}  />
+              <button className="head-live-timer">
+                Live Sale
+                <span className="ms-2">
+                  {/* {hours < 10 ? `0${hours}` : hours}:
+                 {minutes < 10 ? `0${minutes}` : minutes}:
+                 {seconds < 10 ? `0${seconds}` : seconds}               */}
+                </span>
+              </button>
+              {/* <a href="#login" className="p__opensans">
+          login / Register
+        </a> */}
+
+              {/* <a href="/" className="p__opensans">
+          Book Table
+        </a> */}
+            </div>
+
+          </div>
+        {/* )} */}
       </div>
     </nav>
   );
@@ -217,7 +210,7 @@ export default Header;
 //     <div className="header-section position-relative">
 //     <div className=" bottom-border-frame">
 //     <img src={images.frame9} alt="heroVector1" className="header-frame" />
-//     </div> 
+//     </div>
 //     <div className="container">
 //     <div className="row">
 //       <nav className="navbar navbar-expand-lg navbar-light nav_Header header-nav">

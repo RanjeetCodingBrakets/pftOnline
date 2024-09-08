@@ -297,7 +297,8 @@ text-align: left;
       padding: 0px 2px;
   }
   .category-head{
-    margin-bottom: 50px !important;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
   }
   
   .filter-btn{
@@ -311,7 +312,7 @@ text-align: left;
   }
   
   .filteropt-button{
-    margin-bottom: 35px;
+    margin-bottom: 12px;
   }
   
   .product-categories{
@@ -322,8 +323,19 @@ text-align: left;
   .toast-btn {
     font-size: 12px;
     padding: 10px;
-}
   }
+  .filter-btn {
+    padding: 10px 47px;
+  }
+  .product-card h3{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .product-card p {
+    margin: 7px 10px;
+    line-height: 18px;
+  }
+}
 
   
 

@@ -1,8 +1,46 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import images from "../../../constants/images";
 import MapComponent from "./map";
 
 const Team = () => {
+  useEffect(() => {
+    const isMobile = window.innerWidth <= 768; // Adjust the width as per your requirement
+
+    if (isMobile) {
+    const loadOwlCarousel = () => {
+      const script = document.createElement('script');
+      script.src = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js";
+      script.onload = () => {
+        const $ = window.$;
+        const owl = $('.owl-carousel.popular-carousel');
+        owl.owlCarousel({
+          loop: false,
+          margin: 10,
+          nav: false,
+          dots: false,
+          responsive: {
+            0: { items: 1 },
+            600: { items: 2 },
+            1000: { items: 3 }
+          }
+        });
+      };
+      document.body.appendChild(script);
+      return script;
+    };
+
+    const script = loadOwlCarousel();
+    return () => {
+      if (script) {
+        document.body.removeChild(script);
+      }
+      if (window.$ && window.$('.owl-carousel.popular-carousel').data('owl.carousel')) {
+        window.$('.owl-carousel.popular-carousel').owlCarousel('destroy');
+      }
+    };
+  }
+  }, []);
+
   return (
     <div className="team-container overflow-hidden">
     <div className="container ">
@@ -15,7 +53,7 @@ const Team = () => {
           </p>
         </div>
       </div>
-      <div className="row mb-5 justify-content-center team-desc">
+      <div className="row mb-5 justify-content-center team-desc owl-carousel owl-theme popular-carousel">
         <div className="col-2_5 p-1 team-box">
           <div className="card team-card">
             <img

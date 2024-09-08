@@ -15,7 +15,7 @@ const Contactus = () => {
             
           </div>
         </div>
-        <div className="row pt-5 mb-50">
+        <div className="row pt-5 mb-50 m-contact">
           <div className="col-md-6 connect-us">
             <h3>Get In Touch With Us</h3>
             <p>
