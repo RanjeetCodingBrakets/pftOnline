@@ -261,7 +261,7 @@
   .dropdown-toggle::after {
     position: absolute;
     right: 18px;
-    top: 26px;
+    top: 22px;
   }
 
 }

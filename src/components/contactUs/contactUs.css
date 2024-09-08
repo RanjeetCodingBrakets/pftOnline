@@ -95,3 +95,25 @@ color: #6B6B6B;
         font-size: 35px;
     }
   }
+
+  @media (min-width: 320px) and (max-width: 426px){
+    .contact-head {
+      padding: 10px 10px 0px 10px;
+   }
+   .contact-head h2{
+    font-size: 20px;
+    line-height: 30px;
+   }
+   .connect-us h3{
+    font-size: 22px;
+   }
+   .contact-item span{
+    font-size: 16px;
+   }
+   .contact-form {
+    padding: 14px !important;
+   }
+   .m-contact{
+    padding-top: 10px !important;
+   }
+}

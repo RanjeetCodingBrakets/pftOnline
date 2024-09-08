@@ -544,6 +544,32 @@ margin: 0px;
 .sonderangebot-banner::before {
   right: 221px;
 }
+.product-offer-xss{
+  padding: 2px;
+}
+.offerGrid-title{
+  font-size: 14px;
+}
+.offer-price{
+  font-size: 20px;
+}
+.seller-banner{
+  top: 0px;
+  font-size: 10px;
+}
+.discount-banner {
+  width: 45px;
+  top: 0px;
+  right: 0px;
+  border-top-right-radius: 24px;
+}
+.offer-option .mb-4{
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+.offer-option .promotion-m-xs{
+  margin-top: 20px !important;
+}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -572,5 +598,35 @@ margin: 0px;
 .sonderangebot-banner::before {
   right: 302px;
 }
+}
+
+@media (min-width: 320px) and (max-width: 426px){
+  .product-offer-xss{
+    padding: 2px;
   }
+  .offerGrid-title{
+    font-size: 14px;
+  }
+  .offer-price{
+    font-size: 20px;
+  }
+  .seller-banner{
+    top: 0px;
+    font-size: 10px;
+  }
+  .discount-banner {
+    width: 45px;
+    top: 0px;
+    right: 0px;
+    border-top-right-radius: 24px;
+  }
+  .offer-option .mb-4{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+  }
+  .offer-option .promotion-m-xs{
+    margin-top: 20px !important;
+  }
+  
+}
 

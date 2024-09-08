@@ -18,7 +18,7 @@ const Header = () => {
       <div className="app__navbar-logo">
         <img src={images.logo} alt="app logo" />
       </div>
-
+      <h2 className="mobile-header-heading">PANJABI GMBH</h2> 
       <ul className="app__navbar-links">
         <li className="p__opensans">
           <Link to="/">Home</Link>
