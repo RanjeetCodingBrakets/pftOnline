@@ -43,7 +43,7 @@ const Questions = () => {
       <img src={images.oil} alt='' className='img_oil position-absolute' />
       <div className='container'>
         <div className='row mt-4'>
-          <div className='col-10 mx-auto'>
+          <div className='col-12 col-sm-10 mx-auto'>
             <h2 className='text-center question-head'>Frequently Asked Questions</h2>
             <div className='accordion question_box'>
               {QuestionData.map((item, index) => (

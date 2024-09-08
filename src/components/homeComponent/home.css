@@ -1511,10 +1511,6 @@
     line-height: 55px;
   }
 
-  .organic h5 {
-    margin-bottom: 25px;
-  }
-
   .quality {
     font-size: 65px;
   }
@@ -1629,4 +1625,31 @@
     max-width: 100%;
     padding: 15px 5px;
   }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .mint_image, .pulses_image, .spice_image, .stick_image, .rice_image, .contact-button{
+    display: none;
+  }
+  .organic h1 {
+    font-size: 20px;
+    line-height: 48px;
+  }
+  .quality {
+    font-size: 25px;
+  }
+  .organic h5{
+    margin-bottom: 15px;
+  }
+  .organic-slide {
+    padding: 10px 0px;
+  }
+  .organic h1 {
+    font-size: 20px;
+    line-height: 0;
+    margin-bottom: 8px;
+}
+.about-box {
+  padding: 0px 0px;
+}
 }

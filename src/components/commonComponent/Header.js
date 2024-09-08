@@ -11,7 +11,10 @@ const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const handleClose = () => setShowModal(false);
-  const handleShow = () => setShowModal(true);
+  const handleShow = () => { 
+    setShowModal(true);
+    setToggleMenu(false);
+  };
 
   return (
     <nav className="app__navbar">
@@ -90,7 +93,7 @@ const Header = () => {
             />
             <ul className="app__navbar-smallscreen_links ">
               <li className="p__opensans">
-                <Link to="/">Home</Link>
+                <Link to="/" onClick={() => setToggleMenu(false)}>Home</Link>
               </li>
               <li className="nav-item dropdown p__opensans">
                 <Link
@@ -104,29 +107,29 @@ const Header = () => {
                 </Link>
                 <ul className="dropdown-menu dropdown__menu-box">
                   <li>
-                    <Link className="dropdown-item drop-option" to="/product-Listing">
+                    <Link className="dropdown-item drop-option" to="/product-Listing" onClick={() => setToggleMenu(false)}>
                       All Products
                     </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item drop-option" href="#">
+                    <a className="dropdown-item drop-option" href="#" onClick={() => setToggleMenu(false)}>
                       Another action
                     </a>
                   </li>
                 </ul>
               </li> 
               <li className="p__opensans">
-                <Link to="/about-us">About Us</Link>
+                <Link to="/about-us" onClick={() => setToggleMenu(false)}>About Us</Link>
               </li>
               <li className="p__opensans">
-                <Link to="/contactUs">Contact Us</Link>
+                <Link to="/contactUs" onClick={() => setToggleMenu(false)}>Contact Us</Link>
               </li>
             </ul>
             <div className="app__navbar-login">
               <button onClick={handleShow} className="btn custom-btn me-2">
                 Login / Signup
               </button>
-              <LoginSignup show={showModal} handleClose={handleClose} />
+              <LoginSignup show={showModal} handleClose={handleClose}  />
               <button className="head-live-timer">
                 Live Sale
                 <span className="ms-2">

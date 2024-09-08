@@ -227,12 +227,10 @@ color: #6B6B6B;
     display: grid;
     justify-items: center;
   }
- 
   .card-img-top {
     height: 400px;
     width: 100%;
   }
-
   .team-box{
     margin-top: 0px !important;
     width: 75%;
@@ -240,10 +238,39 @@ color: #6B6B6B;
     margin-bottom: 20px !important;
 
   }
-
   .map img{
     height: 290px;
   }
+  .about-head {
+    border-bottom: 1px solid #0000001a;
+    padding: 10px;
+}
+.about-head h3 {
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.about_content h3 {
+  font-size: 28px;
+  color: #3a3a3a;
+  margin-bottom: 18px;
+}
+.team-box {
+  width: 100%;
+}
+.text-body {
+  background-color: #F5F5F5;
+  padding: 0px 0px 4px 0px;
+}
+.card-img-top {
+  height: 225px;
+  width: 100%;
+  object-fit: contain;
+  background-color: #000000;
+}
+.map-con{
+  padding-left: 14px;
+}
 }
 
 

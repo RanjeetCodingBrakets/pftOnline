@@ -278,6 +278,10 @@
   .app__navbar-logo img {
     width: 60px;
   }
+
+  .app__navbar-smallscreen svg {
+    color: rgb(55 98 25) !important;
+  }
 }
 
 .header-timer{
