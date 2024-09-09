@@ -551,22 +551,6 @@ margin: 0px;
 .sonderangebot-banner::before {
   right: 302px;
 }
-<<<<<<< HEAD
-.big-value {
-  font-size: 58px;
-  line-height: 90px;
-}
-  }
-
-  @media (min-width: 320px) and (max-width: 575px) {
-    .showMore-btn{
-      position: static !important;
-      text-align: center;
-      margin: auto;
-      padding: 50px;
-    }
-  }
-=======
 }
 
 @media (min-width: 320px) and (max-width: 426px){
@@ -598,5 +582,4 @@ margin: 0px;
   }
   
 }
->>>>>>> 5c751df8c39b3184781b2fccf99813a4c59feb71
 
