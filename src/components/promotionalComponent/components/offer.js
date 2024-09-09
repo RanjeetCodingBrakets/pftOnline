@@ -25,7 +25,7 @@ const Offer = ({ offerMockData }) => {
 
         <div className="row product-promo-grid position-relative">
           {offerMockData.slice(0, itemsToShow).map((product) => (
-            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" key={product.id}>
+            <div className="col-6 col-sm-6 col-md-4 col-lg-3 mb-4 product-offer-xss" key={product.id}>
               <Link to="/product-details" className="product-card-link">
                 <div className="card offer-card position-relative">
                   <img src={product.image} alt={product.title} className="offer-gridImg m-auto" />

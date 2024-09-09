@@ -61,7 +61,7 @@ const ProductGrid = ({ products }) => {
       </div>
       <div className="row">
         {products.map((product) => (
-          <Col key={product.id} xs={12} sm={6} md={6} lg={4}>
+          <Col key={product.id} xs={6} sm={6} md={6} lg={4}>
             <Link to="/product-details" className="product-card-link">
               <div className="product-card  mb-4">
                 <div className="product-outer mx-auto">

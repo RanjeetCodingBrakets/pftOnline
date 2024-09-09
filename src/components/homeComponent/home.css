@@ -209,11 +209,29 @@
   }
 }
 
+.pro__hide-list {
+  display: none !important;
+}
+
+.pro__show-list {
+  display: flex !important;
+}
+
+
 @media (min-width: 320px) and (max-width: 767px) {
   .organic h1 {
     font-size: 20px;
     line-height: 10px;
   }
+
+  .pro__show-list {
+    display: none !important;
+  }
+
+  .pro__hide-list {
+    display: block !important;
+  }
+
 
   .quality,
   .blend {
@@ -241,9 +259,11 @@
   .left-vector-img {
     display: none;
   }
+
   .homepage-hero .right-vector-img {
     width: 95%;
   }
+
   .organic-slide {
     padding: 58px 20px;
   }
@@ -342,15 +362,23 @@
   .sale_banner {
     background: #37621a;
   }
+
   .offer-btn {
     text-align: center !important;
   }
+
   .gift1_image {
     top: 20px;
     right: 10px;
   }
+
+  .sale_banner {
+    max-width: 100%;
+  }
+
   .view_button {
-    margin-top: 25px;}
+    margin-top: 25px;
+  }
 
 }
 
@@ -367,7 +395,7 @@
   height: auto;
   background: #fff;
   border: 1px solid #ededed;
-  margin: 10px;
+  margin: 20px 0 0 0;
   border-radius: 10px;
   padding: 10px 25px;
 }
@@ -429,6 +457,18 @@
   /* font-weight: bold; */
 }
 
+.subscribe_banner {
+  border-radius: 20px;
+  background: #78bb4a;
+  margin-top: -175px;
+  margin-left: 65px;
+  overflow: hidden;
+  width: 90%;
+  margin-bottom: 45px;
+  z-index: 1000;
+  position: relative;
+}
+
 .timer-label {
   position: absolute;
   width: 100%;
@@ -456,11 +496,14 @@
   background-image: url("./../../assets/background/vector5.png"),
     url("./../../assets/background/vector6.png");
   /* Second image */
-  background-position: left top, /* Position for the first image */ right bottom;
+  background-position: left top,
+    /* Position for the first image */
+    right bottom;
   /* Position for the second image */
 
   background-repeat: no-repeat,
-    /* Repeat settings for the first image */ no-repeat;
+    /* Repeat settings for the first image */
+    no-repeat;
   /* Repeat settings for the second image */
 
   background-size: 33%;
@@ -510,6 +553,7 @@
 
   background-size: 55%;
 }
+
 .discount-masala {
   background-image: url("./../../assets/spices.png");
   background-position: right;
@@ -614,6 +658,15 @@
   transition: color 0.1s ease 0.1s;
 }
 
+.feedback-card {
+  background-color: #e6ffd4 !important;
+  border-radius: 10px;
+  border: none !important;
+  max-width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .f-image {
     width: 31%;
@@ -643,12 +696,72 @@
   .dalImage {
     width: 14%;
   }
+
+  .about {
+    padding: 20px 0;
+  }
+
+  .mb-50 {
+    margin-bottom: 20px !important;
+  }
+
+  .mb-40 {
+    margin-bottom: 20px !important;
+  }
+
+  .nonFoodHeading h3,
+  .foodProduct-content h3 {
+    font-size: 22px;
+  }
+
+  .nonFoodHeading h3,
+  .foodProduct-content h3 {
+    font-size: 16px;
+  }
+
+  .subscribe_banner {
+    margin-top: 0px;
+  }
+
+  .mb-40 {
+    margin-bottom: 20px !important;
+  }
+
+  .feedback-card {
+    max-width: 70%;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .product-item {
     margin-top: 40px;
     padding: 0px 0px !important;
+  }
+
+  .subscribe_banner {
+    margin-top: 0px;
+  }
+
+  .mb-40 {
+    margin-bottom: 20px !important;
+  }
+
+  .feedback-card {
+    max-width: 95%;
+  }
+
+  .mb-50 {
+    margin-bottom: 20px !important;
+  }
+
+  .nonFoodHeading h3,
+  .foodProduct-content h3 {
+    font-size: 18px;
+  }
+
+  .nonFoodHeading h3,
+  .foodProduct-content h3 {
+    font-size: 14px;
   }
 
   .d-image {
@@ -697,6 +810,11 @@
   color: #6b6b6b;
 }
 
+.about {
+  padding: 100px 0;
+  background: #e6ffd4;
+}
+
 .foodProduct-item h6 {
   color: black;
   text-align: center;
@@ -714,7 +832,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .food-block {
-    padding: 0px 25px;
+    padding: 0px 0px;
   }
 }
 
@@ -753,28 +871,19 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .non-food-block {
-    padding: 0px 25px;
+    padding: 0px 0px;
+  }
+
+  .about {
+    padding: 20px 0;
   }
 }
 
 /* aboutus css */
 
-.about {
-  padding: 100px 0;
-  background: #e6ffd4;
-}
 
-.subscribe_banner {
-  border-radius: 20px;
-  background: #78bb4a;
-  margin-top: -175px;
-  margin-left: 65px;
-  overflow: hidden;
-  width: 90%;
-  margin-bottom: 45px;
-  z-index: 1000;
-  position: relative;
-}
+
+
 
 .subscribe-section {
   color: #fff;
@@ -952,10 +1061,12 @@
   .aboutFruitjuice-img {
     left: 391px;
   }
+
   .subscribe input {
     padding: 10px 12px;
     /* width: 51%; */
-  }}
+  }
+}
 
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1025,9 +1136,11 @@
   .subscribe a {
     padding: 9px 14px;
   }
+
   .about_stick {
     left: -56px;
   }
+
   .about_wheat {
     bottom: -8px;
   }
@@ -1132,14 +1245,7 @@
   margin-bottom: 40px;
 }
 
-.feedback-card {
-  background-color: #e6ffd4 !important;
-  border-radius: 10px;
-  border: none !important;
-  max-width: 80%;
-  margin: auto;
-  text-align: left;
-}
+
 
 .feedback-body {
   padding: 20px;
@@ -1262,8 +1368,8 @@
   color: #37621a;
 }
 
-.accordion-item:first-of-type > .accordion-header .accordion-button,
-.accordion-item:last-of-type > .accordion-header .accordion-button.collapsed {
+.accordion-item:first-of-type>.accordion-header .accordion-button,
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
   border-radius: 10px !important;
 }
 
@@ -1404,9 +1510,6 @@
     font-size: 52px;
     line-height: 55px;
   }
-  .organic h5 {
-    margin-bottom: 25px;
-  }
 
   .quality {
     font-size: 65px;
@@ -1476,15 +1579,21 @@
     font-size: 14px !important;
   }
 
+  .slider__hidden {
+    display: none;
+  }
+
   .accordion-body {
     font-size: 14px;
   }
+
   .topHeader-links .nav-link {
     margin-right: 48px;
     color: #fff;
     font-size: 13px;
     margin-bottom: 8px;
   }
+
   .rice_image {
     position: absolute;
     right: -49px;
@@ -1492,12 +1601,15 @@
     width: 20%;
     z-index: 9;
   }
+
   .sale h6 {
     text-align: inherit;
   }
+
   .sale h3 {
     font-size: 27px;
   }
+
   .gift2_image {
     display: none;
   }
@@ -1513,4 +1625,31 @@
     max-width: 100%;
     padding: 15px 5px;
   }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .mint_image, .pulses_image, .spice_image, .stick_image, .rice_image, .contact-button{
+    display: none;
+  }
+  .organic h1 {
+    font-size: 20px;
+    line-height: 48px;
+  }
+  .quality {
+    font-size: 25px;
+  }
+  .organic h5{
+    margin-bottom: 15px;
+  }
+  .organic-slide {
+    padding: 10px 0px;
+  }
+  .organic h1 {
+    font-size: 20px;
+    line-height: 0;
+    margin-bottom: 8px;
+}
+.about-box {
+  padding: 0px 0px;
+}
 }

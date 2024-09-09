@@ -1,9 +1,43 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
   
 import images from '../../../constants/images';
 
 const NonFoodProduct = () => {
+  useEffect(() => {
+    const loadOwlCarousel = () => {
+      const script = document.createElement('script');
+      script.src = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js";
+      script.onload = () => {
+        const $ = window.$;
+        const owl = $('.owl-carousel.foodPro-carousel');
+        owl.owlCarousel({
+          loop: false,
+          margin: 10,
+          nav: false,  
+          dots: false,
+          responsive: {
+            0: { items: 2 },
+            600: { items: 4 },
+            1000: { items: 5 }
+          }
+        });
+      };
+      document.body.appendChild(script);
+      return script;
+    };
+  
+    const script = loadOwlCarousel();
+    return () => {
+      if (script) {
+        document.body.removeChild(script);
+      }
+      if (window.$ && window.$('.owl-carousel.foodPro-carousel').data('owl.carousel')) {
+        window.$('.owl-carousel.foodPro-carousel').owlCarousel('destroy');
+      }
+    };
+  }, []);
+
   const [nonFood] = useState([
     { id: 1, name: 'Spices',  imgSrc: images.teju },
     { id: 2, name: 'Spices & Tea', imgSrc: images.teju },
@@ -35,9 +69,25 @@ const NonFoodProduct = () => {
             </div>
           </div>
         </div>
-        <div  className='row non-food-block justify-content-center'>
+        <div  className='row non-food-block justify-content-center  pro__show-list'>
           {nonFood.map(product1 => (
             <div className='col-2_5 text-center'>
+            <div key={product1.id}  className='nonFoodProduct-item2 mb-4 '>
+              <div variant="link" className="product-button">
+                <Link to="/product-details">
+                  <div className='product-image1'>
+                  <img src={product1.imgSrc} alt={product1.name}/>
+                  <h6>{product1.name}</h6>
+                  </div>
+                </Link>
+              </div>
+            </div>
+            </div>
+          ))}
+        </div>
+        <div  className='non-food-block justify-content-center owl-carousel owl-theme foodPro-carousel pro__hide-list'>
+          {nonFood.map(product1 => (
+            <div className='text-center'>
             <div key={product1.id}  className='nonFoodProduct-item2 mb-4 '>
               <div variant="link" className="product-button">
                 <Link to="/product-details">

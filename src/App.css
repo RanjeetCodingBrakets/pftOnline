@@ -127,6 +127,10 @@ h3 {
   background-color: #37621A;
 }
 
+.mobile-header-heading{
+  display: none;
+}
+
 @media (min-width: 1200px) {
 
   .h3,
@@ -140,7 +144,12 @@ h3 {
   .col-2_5 {
     width: 50%;
   }
-
+  .mobile-header-heading{
+    display: block;
+    margin-top: 14px;
+    color: #c13e1a;
+    margin-right: 10px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -148,3 +157,16 @@ h3 {
     width: 25%;
   }
 }
+
+@media (min-width: 320px) and (max-width: 426px){
+  .col-2_5 {
+    width: 50%;
+  }
+  .mobile-header-heading{
+    display: block;
+    margin-top: 14px;
+    color: #c13e1a;
+    margin-right: 10px;
+  }
+}
+

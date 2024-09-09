@@ -24,7 +24,7 @@ const Slider = () => {
       <img src={images.heroVector2} alt="heroVector1" className="left-vector-img" />
       <img src={images.heroVector1} alt="heroVector2" className=" right-vector-img"/>
       
-        <div className="carousel-item active" data-bs-interval="10000">
+        <div className="carousel-item active" data-bs-interval="4000">
           <div className="home_top_section">
             <div className="container">
               <div className="row organic-slide">
@@ -60,7 +60,7 @@ const Slider = () => {
           </div>
         </div>
 
-        <div className="carousel-item" data-bs-interval="2000">
+        <div className="carousel-item" data-bs-interval="4000">
           <div className="home_top_section">
             <div className="container">
               <div className="row organic-slide">
@@ -96,7 +96,7 @@ const Slider = () => {
           </div>
         </div>
 
-        <div className="carousel-item" >
+        <div className="carousel-item" data-bs-interval="4000">
           <div className="home_top_section">
             <div className="container">
               <div className="row organic-slide">
@@ -134,11 +134,11 @@ const Slider = () => {
 
 
       </div>
-      <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <button className="carousel-control-prev slider__hidden" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
       </button>
-      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <button className="carousel-control-next slider__hidden" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>

@@ -141,6 +141,19 @@ font-size: 18px;
         margin-top: 10px;
     }
 
+    .profile-page {
+      background: #F5F5F5;
+      padding-top: 63px;
+      padding-bottom: 44px;
+    }
+    .profile-box{
+      width: 100%;
+    }
+    .history-box{
+      width: 100%;
+      padding: 16px;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1087px){
@@ -162,6 +175,21 @@ font-size: 18px;
     .view-order{
         margin-top: 10px;
     }
+}
+
+@media (min-width: 320px) and (max-width: 426px){
+  .profile-page {
+    background: #F5F5F5;
+    padding-top: 63px;
+    padding-bottom: 44px;
+  }
+  .profile-box{
+    width: 100%;
+  }
+  .history-box{
+    width: 100%;
+    padding: 16px;
+  }
 }
   
   
