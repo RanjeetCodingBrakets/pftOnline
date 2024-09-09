@@ -4,8 +4,8 @@ import Offer from './components/offer';
 import offerMockData from './components/offerMockData'; // Import the offerMockData
 import DealOfTheDay from './components/dealOfTheDay';
 import TopSelling from './components/topSelling';
-import TopSelling1 from './components/topSelling1';
 import LaunchPad from './components/LaunchPad';
+import ComboOffer from './components/comboOffer';
 
 const Promotional = () => {
   return (
@@ -16,7 +16,7 @@ const Promotional = () => {
       <Offer offerMockData={offerMockData} />
       <DealOfTheDay offerMockData={offerMockData} />
       <TopSelling offerMockData={offerMockData} />
-      <TopSelling1 offerMockData={offerMockData} /> 
+      <ComboOffer offerMockData={offerMockData} /> 
       <LaunchPad offerMockData={offerMockData} />
     </div>
   );

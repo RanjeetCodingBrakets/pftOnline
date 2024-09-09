@@ -96,7 +96,7 @@
 
 .promoOffer-timebtn{
   font-size: 14px;
-  padding: 2px 14px;
+  padding: 2px 20px;
 
 }
 .promoOffer-timebtn p{
@@ -116,7 +116,7 @@ margin: 0px;
   position: absolute;
   content: "Offer";
   color: #000;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   top: -14px;
   left: 62px;
@@ -131,7 +131,7 @@ margin: 0px;
   font-size: 20px;
   font-weight: 400;
   top: -14px;
-  right: 147px;
+  right: 178px;
   background-color: #fff;
   padding: 0px 5px;
 }
@@ -357,6 +357,10 @@ margin: 0px;
 }
 .offer-timer .sale-opt{
   margin-right: 2px;
+}
+
+.offer-timer .sale{
+  margin-right: 5px;
 }
 
 

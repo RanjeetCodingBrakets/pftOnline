@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { BsPlusSquare } from "react-icons/bs";
 import LiveTimer from '../../commonComponent/liveTimer';
 
-const TopSelling1 = ({ offerMockData }) => {
+const ComboOffer = ({ offerMockData }) => {
   const [itemsToShow, setItemsToShow] = useState(11);
 
   const handleShowMore = () => {
@@ -15,7 +15,7 @@ const TopSelling1 = ({ offerMockData }) => {
       <div className="container">
         <div className="row p-4 offer-container top-selling1">
           <div className="col-8">
-            <h3>Top Selling</h3>
+            <h3>Combo Offer</h3>
             <h5>Offer valid on 19.07.</h5>
           </div>
           <div className="col-4 d-flex align-items-center justify-content-end">
@@ -71,4 +71,4 @@ const TopSelling1 = ({ offerMockData }) => {
   );
 };
 
-export default TopSelling1;
+export default ComboOffer;
