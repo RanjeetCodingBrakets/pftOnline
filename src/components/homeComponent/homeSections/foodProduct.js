@@ -17,10 +17,11 @@ const FoodProduct = () => {
           margin: 10,
           nav: false,  
           dots: false,
+          stagePadding:30, 
           responsive: {
-            0: { items: 2 },
-            600: { items: 4 },
-            1000: { items: 5 }
+           0: { items: 2, stagePadding: 20 }, // Show 1 item with small padding on smaller screens
+          600: { items: 3, stagePadding: 30 },
+          1000: { items: 5, stagePadding: 50 } // Adjust based on screen size
           }
         });
       };

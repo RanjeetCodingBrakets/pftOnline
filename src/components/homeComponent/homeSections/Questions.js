@@ -47,7 +47,7 @@ const Questions = () => {
             <h2 className='text-center question-head'>Frequently Asked Questions</h2>
             <div className='accordion question_box'>
               {QuestionData.map((item, index) => (
-                <div className='accordion-item  mb-3' key={item.id}>
+                <div className='accordion-item position-relative z-1  mb-3' key={item.id}>
                   <h2 className='accordion-header'>
                     <button 
                       className={`accordion-button fs-5  ${activeIndex === index ? '' : 'collapsed'}`}

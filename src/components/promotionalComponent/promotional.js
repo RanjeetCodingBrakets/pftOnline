@@ -13,7 +13,7 @@ const Promotional = () => {
       <PromotionalFrame/>
       <OfferOption/>
       {/* Pass offerMockData as a prop */}
-      <Offer offerMockData={offerMockData} />
+      <Offer  offerMockData={offerMockData} />
       <DealOfTheDay offerMockData={offerMockData} />
       <TopSelling offerMockData={offerMockData} />
       <ComboOffer offerMockData={offerMockData} /> 
@@ -25,21 +25,3 @@ const Promotional = () => {
 export default Promotional;
 
 
-// import React from 'react'
-// import PromotionalFrame from './components/promotionalFrame';
-// import OfferOption from './components/offerOption';
-// import Offer from './components/offer';
-
-// const Promotional = () => {
-
-  
-//   return (
-//     <div className=''>
-//       <PromotionalFrame/>
-//       <OfferOption/>
-//       <Offer/>
-//     </div>
-//   )
-// }
-
-// export default Promotional;
