@@ -75,10 +75,10 @@ const NonFoodProduct = () => {
             <div key={product1.id}  className='nonFoodProduct-item2 mb-4 '>
               <div variant="link" className="product-button">
                 <Link to="/product-details">
-                  <div className='product-image1'>
+                    <div className='image-container-out'>
                   <img src={product1.imgSrc} alt={product1.name}/>
-                  <h6>{product1.name}</h6>
                   </div>
+                  <h6>{product1.name}</h6>
                 </Link>
               </div>
             </div>
@@ -91,10 +91,10 @@ const NonFoodProduct = () => {
             <div key={product1.id}  className='nonFoodProduct-item2 mb-4 '>
               <div variant="link" className="product-button">
                 <Link to="/product-details">
-                  <div className='product-image1'>
+                  <div className='image-container-out'>
                   <img src={product1.imgSrc} alt={product1.name}/>
-                  <h6>{product1.name}</h6>
                   </div>
+                  <h6>{product1.name}</h6>
                 </Link>
               </div>
             </div>

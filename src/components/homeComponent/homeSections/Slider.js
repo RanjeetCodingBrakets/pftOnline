@@ -28,7 +28,7 @@ const Slider = () => {
           <div className="home_top_section">
             <div className="container">
               <div className="row organic-slide">
-                <div className="col-md-6 col-12 d-flex align-items-center position-relative ">
+                <div className="col-md-12 col-12 d-flex align-items-center position-relative ">
                   
                     <img src={images.pulses} alt="yellow_peas" className="pulses_image" />
                  
@@ -45,7 +45,7 @@ const Slider = () => {
                     <img src={images.mint} alt="mint" className="mint_image"/>
                  
                 </div>
-                <div className="col-md-6 col-12">
+                {/* <div className="col-md-6 col-12">
                   <div className="slider-images d-flex justify-content-center">
                   <img src={images.spice} alt="people" className="spice_image" />
                   <img src={images.stick} alt="stick" className="stick_image"/>
@@ -54,7 +54,7 @@ const Slider = () => {
                     </div>
                   <img src={images.rice} alt="rice" className="rice_image"/>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ const Slider = () => {
           <div className="home_top_section">
             <div className="container">
               <div className="row organic-slide">
-                <div className="col-md-6 col-12 d-flex align-items-center position-relative ">
+                <div className="col-md-12 col-12 d-flex align-items-center position-relative ">
                   
                     <img src={images.pulses} alt="yellow_peas" className="pulses_image" />
                  
@@ -81,7 +81,7 @@ const Slider = () => {
                     <img src={images.mint} alt="mint" className="mint_image"/>
                  
                 </div>
-                <div className="col-md-6 col-12">
+                {/* <div className="col-md-6 col-12">
                 <div className="slider-images d-flex justify-content-center">
                   <img src={images.spice} alt="people" className="spice_image" />
                   <img src={images.stick} alt="stick" className="stick_image"/>
@@ -90,7 +90,7 @@ const Slider = () => {
                     </div>
                   <img src={images.rice} alt="rice" className="rice_image"/>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ const Slider = () => {
           <div className="home_top_section">
             <div className="container">
               <div className="row organic-slide">
-                <div className="col-md-6 col-12 d-flex align-items-center position-relative ">
+                <div className="col-md-12 col-12 d-flex align-items-center position-relative ">
                   
                     <img src={images.pulses} alt="yellow_peas" className="pulses_image" />
                  
@@ -117,7 +117,7 @@ const Slider = () => {
                     <img src={images.mint} alt="mint" className="mint_image"/>
                  
                 </div>
-                <div className="col-md-6 col-12">
+                {/* <div className="col-md-6 col-12">
                 <div className="slider-images d-flex justify-content-center">
                   <img src={images.spice} alt="people" className="spice_image" />
                   <img src={images.stick} alt="stick" className="stick_image"/>
@@ -126,7 +126,7 @@ const Slider = () => {
                     </div>
                   <img src={images.rice} alt="rice" className="rice_image"/>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -131,6 +131,21 @@ h3 {
   display: none;
 }
 
+.image-container-out{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 100%;
+  padding: 10px;
+}
+
+.image-container-out img{
+  max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
 @media (min-width: 1200px) {
 
   .h3,

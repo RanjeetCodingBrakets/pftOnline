@@ -75,14 +75,12 @@ const FoodProduct = () => {
             <div className='col-2_5 text-center'>
               <div key={product2.id} className='foodProduct-item mb-4'>
                 <Link to="/product-details">
-                  <div className='product-image1'>
-                  <div className='m-3'>
+                    <div className='image-container-out mx-auto'>
                     <img src={product2.imgSrc} alt={product2.name} />
                     </div>
                     <div>
                     <h6>{product2.name}</h6>
                     </div>
-                  </div>
                 </Link>
               </div>
             </div>
@@ -94,10 +92,10 @@ const FoodProduct = () => {
             <div className='text-center'>
               <div key={product2.id} className='foodProduct-item mb-4'>
                 <Link to="/product-details">
-                  <div className='product-image1'>
+                  <div className='image-container-out'>
                     <img src={product2.imgSrc} alt={product2.name} />
+                    </div>
                     <h6>{product2.name}</h6>
-                  </div>
                 </Link>
               </div>
             </div>
