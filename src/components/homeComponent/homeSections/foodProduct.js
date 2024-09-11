@@ -17,10 +17,11 @@ const FoodProduct = () => {
           margin: 10,
           nav: false,  
           dots: false,
+          stagePadding:30, 
           responsive: {
-            0: { items: 2 },
-            600: { items: 4 },
-            1000: { items: 5 }
+           0: { items: 2, stagePadding: 20 }, // Show 1 item with small padding on smaller screens
+          600: { items: 3, stagePadding: 30 },
+          1000: { items: 5, stagePadding: 50 } // Adjust based on screen size
           }
         });
       };
@@ -40,16 +41,16 @@ const FoodProduct = () => {
   }, []);
   
   const [food] = useState([
-    { id: 1, name: 'Spices', imgSrc: images.teju },
-    { id: 2, name: 'Spices & Tea', imgSrc: images.teju },
-    { id: 3, name: 'Sauces', imgSrc: images.teju },
+    { id: 1, name: 'Spices', imgSrc: images.kapern },
+    { id: 2, name: 'Spices & Tea', imgSrc: images.sula_wine },
+    { id: 3, name: 'Sauces', imgSrc: images.schinken },
     { id: 4, name: 'Dal', imgSrc: images.teju },
-    { id: 5, name: 'Pulp', imgSrc: images.teju },
-    { id: 6, name: 'Dairy Valley', imgSrc: images.teju },
-    { id: 7, name: 'Patak', imgSrc: images.teju },
-    { id: 8, name: 'Rice', imgSrc: images.teju },
-    { id: 9, name: 'Thai', imgSrc: images.teju },
-    { id: 10, name: 'Mehl /Atta', imgSrc: images.teju },
+    { id: 5, name: 'Pulp', imgSrc: images.kapern },
+    { id: 6, name: 'Dairy Valley', imgSrc: images.sula_wine },
+    { id: 7, name: 'Patak', imgSrc: images.schinken },
+    { id: 8, name: 'Rice', imgSrc: images.kapern },
+    { id: 9, name: 'Thai', imgSrc: images.schinken },
+    { id: 10, name: 'Mehl /Atta', imgSrc: images.sula_wine },
   ]);
 
   return (
@@ -75,8 +76,12 @@ const FoodProduct = () => {
               <div key={product2.id} className='foodProduct-item mb-4'>
                 <Link to="/product-details">
                   <div className='product-image1'>
+                  <div className='m-3'>
                     <img src={product2.imgSrc} alt={product2.name} />
+                    </div>
+                    <div>
                     <h6>{product2.name}</h6>
+                    </div>
                   </div>
                 </Link>
               </div>

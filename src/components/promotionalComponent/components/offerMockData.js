@@ -4,7 +4,7 @@ const offerMockData=[
     {
         id: 1,
         label: "Bestseller",
-        image: images.teju,
+        image: images.kapern,
         comboImg: images.ComboProduct,
         title: "Punjabi gemah Gram Masala Powder",
         size: "330 - 600 g packs each (1kg = 3.70 - 6.73) ",
@@ -15,7 +15,7 @@ const offerMockData=[
       },
       {
         id: 2,
-        image: images.teju,
+        image: images.schinken,
         comboImg: images.ComboProduct,
         title: "Punjabi gemah Gram Masala Powder",
         size: "330 - 600 g packs each (1kg = 3.70 - 6.73) ",
@@ -26,7 +26,7 @@ const offerMockData=[
       },
       {
         id: 3,
-        image: images.teju,
+        image: images.sula_wine,
         comboImg: images.ComboProduct,
         title: "Punjabi gemah Gram Masala Powder",
         size: "330 - 600 g packs each (1kg = 3.70 - 6.73) ",

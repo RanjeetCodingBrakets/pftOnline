@@ -19,32 +19,17 @@
 }
 
 .promoimage1 {
-  width: 56%;
+  width: 115%;
   position: absolute;
-  bottom: -47px;
-  left: -17px;
-  transform: rotate(-13.7deg);
-}
-.promoimage3 {
-  width: 35%;
-  position: absolute;
-  bottom: -61px;
-  left: 169px;
-}
-
-.promoimage2 {
-  width: 55%;
-  position: absolute;
-  bottom: -50px;
-  right: -21px;
-  transform: rotate(8.71deg);
+  bottom: -108px;
+  left: -40px;
 }
 
 .big-value {
   font-family: Arial;
-  font-size: 90px;
+  font-size: 82px;
   font-weight: 800;
-  line-height: 130px;
+  line-height: 112px;
 }
 
 .big-value span {
@@ -100,7 +85,9 @@
   border: 1px solid #f1ca2f;
   font-size: 16px;
   font-weight: 600;
-  padding: 10px 14px;
+  padding: 9px 12px;
+  z-index: 1;
+  position: relative;
 }
 
 .promoOffer-btn:hover {
@@ -110,12 +97,13 @@
 }
 
 .promoOffer-timebtn{
-  font-size: 14px;
-  padding: 2px 14px;
+  font-size: 15px;
+  padding: 9px 20px;
+  line-height: 14px;
 
 }
 .promoOffer-timebtn p{
-font-size: 11px;
+font-size: 10px;
 margin: 0px;
 }
 
@@ -124,14 +112,14 @@ margin: 0px;
   border: 2.18px solid #000000;
   width: fit-content;
   border-radius: 108px;
-  padding: 15px 0px 15px 15px;
+  padding: 10px 0px 10px 10px;
 }
 
 .Offerbtn-banner::before {
   position: absolute;
   content: "Offer";
   color: #000;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   top: -14px;
   left: 62px;
@@ -146,24 +134,11 @@ margin: 0px;
   font-size: 20px;
   font-weight: 400;
   top: -14px;
-  right: 147px;
+  right: 178px;
   background-color: #fff;
   padding: 0px 5px;
 }
 
-/* .offer-toast-box{
-    border-radius: 300px;
-    font-size: 18px;
-    box-shadow: none;
-    border: 1.09px solid #DDDDDD;
-    background: #E6E6E6;
-    padding: 0px 8px;
-  }
-
-  .offer-toast-box:hover{
-    background: #37621A;
-    color: #E6E6E6;
-  } */
 
 .offer-container {
   background-color: #78bb4a;
@@ -177,7 +152,7 @@ margin: 0px;
 }
 
 .offer-card {
-  border-radius: 24px;
+  border-radius: 12px;
   box-shadow: 0px 2.43px 14.58px 0px #00000033;
 }
 
@@ -270,7 +245,7 @@ margin: 0px;
 
 .price-section {
   padding: 0px 10px;
-  border-radius: 0px 0px 24px 24px;
+  border-radius: 0px 0px 12px 12px;
   padding: 10px 10px;
 }
 
@@ -294,7 +269,7 @@ margin: 0px;
 }
 
 .showMore-btn {
-  right: 52px;
+  right: 30px;
   bottom: 189px;
   border: 0px;
   width: auto;
@@ -387,11 +362,15 @@ margin: 0px;
   margin-right: 2px;
 }
 
+.offer-timer .sale{
+  margin-right: 5px;
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .big-value {
-    font-size: 59px;
-    line-height: 85px;
+    font-size: 68px;
+    line-height: 90px;
 }
 .offer-time {
     font-size: 20px;
@@ -405,20 +384,11 @@ margin: 0px;
   .product-promo-grid {
     padding: 30px 5px;
   }
-  .promoimage3 {
-    width: 38%;
-    bottom: -61px;
-    left: 90px;
-}
-.promoimage2 {
-  width: 70%;
-  bottom: -50px;
-  right: -31px;
-}
+
 .promoimage1 {
-  width: 65%;
-  bottom: -33px;
-  left: -85px;
+  width: 129%;
+  bottom: -66px;
+  left: -72px;
 }
 .showMore-btn {
   right: 5px}
@@ -436,21 +406,13 @@ margin: 0px;
 .offer-time {
   font-size: 14px;
 }
-.promoimage3 {
-  width: 35%;
-  bottom: -18px;
-  left: 60px;
-}
+
 .promoimage1 {
-  width: 65%;
-  bottom: -25px;
-  left: -20px;
+  width: 115%;
+  bottom: -39px;
+  left: -8px;
 }
-.promoimage2 {
-  width: 64%;
-  bottom: -36px;
-  right: -21px;
-}
+
 
 .promo-disc-banner{
   max-width: 100%;
@@ -473,7 +435,7 @@ margin: 0px;
     padding: 12px !important;
   }
   .offer-container h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
   .offer-container h5 {
     font-size: 14px;
@@ -483,12 +445,6 @@ margin: 0px;
   }
   .Offerbtn-banner, .sonderangebot-banner {
     margin-bottom: 30px;
-}
-.showMore-btn{
-  position: static !important;
-  text-align: center;
-  margin: auto;
-  padding: 50px;
 }
 
 .offer-option{
@@ -517,15 +473,23 @@ margin: 0px;
   left: 95px;}
   sonderangebot-banner::before {
     right: 96px;}
+
+    .showMore-btn span {
+      font-size: 14.79px;
+  }
+  .showMore-icon {
+    font-size: 35px;
+    margin-bottom: 8px;
+  }
 }
 
-@media (min-width: 426px) and (max-width: 767px) {
+@media (min-width: 545px) and (max-width: 767px) {
   .promotion-frame {
     padding: 40px 15px ;
 }
   .big-value {
-    font-size: 34px;
-    line-height: 50px;
+    font-size: 45px;
+    line-height: 60px;
 }
 .offer-time {
   font-size: 14px;
@@ -570,6 +534,7 @@ margin: 0px;
 .offer-option .promotion-m-xs{
   margin-top: 20px !important;
 }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -627,6 +592,7 @@ margin: 0px;
   .offer-option .promotion-m-xs{
     margin-top: 20px !important;
   }
+
   
 }
 

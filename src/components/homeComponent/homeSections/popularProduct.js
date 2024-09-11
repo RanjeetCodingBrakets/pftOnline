@@ -30,10 +30,11 @@ const PopularProduct = () => {
           margin: 10,
           nav: false,
           dots: false,
+          stagePadding: 50, // This adds padding to show part of the next section
           responsive: {
-            0: { items: 1 },
-            600: { items: 2 },
-            1000: { items: 3 }
+            0: { items: 1, stagePadding: 20  },
+            600: { items: 2, stagePadding: 30  },
+            1000: { items: 3, stagePadding: 50  }
           }
         });
         const owl_m = $('.owl-carousel.popular-carousel__mobile');
@@ -42,10 +43,11 @@ const PopularProduct = () => {
           margin: 10,
           nav: false,
           dots: false,
-          responsive: {
-            0: { items: 2 },
-            600: { items: 3 },
-            1000: { items: 5 }
+ stagePadding: 30, // Padding for mobile view to show part of next section
+        responsive: {
+          0: { items: 2, stagePadding: 20 }, // Show 1 item with small padding on smaller screens
+          600: { items: 3, stagePadding: 30 },
+          1000: { items: 5, stagePadding: 50 } // Adjust based on screen size
           }
         });
       };

@@ -21,7 +21,7 @@ const Header = () => {
       <div className="app__navbar-logo">
         <img src={images.logo} alt="app logo" />
       </div>
-      <h2 className="mobile-header-heading">PANJABI GMBH</h2> 
+      <h2 className="mobile-header-heading">PUNJABI GMBH</h2> 
       <ul className="app__navbar-links">
         <li className="p__opensans">
           <Link to="/">Home</Link>
@@ -43,9 +43,9 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <a className="dropdown-item drop-option" href="#">
+              <Link className="dropdown-item drop-option" to="#">
                 Another action
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
@@ -61,14 +61,15 @@ const Header = () => {
           Login / Signup
         </button>
         <LoginSignup show={showModal} handleClose={handleClose} />
-        <button className="head-live-timer">
-          Live Sale
+        <Link to="/promotionalPage">  <button className="head-live-timer">
+         Live Sale
           <span className="ms-2">
             {/* {hours < 10 ? `0${hours}` : hours}:
                  {minutes < 10 ? `0${minutes}` : minutes}:
                  {seconds < 10 ? `0${seconds}` : seconds}               */}
           </span>
         </button>
+        </Link>
         {/* <a href="#login" className="p__opensans">
           login / Register
         </a> */}
@@ -130,14 +131,15 @@ const Header = () => {
                 Login / Signup
               </button>
               <LoginSignup show={showModal} handleClose={handleClose}  />
-              <button className="head-live-timer">
-                Live Sale
-                <span className="ms-2">
-                  {/* {hours < 10 ? `0${hours}` : hours}:
+              <Link to="/promotionalPage">  <button className="head-live-timer">
+         Live Sale
+          <span className="ms-2">
+            {/* {hours < 10 ? `0${hours}` : hours}:
                  {minutes < 10 ? `0${minutes}` : minutes}:
                  {seconds < 10 ? `0${seconds}` : seconds}               */}
-                </span>
-              </button>
+          </span>
+        </button>
+        </Link>
               {/* <a href="#login" className="p__opensans">
           login / Register
         </a> */}

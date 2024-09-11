@@ -37,7 +37,7 @@ const PromotionalFrame = () => {
           <div className="promotion-frame">
             <div className="container ">
               <div className="row">
-                <div className="col-6 col-md-7">
+                <div className="col-6">
                   <h1 className="big-value">
                     <span>Big Value </span>Deals
                   </h1>
@@ -45,22 +45,90 @@ const PromotionalFrame = () => {
                     Offer Available In <span>July - September</span>
                   </p>
                 </div>
-                <div className="col-6 col-md-5 position-relative">
+                <div className="col-6 position-relative">
                   <div>
                     <img
                       src={images.promoimg1}
                       alt=""
                       className="promoimage1"
                     />
+                  </div>
+                </div>
+              </div>
+              <div className="row w-90 m-auto promo-disc-banner">
+                <div className="col text-center disc-banner-sec">
+                  <h3>50% OFF</h3>
+                  <p>All Juices Products</p>
+                </div>
+                <div className="col text-center disc-banner-cente">
+                  <h3>20% OFF</h3>
+                  <p>All Spices Products</p>
+                </div>
+                <div className="col text-center disc-banner-sec">
+                  <h3>15% OFF</h3>
+                  <p>All Dairy Products</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="carousel-item" data-bs-interval="5000">
+          <div className="promotion-frame">
+            <div className="container ">
+              <div className="row">
+                <div className="col-6">
+                  <h1 className="big-value">
+                    <span>Big Value </span>Deals
+                  </h1>
+                  <p className="offer-time">
+                    Offer Available In <span>July - September</span>
+                  </p>
+                </div>
+                <div className="col-6 position-relative">
+                  <div>
                     <img
-                      src={images.promoimg2}
+                      src={images.promoimg1}
                       alt=""
-                      className="promoimage2"
+                      className="promoimage1"
                     />
+                  </div>
+                </div>
+              </div>
+              <div className="row w-90 m-auto promo-disc-banner">
+                <div className="col text-center disc-banner-sec">
+                  <h3>50% OFF</h3>
+                  <p>All Juices Products</p>
+                </div>
+                <div className="col text-center disc-banner-cente">
+                  <h3>20% OFF</h3>
+                  <p>All Spices Products</p>
+                </div>
+                <div className="col text-center disc-banner-sec">
+                  <h3>15% OFF</h3>
+                  <p>All Dairy Products</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="carousel-item" data-bs-interval="1000">
+          <div className="promotion-frame">
+            <div className="container ">
+              <div className="row">
+                <div className="col-6">
+                  <h1 className="big-value">
+                    <span>Big Value </span>Deals
+                  </h1>
+                  <p className="offer-time">
+                    Offer Available In <span>July - September</span>
+                  </p>
+                </div>
+                <div className="col-6 position-relative">
+                  <div>
                     <img
-                      src={images.promoimg3}
+                      src={images.promoimg1}
                       alt=""
-                      className="promoimage3"
+                      className="promoimage1"
                     />
                   </div>
                 </div>

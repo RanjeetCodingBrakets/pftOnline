@@ -1,16 +1,32 @@
 .product-image1 {
-  width: 65%;
+  width: 100%;
+  margin: auto;
   margin-bottom: 10px;
   display: inline-grid;
 }
 
 .product-image1 img {
-  width: 100%;
+  width: 70% !important;
+  margin: auto;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensures images don't stretch or distort */
+  height: 150px;
 }
 
 .about_content {
   padding-top: 35px;
 }
+
+.foodProduct-item {
+  height: 250px; /* Adjust height to keep items uniform */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff; /* Add background for clarity */
+}
+
 
 /* Slider css */
 
@@ -426,10 +442,26 @@
   right: 20px;
 }
 
-.custom-nav .prev-slide,
+.custom-nav .prev-slide:hover,
 .next-slide:hover {
   background-color: #37621a;
   color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .custom-nav .prev-slide, .next-slide {
+    top: 78px;
+    z-index: 1000;
+    width: 30px;
+    height: 30px;
+  }
+  .custom-nav .prev-slide{
+    left: 0px;
+  }
+
+  .custom-nav .prev-slide, .next-slide{
+    right: 0px;
+  }
 }
 
 /* timer css */
@@ -740,6 +772,8 @@
 
   .subscribe_banner {
     margin-top: 0px;
+    width: 100%;
+    margin-left: 0px;
   }
 
   .mb-40 {
@@ -1071,9 +1105,9 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .subscribe_banner {
-    margin-top: -186px;
-    margin-left: 78px;
-    max-width: 80%;
+    margin-top: -91px;
+        margin-inline: auto;
+        max-width: 100%;
   }
 
   .box-image {
@@ -1102,9 +1136,6 @@
 }
 
 @media (min-width: 426px) and (max-width: 767px) {
-  .subscribe_banner {
-    margin-left: 15px;
-  }
 
   .subscribe-section h4 {
     line-height: 40px;
@@ -1117,6 +1148,10 @@
     width: 25%;
   }
 
+  .box-image {
+    width: 55%;
+}
+
   .aboutFruitjuice-img {
     display: none;
   }
@@ -1128,6 +1163,7 @@
   .about-box {
     padding: 0px 30px;
   }
+
 
   .subscribe input {
     padding: 10px 12px;
@@ -1151,6 +1187,9 @@
     margin-left: 0px;
     width: 100%;
   }
+  .box-image {
+    width: 55%;
+}
 
   .subscribe {
     width: 103%;
@@ -1634,12 +1673,14 @@
   .organic h1 {
     font-size: 20px;
     line-height: 48px;
+    text-align: center;
   }
   .quality {
     font-size: 25px;
   }
   .organic h5{
     margin-bottom: 15px;
+    text-align: center;
   }
   .organic-slide {
     padding: 10px 0px;

@@ -65,7 +65,7 @@ const Footer = () => {
               </ul>
             </div>
             <h4 className="text-white">Contact Us</h4>
-            <div className="footer_links">
+            <div className="footer_links contact-links">
               <ul className="list-unstyled d-flex justify-content-center ">
                 <li className="footer_menu">
                   <Link to="#">

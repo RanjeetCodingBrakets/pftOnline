@@ -154,17 +154,19 @@
     padding: 0 10px;
   }
 
-  .footer_links ul {
+  .contact-links ul {
     flex-direction: column;
   }
 
   .footer_menu {
-    margin-bottom: 10px;
+    margin-bottom: 12px !important;
   }
 
-  .footer_links div {
+.contact-links div {
+    display: none;
     width: 0px;
-  }
+}
+
   .footer_logo {
     left: 42%;
   }
@@ -182,7 +184,7 @@
     width: 40px;
     height: 40px;
   }
-  .footer_links div {
+  .contact-links div {
     width: 0px;
   }
   .footer_menu {
@@ -192,6 +194,9 @@
   .footer-section p {
     width: 100% !important;
   }
+  .footer_links a {
+    margin: 0 .5rem;
+}
 
   .footer-section {
     background-size: 50%, 50%; /* Size for the second image */

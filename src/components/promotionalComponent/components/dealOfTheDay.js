@@ -14,11 +14,11 @@ const DealOfTheDay = ({ offerMockData }) => {
     <div className='mb-50'>
       <div className="container">
         <div className="row p-4 offer-container DealOfThe-day">
-          <div className="col-8">
+          <div className="col-6">
             <h3>Deal Of The Day</h3>
             <h5>Offer valid on 19.07.</h5>
           </div>
-          <div className="col-4 d-flex align-items-center justify-content-end">
+          <div className="col-6 d-flex align-items-center justify-content-end">
           <h5><LiveTimer offerTimer="offer-timer" initialHours={10} initialMinutes={0} initialSeconds={0} /></h5>
           </div>
         </div>
