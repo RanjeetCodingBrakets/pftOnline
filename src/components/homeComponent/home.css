@@ -17,17 +17,6 @@
   padding-top: 35px;
 }
 
-.foodProduct-item {
-  height: 250px; /* Adjust height to keep items uniform */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  background-color: #fff; /* Add background for clarity */
-}
-
-
 /* Slider css */
 
 .home_top_section {
@@ -50,6 +39,8 @@
 .organic {
   width: 100%;
   z-index: 9;
+  padding: 40px 0px 50px 0px; /* new added */
+  min-height: 250px; /* new added */
 }
 
 .organic h5 {
@@ -1692,5 +1683,11 @@
 }
 .about-box {
   padding: 0px 0px;
+}
+.organic {
+  min-height: auto; /* new added */
+}
+.sale_banner {
+  display: none;
 }
 }
