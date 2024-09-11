@@ -1,4 +1,4 @@
-.product-image1 {
+/* .product-image1 {
   width: 100%;
   margin: auto;
   margin-bottom: 10px;
@@ -8,24 +8,38 @@
 .product-image1 img {
   width: 70% !important;
   margin: auto;
-  height: auto; /* Maintain aspect ratio */
-  object-fit: contain; /* Ensures images don't stretch or distort */
+  height: auto; 
+  object-fit: contain;
   height: 150px;
+} */
+
+.product-image1 {
+  width: 65%;
+  margin-bottom: 10px;
+  display: inline-grid;
+}
+
+.product-image1 img {
+  width: 100%;
 }
 
 .about_content {
   padding-top: 35px;
 }
 
-.foodProduct-item {
-  height: 250px; /* Adjust height to keep items uniform */
-  display: flex;
+
+.about_content {
+  padding-top: 35px;
+}
+
+/* .foodProduct-item {
+  height: 250px; 
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: #fff; /* Add background for clarity */
-}
+  background-color: #fff;
+} */
 
 
 /* Slider css */
