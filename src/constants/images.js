@@ -59,8 +59,10 @@ import frame9 from '../assets/background/Frame9.png';
 import map from '../assets/map.png';
 import profilepic from '../assets/profilepic.png';
 import promoimg1 from '../assets/promoimg1.png';
-
+import kapern from '../assets/Kapern.png';
 import ComboProduct from '../assets/ComboProduct.png';
+import sula_wine from '../assets/Sula_wine.jpg';
+import schinken from '../assets/Schinken.jpg';
 
 const images = {
   logo,
@@ -125,6 +127,9 @@ const images = {
   profilepic,
   promoimg1,
   ComboProduct,
+  kapern,
+  sula_wine,
+  schinken,
 
 };
 

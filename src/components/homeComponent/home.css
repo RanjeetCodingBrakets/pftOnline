@@ -8,11 +8,25 @@
 .product-image1 img {
   width: 70% !important;
   margin: auto;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensures images don't stretch or distort */
+  height: 150px;
 }
 
 .about_content {
   padding-top: 35px;
 }
+
+.foodProduct-item {
+  height: 250px; /* Adjust height to keep items uniform */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff; /* Add background for clarity */
+}
+
 
 /* Slider css */
 

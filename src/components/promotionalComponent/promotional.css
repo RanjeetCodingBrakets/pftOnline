@@ -85,7 +85,9 @@
   border: 1px solid #f1ca2f;
   font-size: 16px;
   font-weight: 600;
-  padding: 10px 14px;
+  padding: 9px 12px;
+  z-index: 1;
+  position: relative;
 }
 
 .promoOffer-btn:hover {
@@ -95,12 +97,13 @@
 }
 
 .promoOffer-timebtn{
-  font-size: 14px;
-  padding: 2px 20px;
+  font-size: 15px;
+  padding: 9px 20px;
+  line-height: 14px;
 
 }
 .promoOffer-timebtn p{
-font-size: 11px;
+font-size: 10px;
 margin: 0px;
 }
 
@@ -109,7 +112,7 @@ margin: 0px;
   border: 2.18px solid #000000;
   width: fit-content;
   border-radius: 108px;
-  padding: 15px 0px 15px 15px;
+  padding: 10px 0px 10px 10px;
 }
 
 .Offerbtn-banner::before {
@@ -149,7 +152,7 @@ margin: 0px;
 }
 
 .offer-card {
-  border-radius: 24px;
+  border-radius: 12px;
   box-shadow: 0px 2.43px 14.58px 0px #00000033;
 }
 
@@ -242,7 +245,7 @@ margin: 0px;
 
 .price-section {
   padding: 0px 10px;
-  border-radius: 0px 0px 24px 24px;
+  border-radius: 0px 0px 12px 12px;
   padding: 10px 10px;
 }
 
