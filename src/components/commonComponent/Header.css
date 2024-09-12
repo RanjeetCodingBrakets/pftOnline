@@ -1,3 +1,7 @@
+.drop-option{
+  width: 225px;
+}
+
 .app__navbar {
   width: 100%;
   display: flex;
@@ -14,6 +18,7 @@
 
 .app__navbar-logo img {
   width: 120px;
+  z-index: 1;
 }
 
 .app__navbar-links {
@@ -304,6 +309,13 @@
   .app__navbar {
     padding: 1rem 1.5rem;
   }
+}
+.bottom-border-frame{
+  bottom: -5px;
+  position: absolute;
+}
+.header-frame{
+  width: 100%
 }
 
 

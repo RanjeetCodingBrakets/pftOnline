@@ -56,6 +56,7 @@ import frame8 from '../assets/background/Frame8.png';
 import group1 from '../assets/Group1.png';
 import member from '../assets/member.png';
 import frame9 from '../assets/background/Frame9.png';
+import frame11 from '../assets/background/Frame11.png';
 import map from '../assets/map.png';
 import profilepic from '../assets/profilepic.png';
 import promoimg1 from '../assets/promoimg1.png';
@@ -130,6 +131,7 @@ const images = {
   kapern,
   sula_wine,
   schinken,
+  frame11
 
 };
 

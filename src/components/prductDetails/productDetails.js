@@ -34,7 +34,7 @@ const ProdctDetails = () => {
       name: 'Punjabi gramh Gram Masala Powder',
       price: 299.00,
       weight: '1kg',
-      image: images.teju,
+      image: images.schinken,
       category: 'Spices'
     },
     {
@@ -42,7 +42,7 @@ const ProdctDetails = () => {
       name: 'Punjabi gramh Gram Masala Powder',
       price: 299.00,
       weight: '1kg',
-      image: images.teju,
+      image: images.sula_wine,
       category: 'Spices'
     },
     {
@@ -50,7 +50,7 @@ const ProdctDetails = () => {
       name: 'Punjabi gramh Gram Masala Powder',
       price: 299.00,
       weight: '1kg',
-      image: images.teju,
+      image: images.kapern,
       category: 'Spices'
     },
     {
@@ -66,7 +66,7 @@ const ProdctDetails = () => {
       name: 'Punjabi gramh Gram Masala Powder',
       price: 299.00,
       weight: '1kg',
-      image: images.teju,
+      image: images.schinken,
       category: 'Spices'
     },
     {
@@ -74,7 +74,7 @@ const ProdctDetails = () => {
       name: 'Punjabi gramh Gram Masala Powder',
       price: 299.00,
       weight: '1kg',
-      image: images.teju,
+      image: images.sula_wine,
       category: 'Spices'
     },
     {

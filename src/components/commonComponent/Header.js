@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import images from "../../constants/images";
 import { AiOutlineMenu  } from "react-icons/ai";
-import { IoCloseSharp, IoMenuOutline  } from "react-icons/io5";
+import { IoCloseSharp } from "react-icons/io5";
 import LoginSignup from "../LoginSignUp/LoginSignup";
-import LiveTimer from "./liveTimer";
+// import LiveTimer from "./liveTimer";
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -17,7 +17,10 @@ const Header = () => {
   };
 
   return (
-    <nav className="app__navbar">
+    <nav className="app__navbar position-relative">
+    <div className=" bottom-border-frame">
+     <img src={images.frame9} alt="heroVector1" className="header-frame" />
+     </div>
       <div className="app__navbar-logo">
         <img src={images.logo} alt="app logo" />
       </div>
@@ -36,13 +39,13 @@ const Header = () => {
           >
             Category
           </Link>
-          <ul className="dropdown-menu">
-            <li>
+          <ul className="dropdown-menu p-0">
+            <li className="m-0 p-0">
               <Link className="dropdown-item drop-option" to="/product-Listing">
                 All Products
               </Link>
             </li>
-            <li>
+            <li className="m-0 p-0">
               <Link className="dropdown-item drop-option" to="#">
                 Another action
               </Link>

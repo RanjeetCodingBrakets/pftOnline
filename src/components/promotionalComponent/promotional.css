@@ -4,6 +4,12 @@
   background-size: 100%;
 }
 
+.promobottom-border-frame{
+  bottom: -13px;
+    position: absolute;
+}
+
+
 .promotional-slide-icon {
   border: 1px solid #fff;
   border-radius: 100px;
@@ -154,6 +160,13 @@ margin: 0px;
 .offer-card {
   border-radius: 12px;
   box-shadow: 0px 2.43px 14.58px 0px #00000033;
+  width: 100%;
+}
+
+.promoOffer-img{
+  height: 180px;
+  width: 100%;
+  padding: 10px;
 }
 
 .product-promo-grid {
@@ -167,7 +180,9 @@ margin: 0px;
 }
 
 .offer-gridImg {
-  width: 85%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .offer-body {
@@ -357,6 +372,8 @@ margin: 0px;
   border: 1px solid #fff;
   border-radius: 300px;
   padding: 10px 20px;
+  width: 208px;
+  text-align: center;
 }
 .offer-timer .sale-opt{
   margin-right: 2px;
@@ -395,6 +412,10 @@ margin: 0px;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .promobottom-border-frame {
+    bottom: -11px;
+  }
+  
   .promotion-frame {
     padding: 15px 5px ;
 }
@@ -481,6 +502,9 @@ margin: 0px;
     font-size: 35px;
     margin-bottom: 8px;
   }
+  .offer-timer {
+    width: 162px;
+    }
 }
 
 @media (min-width: 545px) and (max-width: 767px) {
@@ -594,5 +618,16 @@ margin: 0px;
   }
 
   
+}
+
+@media(min-width: 1200px){
+  .promoOffer-btn {
+    padding: 10px 30px;
+  }
+  .sonderangebot-banner::before {
+   
+    right: 233px;
+  }
+
 }
 

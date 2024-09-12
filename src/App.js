@@ -11,11 +11,13 @@ import ProductListing from "./components/productList/productListing";
 import Profile from "./components/profile/profile";
 import Contactus from "./components/contactUs/contactus";
 import Promotional from "./components/promotionalComponent/promotional";
+import ScrollToTop from "./constants/scrollToTop";
 
 
 function App() {
   return (
     <Router>
+    <ScrollToTop/>
       <TopHeader />
       <Header />
       <div className="main-body">
