@@ -39,16 +39,16 @@ const NonFoodProduct = () => {
   }, []);
 
   const [nonFood] = useState([
-    { id: 1, name: 'Spices',  imgSrc: images.teju },
-    { id: 2, name: 'Spices & Tea', imgSrc: images.teju },
-    { id: 3, name: 'Sauces', imgSrc: images.teju},
-    { id: 4, name: 'Dal', imgSrc: images.teju },
-    { id: 5, name: 'Pulp', imgSrc: images.teju },
-    { id: 6, name: 'Dairy Valley', imgSrc: images.teju },
-    { id: 7, name: 'Patak', imgSrc: images.teju },
-    { id: 8, name: 'Rice', imgSrc: images.teju},
-    { id: 9, name: 'Thai', imgSrc: images.teju},
-    { id: 10, name: 'Mehl /Atta', imgSrc: images.teju},
+    { id: 1, name: 'Aluschale',  imgSrc: images.kapern },
+    { id: 2, name: 'Siegelschale', imgSrc: images.sula_wine},
+    { id: 3, name: 'Packing', imgSrc: images.schinken},
+    { id: 4, name: 'Becherschale', imgSrc: images.teju },
+    { id: 5, name: 'Pizza Carton', imgSrc: images.kapern},
+    { id: 6, name: 'Spülmittel & Tute', imgSrc: images.sula_wine},
+    { id: 7, name: 'Tandoor', imgSrc: images.teju },
+    // { id: 8, name: 'Rice', imgSrc: images.teju},
+    // { id: 9, name: 'Thai', imgSrc: images.teju},
+    // { id: 10, name: 'Mehl /Atta', imgSrc: images.teju},
   ]);
 
   return (
@@ -69,7 +69,7 @@ const NonFoodProduct = () => {
             </div>
           </div>
         </div>
-        <div  className='row non-food-block justify-content-center  pro__show-list'>
+        <div  className='row non-food-block  pro__show-list'>
           {nonFood.map(product1 => (
             <div className='col-2_5 text-center'>
             <div key={product1.id}  className='nonFoodProduct-item2 mb-4 '>

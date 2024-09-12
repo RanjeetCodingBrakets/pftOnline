@@ -28,7 +28,9 @@ const ComboOffer = ({ offerMockData }) => {
             <div className="col-6 col-sm-6 col-md-4 col-lg-3 mb-4" key={product.id}>
               <Link to="/product-details" className="product-card-link">
                 <div className="card offer-card position-relative">
+                <div className="promoOffer-img d-flex justify-content-center align-items-center">
                   <img src={product.comboImg} alt={product.title} className="offer-gridImg1 " />
+                  </div>
 
                   
                   <div className="card-body offer-body">

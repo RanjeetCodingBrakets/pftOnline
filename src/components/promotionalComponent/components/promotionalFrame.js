@@ -10,6 +10,9 @@ const PromotionalFrame = () => {
       className="carousel slide"
       data-bs-ride="true"
     >
+    <div className=" promobottom-border-frame">
+     <img src={images.frame11} alt="heroVector1" className="header-frame" />
+     </div>
       <div className="carousel-indicators">
         <button
           type="button"

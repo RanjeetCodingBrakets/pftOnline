@@ -48,8 +48,23 @@
   color: #1877F2;
 }
 
-.nav_icon_link svg:hover {
-  color: yellow;
+.facebook svg:hover {
+  color: #1877F2;
+}
+
+.instagram:hover{
+  color: #E4405F;
+}
+
+.instagram svg:hover{
+  color: #E4405F;
+}
+
+.youtube:hover{
+  color: #ff0000;;
+}
+.youtube svg:hover{
+  color: #ff0000;;
 }
 
 .language-dropdown ul li a {
@@ -64,10 +79,10 @@
     font-size: 13px;
     margin-bottom: 8px;
   }
-
+/* 
   .bg_image {
     height: 150px;
-  }
+  } */
 
   .nav_topHeader {
     display: none;
