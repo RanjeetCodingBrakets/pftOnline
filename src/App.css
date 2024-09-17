@@ -18,6 +18,9 @@ body {
 .mb-40 {
   margin-bottom: 40px !important;
 }
+.mb-30 {
+  margin-bottom: 30px !important;
+}
 
 .mb-90 {
   margin-bottom: 90px !important;
@@ -141,6 +144,7 @@ h3 {
   max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+    mix-blend-mode: darken;
 }
 
 @media (min-width: 1200px) {

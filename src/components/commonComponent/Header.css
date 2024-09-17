@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: .7rem 2rem;
 }
 
 .app__navbar-logo {
@@ -61,7 +61,7 @@
 }
 
 .app__navbar-login a {
-  margin: 0 1rem;
+  /* margin: 0 1rem; */
   text-decoration: none;
   transition: 0.5s ease;
 }
@@ -163,7 +163,8 @@
   justify-content: flex-start;
   align-items: center;
   padding-left: 20px;
-  gap: 20px;
+
+  z-index: 1;
 }
 
 /* anurag css end */
@@ -227,15 +228,28 @@
 .categoryDrop-btn:hover{
   background-color: #f5f5f5 !important;
 }
+.live-sale{
+  border: 1px solid #116A2C;
+  border-radius: 300px;
+  padding: 10px 10px;
+  width: 165px;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}
+.live-sale:hover{
+  background-color: #116A2C;
+  color: #fff;
+}
 
 @media screen and (min-width: 1200px) {
   .app__navbar-logo img {
-    width: 120px;
+    width: 108px;
   }
 
   .app__navbar-links li {
     margin: 0 14px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     padding: 0px 5px;
   }

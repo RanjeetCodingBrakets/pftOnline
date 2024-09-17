@@ -15,7 +15,7 @@
 
 .about-con h5 {
   font-family: Josefin Sans;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 22px;
 }
@@ -36,7 +36,7 @@
 
 .about_image {
   position: relative;
-  width: 90%;
+  width: 75%;
   background-color: #fff;
   border-radius: 300px 300px 60px 60px;
   z-index: 2;
@@ -278,6 +278,11 @@ color: #6B6B6B;
 }
 .map-con{
   padding-left: 14px;
+}
+}
+@media(min-width:1400px){
+  .about_image {
+    width: 70%;
 }
 }
 

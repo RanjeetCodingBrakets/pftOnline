@@ -1,19 +1,46 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { BsPlusSquare } from "react-icons/bs";
 import LiveTimer from '../../commonComponent/liveTimer';
 
 const LaunchPad = ({ offerMockData }) => {
+  // const [itemsToShow, setItemsToShow] = useState(11);
+
+  // const handleShowMore = () => {
+  //   setItemsToShow((prev) => prev + 11);
+  // };
+
   const [itemsToShow, setItemsToShow] = useState(11);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // Set to true if the width is less than or equal to 768px (mobile view)
+    };
+
+    // Check the window width on component mount
+    handleResize();
+
+    // Add event listener to handle resize
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  useEffect(() => {
+    // Set itemsToShow to 7 if on mobile view, otherwise 11
+    setItemsToShow(isMobile ? 7 : 11);
+  }, [isMobile]);
 
   const handleShowMore = () => {
-    setItemsToShow((prev) => prev + 11);
+    setItemsToShow((prev) => prev + 6); // Add more items based on the view
   };
 
   return (
     <div className='mb-90'>
       <div className="container">
-        <div className="row p-4 offer-container launchPad">
+        <div className="row p-3 offer-container launchPad">
           <div className="col-6">
             <h3>Launch pad (New Launch products)</h3>
             <h5>Offer valid on 19.07.</h5>
@@ -25,7 +52,7 @@ const LaunchPad = ({ offerMockData }) => {
 
         <div className="row product-promo-grid promoGrid-launchPad position-relative">
           {offerMockData.slice(0, itemsToShow).map((product) => (
-            <div className="col-6 col-sm-6 col-md-4 col-lg-3 mb-4" key={product.id}>
+            <div className="col-6 col-sm-6 col-md-4 col-lg-3 mb-3" key={product.id}>
               <Link to="/product-details" className="product-card-link">
                 <div className="card offer-card position-relative">
                 <div className="promoOffer-img d-flex justify-content-center align-items-center">
@@ -35,7 +62,7 @@ const LaunchPad = ({ offerMockData }) => {
                   <div className="card-body offer-body">
                     {product.label && <span className="badge seller-banner position-absolute">{product.label}</span>}
                     <p className="card-text position-absolute discount-banner">
-                      <small className="">{product.discount}</small>
+                      <span className="">{product.discount}</span>
                     </p>
                     <div className='offerGrid-content'>
                     <h5 className="card-title offerGrid-title">{product.title}</h5>

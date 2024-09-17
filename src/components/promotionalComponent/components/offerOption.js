@@ -35,7 +35,7 @@ const OfferOption = () => {
   return (
     <div className="offer-option p-4">
       <div className="container">
-        <div className="row mt-5 promotion-m-xs">
+        <div className="row mt-3 promotion-m-xs">
           <div className=" col-md-12 col-lg-6 position-relative offerbtn-container">
             <div className="Offerbtn-banner">
               <div>

@@ -5,7 +5,7 @@ import images from "../../constants/images";
 import { AiOutlineMenu  } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import LoginSignup from "../LoginSignUp/LoginSignup";
-// import LiveTimer from "./liveTimer";
+import LiveTimer from "./liveTimer";
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -46,8 +46,8 @@ const Header = () => {
               </Link>
             </li>
             <li className="m-0 p-0">
-              <Link className="dropdown-item drop-option" to="#">
-                Another action
+              <Link className="dropdown-item drop-option" to="/promotionalPage">
+                Offer Zone
               </Link>
             </li>
           </ul>
@@ -64,22 +64,11 @@ const Header = () => {
           Login / Signup
         </button>
         <LoginSignup show={showModal} handleClose={handleClose} />
-        <Link to="/promotionalPage">  <button className="head-live-timer">
-         Live Sale
-          <span className="ms-2">
-            {/* {hours < 10 ? `0${hours}` : hours}:
-                 {minutes < 10 ? `0${minutes}` : minutes}:
-                 {seconds < 10 ? `0${seconds}` : seconds}               */}
+        <Link to="/promotionalPage">
+          <span className="ms-2 d-flex">
+          <h5><LiveTimer offerTimer="live-sale" initialHours={10} initialMinutes={0} initialSeconds={0} /></h5>      
           </span>
-        </button>
         </Link>
-        {/* <a href="#login" className="p__opensans">
-          login / Register
-        </a> */}
-
-        {/* <a href="/" className="p__opensans">
-          Book Table
-        </a> */}
       </div>
 
       <div className="app__navbar-smallscreen">
@@ -116,8 +105,8 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item drop-option" href="#" onClick={() => setToggleMenu(false)}>
-                      Another action
+                    <Link className="dropdown-item drop-option" to="/promotionalPage" onClick={() => setToggleMenu(false)}>
+                      Offer Zone
                     </Link>
                   </li>
                 </ul>
@@ -129,27 +118,17 @@ const Header = () => {
                 <Link to="/contactUs" onClick={() => setToggleMenu(false)}>Contact Us</Link>
               </li>
             </ul>
-            <div className="app__navbar-login">
+            <div className="app__navbar-login d-flex align-items-center">
               <button onClick={handleShow} className="btn custom-btn me-2">
                 Login / Signup
               </button>
               <LoginSignup show={showModal} handleClose={handleClose}  />
-              <Link to="/promotionalPage"  onClick={() => setToggleMenu(false)}>  <button className="head-live-timer">
-         Live Sale
-          <span className="ms-2">
-            {/* {hours < 10 ? `0${hours}` : hours}:
-                 {minutes < 10 ? `0${minutes}` : minutes}:
-                 {seconds < 10 ? `0${seconds}` : seconds}  */}
+              
+              <Link to="/promotionalPage" onClick={() => setToggleMenu(false)}>
+          <span className="ms-2 d-flex">
+          <h5><LiveTimer offerTimer="live-sale" initialHours={10} initialMinutes={0} initialSeconds={0} /></h5>
           </span>
-        </button>
         </Link>
-              {/* <a href="#login" className="p__opensans">
-          login / Register
-        </a> */}
-
-              {/* <a href="/" className="p__opensans">
-          Book Table
-        </a> */}
             </div>
 
           </div>

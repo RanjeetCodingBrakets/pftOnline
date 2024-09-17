@@ -59,7 +59,7 @@ const LiveTimer= ({ offerTimer }) => {
 
   return (
     <div className={` ${offerTimer}`}>
-      <span className="sale">Live Sale</span>
+      <span className="sale me-2">Live Sale</span>
       <span className="sale-time">
         {timeLeft.hours}:{timeLeft.minutes}:{timeLeft.seconds}
       </span>
