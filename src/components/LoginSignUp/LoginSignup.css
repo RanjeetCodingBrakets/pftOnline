@@ -70,6 +70,12 @@ padding: 11px 20px;
 border-radius: 12px;
 }
 
+.account-login:active{
+  background-color: #fff !important;
+  color: #141615 !important;
+  border: 1px solid #141615 !important;
+}
+
 .account-login:hover{
   border: 1px solid #000;
   background-color: #EDEDED;
@@ -127,7 +133,12 @@ font-weight: 500;
   background-color: #37621A;
   border: none;
   border: 1px solid #37621A;
+}
 
+.signup-btn:active{
+  background-color: #37621A !important;
+  border: 1px solid #37621A !important;
+  color: #fff !important;
 }
 
 .signup-btn:hover{

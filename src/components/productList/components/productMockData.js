@@ -3,7 +3,7 @@ import images from "../../../constants/images";
 const products = [
     {
       id: 1,
-      name: 'Punjabi gramh Gram Masala Powder',
+      name: 'Schinken',
       price: 299.00,
       weight: '1kg',
       image: images.schinken,
@@ -11,7 +11,7 @@ const products = [
     },
     {
         id: 2,
-        name: 'Punjabi gramh Gram Masala Powder',
+        name: 'Kapern',
         price: 299.00,
         weight: '1kg',
         image: images.kapern,
@@ -19,7 +19,7 @@ const products = [
       },
       {
         id: 3,
-        name: 'Punjabi gramh Gram Masala Powder',
+        name: 'Sula Wine',
         price: 299.00,
         weight: '1kg',
         image: images.sula_wine,
@@ -27,7 +27,7 @@ const products = [
       },
       {
         id: 4,
-        name: 'Punjabi gramh Gram Masala Powder',
+        name: 'Kapern',
         price: 299.00,
         weight: '1kg',
         image: images.kapern,
@@ -35,7 +35,7 @@ const products = [
       },
       {
         id: 5,
-        name: 'Punjabi gramh Gram Masala Powder',
+        name: 'Gram Masala Powder',
         price: 299.00,
         weight: '1kg',
         image: images.teju,
@@ -43,7 +43,7 @@ const products = [
       },
       {
         id: 6,
-        name: 'Punjabi gramh Gram Masala Powder',
+        name: 'Schinken',
         price: 299.00,
         weight: '1kg',
         image: images.schinken,
@@ -51,7 +51,7 @@ const products = [
       },
       {
         id: 7,
-        name: 'Punjabi gramh Gram Masala Powder',
+        name: 'Schinken',
         price: 299.00,
         weight: '1kg',
         image: images.schinken,
@@ -59,7 +59,7 @@ const products = [
       },
       {
         id: 8,
-        name: 'Punjabi gramh Gram Masala Powder',
+        name: 'Gram Masala Powder',
         price: 299.00,
         weight: '1kg',
         image: images.teju,
@@ -67,7 +67,7 @@ const products = [
       },
       {
         id: 9,
-        name: 'Punjabi gramh Gram Masala Powder',
+        name: 'Kapern',
         price: 299.00,
         weight: '1kg',
         image: images.kapern,
@@ -75,7 +75,7 @@ const products = [
       },
       {
         id: 10,
-        name: 'Punjabi gramh Gram Masala Powder',
+        name: 'Sula Wine',
         price: 299.00,
         weight: '1kg',
         image: images.sula_wine,

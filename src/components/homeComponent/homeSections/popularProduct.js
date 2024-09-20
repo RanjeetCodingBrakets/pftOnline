@@ -70,7 +70,7 @@ const PopularProduct = () => {
   }, []);
 
   return (
-    <div className="popularProduct_List1 position-relative mb-50">
+    <div className="popularProduct_List1 position-relative mb-20">
       <img
         src={images.moongDal}
         alt="Dal"
@@ -82,7 +82,7 @@ const PopularProduct = () => {
         className="spices1 position-absolute"
       ></img>
       <div className="container">
-        <div className="mb-50 discount-block owl-carousel owl-theme popular-carousel">
+        <div className="mb-20 discount-block owl-carousel owl-theme popular-carousel">
           {popular_product.map((item, index) => (
             <div className="mb-4" key={index}>
               <div className={`discount-product d-flex justify-content-between ${item.imgSrc}`}>
@@ -112,7 +112,7 @@ const PopularProduct = () => {
           </div>
         </div>
 
-        <div className="row mb-40 pro__show-list">
+        <div className="row mb-20 pro__show-list">
           {popular.map((product) => (
             <div
               key={product.id}

@@ -8,6 +8,7 @@
   margin-right: 48px;
   color: #fff;
   font-size: 15px;
+  transition: all 0.5s;
 }
 
 .topHeader-links .nav-link:hover {
@@ -19,7 +20,7 @@
 .headDrop-button.show {
   border: 1px solid #fff;
   border-radius: 30px;
-  padding: 2px 17px;
+  padding: 4px 17px;
   color: #fff;
   font-size: 16px;
   background-color: #37621a;

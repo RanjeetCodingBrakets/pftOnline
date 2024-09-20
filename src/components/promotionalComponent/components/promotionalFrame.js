@@ -42,7 +42,7 @@ const PromotionalFrame = () => {
               <div className="row">
                 <div className="col-6">
                   <h1 className="big-value">
-                    <span>Big Value </span>Deals
+                    <span>Big Value </span><br/>Deals
                   </h1>
                   <p className="offer-time">
                     Offer Available In <span>July - September</span>
@@ -81,7 +81,7 @@ const PromotionalFrame = () => {
               <div className="row">
                 <div className="col-6">
                   <h1 className="big-value">
-                    <span>Big Value </span>Deals
+                    <span>Big Value </span><br/>Deals
                   </h1>
                   <p className="offer-time">
                     Offer Available In <span>July - September</span>
@@ -120,7 +120,7 @@ const PromotionalFrame = () => {
               <div className="row">
                 <div className="col-6">
                   <h1 className="big-value">
-                    <span>Big Value </span>Deals
+                    <span>Big Value </span><br/>Deals
                   </h1>
                   <p className="offer-time">
                     Offer Available In <span>July - September</span>

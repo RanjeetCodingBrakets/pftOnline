@@ -6,9 +6,9 @@ const Service = () => {
   return (
     <div className="service-section">
     
-    <div className="container mb-50">
-      <div className="row text-center mb-5">
-        <div className="col pt-5">
+    <div className="container mb-40">
+      <div className="row text-center mb-4">
+        <div className="col pt-4">
           <h3 className="ab-header">Why You Should Choose Services</h3>
           <p className="ab-con w-50 text-center mx-auto">
             When an unknown printer took a galley of type and scrambled make

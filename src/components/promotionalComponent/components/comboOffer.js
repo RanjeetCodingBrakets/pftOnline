@@ -45,7 +45,7 @@ const ComboOffer = ({ offerMockData }) => {
             <h5>Offer valid on 19.07.</h5>
           </div>
           <div className="col-6 d-flex align-items-center justify-content-end">
-          <h5><LiveTimer offerTimer="offer-timer" initialHours={10} initialMinutes={0} initialSeconds={0} /></h5>
+          <LiveTimer offerTimer="offer-timer" initialHours={10} initialMinutes={0} initialSeconds={0} />
           </div>
         </div>
 

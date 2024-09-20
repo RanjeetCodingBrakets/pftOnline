@@ -43,16 +43,16 @@ const ProductGrid = ({ products }) => {
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-              <Dropdown.Item onClick={() => handleSortChange("price")}>
+              <Dropdown.Item className="drop-sort-opt" onClick={() => handleSortChange("price")}>
                 Sort by Price
               </Dropdown.Item>
-              <Dropdown.Item onClick={() => handleSortChange("name")}>
+              <Dropdown.Item className="drop-sort-opt" onClick={() => handleSortChange("name")}>
                 Sort by Name
               </Dropdown.Item>
-              <Dropdown.Item onClick={() => handleSortChange("bestseller")}>
+              <Dropdown.Item className="drop-sort-opt" onClick={() => handleSortChange("bestseller")}>
                 Sort by Best Seller
               </Dropdown.Item>
-              <Dropdown.Item onClick={() => handleSortChange("newarrival")}>
+              <Dropdown.Item className="drop-sort-opt" onClick={() => handleSortChange("newarrival")}>
                 Sort by New Arrival
               </Dropdown.Item>
             </Dropdown.Menu>

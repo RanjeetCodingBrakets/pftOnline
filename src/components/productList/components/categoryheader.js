@@ -5,9 +5,9 @@ import { IoSearchOutline } from "react-icons/io5";
 const Categoryheader = ({ selectedCategory }) => {
   return (
     <div className="container">
-      <div className="row category-head mb-90">
+      <div className="row category-head mb-30">
         <div className="col-lg-6 col-md-6 col-12 col-sm-6">
-          <h1>All Products</h1>
+          <h4 className="m-0 lh-0 category-head-con">All Products</h4>
         </div>
         <div className="col-lg-6 col-md-6 col-12 col-sm-6 d-flex justify-content-end ">
           <div class="input-group mb-3 w-75">

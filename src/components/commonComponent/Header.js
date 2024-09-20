@@ -33,13 +33,13 @@ const Header = () => {
           <Link
             className="nav-link dropdown-toggle head-link "
             to="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
+            // role="button"
+            // data-bs-toggle="dropdown"
+            // aria-expanded="false"
           >
             Category
           </Link>
-          <ul className="dropdown-menu p-0">
+          <ul className="dropdown-menu header-drop-menu p-0">
             <li className="m-0 p-0">
               <Link className="dropdown-item drop-option" to="/product-Listing">
                 All Products
@@ -66,7 +66,7 @@ const Header = () => {
         <LoginSignup show={showModal} handleClose={handleClose} />
         <Link to="/promotionalPage">
           <span className="ms-2 d-flex">
-          <h5><LiveTimer offerTimer="live-sale" initialHours={10} initialMinutes={0} initialSeconds={0} /></h5>      
+          <h5 className="m-0 lh-0"><LiveTimer offerTimer="live-sale" initialHours={10} initialMinutes={0} initialSeconds={0} /></h5>      
           </span>
         </Link>
       </div>

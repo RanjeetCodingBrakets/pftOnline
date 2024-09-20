@@ -39,7 +39,7 @@ const ProdctDetails = () => {
     },
     {
       id: 2,
-      name: 'Punjabi gramh Gram Masala Powder',
+      name: 'Gram Masala Powder',
       price: 299.00,
       weight: '1kg',
       image: images.sula_wine,
@@ -47,7 +47,7 @@ const ProdctDetails = () => {
     },
     {
       id: 3,
-      name: 'Punjabi gramh Gram Masala Powder',
+      name: 'Kapern',
       price: 299.00,
       weight: '1kg',
       image: images.kapern,
@@ -55,7 +55,7 @@ const ProdctDetails = () => {
     },
     {
       id: 4,
-      name: 'Punjabi gramh Gram Masala Powder',
+      name: 'Gram Masala Powder',
       price: 299.00,
       weight: '1kg',
       image: images.teju,
@@ -63,7 +63,7 @@ const ProdctDetails = () => {
     },
     {
       id: 5,
-      name: 'Punjabi gramh Gram Masala Powder',
+      name: 'Schinken',
       price: 299.00,
       weight: '1kg',
       image: images.schinken,
@@ -71,7 +71,7 @@ const ProdctDetails = () => {
     },
     {
       id: 6,
-      name: 'Punjabi gramh Gram Masala Powder',
+      name: 'Sula Wine',
       price: 299.00,
       weight: '1kg',
       image: images.sula_wine,
@@ -79,7 +79,7 @@ const ProdctDetails = () => {
     },
     {
       id: 7,
-      name: 'Punjabi gramh Gram Masala Powder',
+      name: 'Gram Masala Powder',
       price: 299.00,
       weight: '1kg',
       image: images.teju,

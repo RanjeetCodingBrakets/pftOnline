@@ -1,5 +1,30 @@
+/* Hide dropdown menu by default */
+.header-drop-menu {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Show dropdown menu when hovering over the dropdown */
+.nav-item.dropdown:hover .header-drop-menu {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Adjust the hover style for small screens */
+@media (max-width: 768px) {
+  .nav-item.dropdown:hover .header-drop-menu {
+    display: none;
+  }
+}
+
+
 .drop-option{
-  width: 225px;
+  width: 210px;
+  text-align: center;
+  border-bottom: 1px solid #ededed;
 }
 
 .app__navbar {
@@ -231,8 +256,8 @@
 .live-sale{
   border: 1px solid #116A2C;
   border-radius: 300px;
-  padding: 10px 10px;
-  width: 165px;
+  padding: 10px 5px;
+  width: 150px;
   text-align: center;
   font-size: 16px;
   color: #000;

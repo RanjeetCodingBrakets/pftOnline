@@ -55,7 +55,7 @@ const Contactus = () => {
               </div>
               <div className="form-group form-l">
                 <label htmlFor="message">Message</label>
-                <textarea className="form-control form-i" id="message" rows="4" required></textarea>
+                <textarea className="form-control form-i" id="message" rows="3" required></textarea>
               </div>
               <button type="submit" className="btn custom-btn">Send Message</button>
             </form>

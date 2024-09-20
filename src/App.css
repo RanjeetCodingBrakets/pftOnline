@@ -22,6 +22,10 @@ body {
   margin-bottom: 30px !important;
 }
 
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
 .mb-90 {
   margin-bottom: 90px !important;
 }
@@ -124,7 +128,11 @@ h3 {
 }
 
 .dropdown-item:active {
-  background-color: #37621A;
+  background-color: #fff;
+}
+
+.drop-sort-opt:active{
+  background-color: #116A2C;
 }
 
 .mobile-header-heading{
@@ -135,7 +143,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 180px;
+  height: 165px;
   width: 100%;
   padding: 10px;
 }
@@ -151,7 +159,7 @@ h3 {
 
   .h3,
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 

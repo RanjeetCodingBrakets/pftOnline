@@ -21,21 +21,21 @@
 .promotion-frame {
   background-color: #0f2d11;
   color: #fff;
-  padding: 42px;
+  padding: 35px;
 }
 
 .promoimage1 {
-  width: 100%;
+  width: 75%;
   position: absolute;
-  bottom: -95px;
-  left: 22px;
+  bottom: -65px;
+  left: 108px;
 }
 
 .big-value {
   font-family: Arial;
-  font-size: 65px;
+  font-size: 50px;
   font-weight: 800;
-  line-height: 94px;
+  line-height: 65px;
   padding-left: 50px;
 }
 
@@ -45,9 +45,9 @@
 
 .offer-time {
   font-family: Josefin Sans;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   padding-left: 50px;
 }
 
@@ -63,12 +63,12 @@
 
 .disc-banner-sec {
   color: #0f2d11;
-  padding: 26px 0px;
+  padding: 20px 0px;
 }
 .disc-banner-cente {
   color: #0f2d11;
   background-color: #fff;
-  padding: 26px 0px;
+  padding: 20px 0px;
 }
 
 .disc-banner-sec h3 {
@@ -106,7 +106,7 @@
 
 .promoOffer-timebtn {
   font-size: 15px;
-  padding: 9px 20px;
+  padding: 9px 20px !important;
   line-height: 14px;
 }
 .promoOffer-timebtn p {
@@ -163,15 +163,17 @@
 
 .offer-card {
   border-radius: 12px;
-  box-shadow: 0px 2.43px 14.58px 0px #00000033;
+  /* box-shadow: 0px 2.43px 14.58px 0px #00000033; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 100%;
   transition: all 0.5s;
 }
 
 .promoOffer-img {
-  height: 180px;
-  width: 100%;
+  height: 175px;
+  width: 90%;
   padding: 10px;
+  margin: auto;
 }
 
 .product-promo-grid {
@@ -207,7 +209,7 @@
 
 .discount-banner {
   width: 38px;
-  top: 0px;
+  top: -1px;
   right: 18px;
   background-color: #ff0404;
   color: #fff;
@@ -516,6 +518,12 @@
 .offer-container {
   border-radius: 5px 5px 0px 0px;
 }
+.big-value {
+  padding-left: 0px;
+}
+.offer-time {
+  padding-left: 0px;
+}
 }
 
 @media (min-width: 545px) and (max-width: 767px) {
@@ -523,11 +531,11 @@
     padding: 40px 15px;
   }
   .big-value {
-    font-size: 34px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 38px;
   }
   .offer-time {
-    font-size: 14px;
+    font-size: 12px;
   }
   .promoOffer-btn {
     font-size: 14px;
@@ -637,7 +645,8 @@
 
 @media(min-width:1400px){
   .big-value {
-    font-size: 85px;
+    font-size: 80px;
+    line-height: 100px;
   }
   .promotion-frame {
     padding: 95px;
@@ -650,5 +659,17 @@
 }
 .offer-price {
   font-size: 24px;
+}
+.promoimage1 {
+  width: 90%;
+}
+.promobutton-border-frame {
+  bottom: -14px;
+}
+.disc-banner-sec {
+  padding: 30px 0px;
+}
+.disc-banner-cente {
+  padding: 30px 0px;
 }
 }

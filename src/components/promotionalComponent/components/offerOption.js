@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Dropdown, Toast } from "react-bootstrap";
 
 const OfferOption = () => {
-  const [ setSortKey] = useState("");
+  const [ sortKey, setSortKey] = useState("");
   const [selectedSorts, setSelectedSorts] = useState([]);
 
   const handleSortChange = (key) => {
@@ -33,7 +33,7 @@ const OfferOption = () => {
   ];
 
   return (
-    <div className="offer-option p-4">
+    <div className="offer-option p-3">
       <div className="container">
         <div className="row mt-3 promotion-m-xs">
           <div className=" col-md-12 col-lg-6 position-relative offerbtn-container">
@@ -55,7 +55,7 @@ const OfferOption = () => {
             </div>
           </div>
         </div>
-        <div className="row mb-3 mt-4 d-flex align-items-center">
+        <div className="row mb-2 mt-3 d-flex align-items-center">
           <div className="col-lg-10 col-12 d-flex flex-wrap order-sm-2 order-md-2 order-lg-1 order-2">
             {selectedSorts.map((sort, index) => (
               <Toast key={index} className="w-auto m-2 toast-box">
@@ -79,7 +79,7 @@ const OfferOption = () => {
 
               <Dropdown.Menu>
                 {options.map((option, index) => (
-                  <Dropdown.Item key={index} onClick={() => handleSortChange(option)}>
+                  <Dropdown.Item className="drop-sort-opt" key={index} onClick={() => handleSortChange(option)}>
                     {option}
                   </Dropdown.Item>
                 ))}
