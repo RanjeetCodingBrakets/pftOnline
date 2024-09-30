@@ -35,7 +35,7 @@ const OfferOption = () => {
   return (
     <div className="offer-option p-3">
       <div className="container">
-        <div className="row mt-3 promotion-m-xs">
+        <div className="row mt-3 promotion-m-xs choose-offer-btn">
           <div className=" col-md-12 col-lg-6 position-relative offerbtn-container">
             <div className="Offerbtn-banner">
               <div>
@@ -49,7 +49,7 @@ const OfferOption = () => {
             <div className="sonderangebot-banner float-end">
               <div className="d-flex align-items-center">
                 <button className="custom-btn promoOffer-btn promoOffer-timebtn">Start Date<p>20/07/2024</p></button>
-                <button className="custom-btn promoOffer-btn">Today</button>
+                <button className="custom-btn promoOffer-btn today-btn">Today</button>
                 <button className="custom-btn promoOffer-btn promoOffer-timebtn">End Date<br/><p>20/07/2024</p></button>
               </div>
             </div>

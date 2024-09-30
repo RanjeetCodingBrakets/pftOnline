@@ -31,7 +31,7 @@ const ProdctDetails = () => {
   const products = [
     {
       id: 1,
-      name: 'Punjabi gramh Gram Masala Powder',
+      name: 'Gram Masala Powder',
       price: 299.00,
       weight: '1kg',
       image: images.schinken,

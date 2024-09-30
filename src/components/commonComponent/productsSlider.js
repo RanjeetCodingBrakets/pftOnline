@@ -46,7 +46,7 @@ const ProductSlider = ({ products }) => {
             <Slider {...settings} className='p-slider'>
                 {products.map(product => (
                     <div>
-                        <Link to="" className="product-card-link">
+                        <Link to="/product-details" className="product-card-link">
                             <div className="product-card mb-4">
                                 <div className='product-outer mx-auto'>
                                 <img src={product.image} alt={product.name} className="img-fluid" />

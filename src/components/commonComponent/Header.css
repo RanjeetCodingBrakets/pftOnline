@@ -44,6 +44,7 @@
 .app__navbar-logo img {
   width: 120px;
   z-index: 1;
+  position: relative;
 }
 
 .app__navbar-links {
@@ -328,6 +329,14 @@
   }
 }
 
+@media (min-width: 1042px) and (max-width: 1154px) {
+  .app__navbar-links li {
+    margin: 0 6px;
+    font-size: 17px;
+
+}
+}
+
 .header-timer{
   border: 1px solid #37621A;
   border-radius: 300px;
@@ -342,8 +351,8 @@
 
 @media(max-width: 1041px){
   .app__navbar-links li {
-    font-size: 20px;
-    margin: 0px 8px;
+    font-size: 16px;
+    margin: 0px 6px;
   }
   .app__navbar {
     padding: 1rem 1.5rem;

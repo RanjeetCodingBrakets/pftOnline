@@ -22,7 +22,9 @@ const Header = () => {
      <img src={images.frame9} alt="heroVector1" className="header-frame" />
      </div>
       <div className="app__navbar-logo">
+      <Link to="/">
         <img src={images.logo} alt="app logo" />
+        </Link>
       </div>
       <h2 className="mobile-header-heading">PUNJABI GMBH</h2> 
       <ul className="app__navbar-links">
@@ -57,6 +59,9 @@ const Header = () => {
         </li>
         <li className="p__opensans">
           <Link to="/contactUs">Contact Us</Link>
+        </li>
+        <li className="p__opensans">
+          <Link to="/promotionalPage">Offer Zone</Link>
         </li>
       </ul>
       <div className="app__navbar-login nav__login">
@@ -116,6 +121,9 @@ const Header = () => {
               </li>
               <li className="p__opensans">
                 <Link to="/contactUs" onClick={() => setToggleMenu(false)}>Contact Us</Link>
+              </li>
+              <li className="p__opensans">
+                <Link to="/promotionalPage" onClick={() => setToggleMenu(false)}>Offer Zone</Link>
               </li>
             </ul>
             <div className="app__navbar-login d-flex align-items-center">

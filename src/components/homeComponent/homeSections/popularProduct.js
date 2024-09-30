@@ -119,7 +119,7 @@ const PopularProduct = () => {
               className="col-lg-2 col-md-3 col-sm-3 col-6 text-center mb-4"
             >
               <div className="product-item p-2">
-                <Link to="">
+                <Link to="/product-details">
                   <img
                     src={product.imgSrc}
                     alt={product.name}
@@ -138,7 +138,7 @@ const PopularProduct = () => {
               className="mb-4"
             >
               <div className="text-center product-item p-2">
-                <Link to="">
+              <Link to="/product-details">
                   <img
                     src={product.imgSrc}
                     alt={product.name}
