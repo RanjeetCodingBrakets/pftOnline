@@ -696,6 +696,12 @@
   .choose-offer-btn{
     display: none;
   }
+  .offer-option{
+    display: none;
+  }
+  .offer-container {
+    margin-top: 30px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
